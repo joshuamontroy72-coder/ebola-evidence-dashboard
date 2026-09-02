@@ -1,0 +1,12 @@
+{
+  "name": "ebola-bundibugyo-evidence-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Continuously updated evidence dashboard for Ebola (Bundibugyo) vaccines and therapeutics.",
+  "scripts": {
+    "dev": "python3 -m http.server 8080",
+    "pipeline": "python3 pipeline/update.py",
+    "seed": "python3 pipeline/build_seed.py"
+  },
+  "license": "MIT"
+}
