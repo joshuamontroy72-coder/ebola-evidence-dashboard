@@ -1,0 +1,12 @@
+# Curation file — mark items as "reviewed" by your team.
+#
+# Add one evidence id per line to remove the "new / unreviewed" badge from that
+# item on the dashboard. You can find an item's id in data/evidence.json (the
+# "id" field) or by hovering the item on the dashboard (shown in the details).
+#
+# Text after a "#" is ignored, so you can leave notes:
+#
+#   a1b2c3d4e5f6a7b8   # reviewed by K. Young 2026-09-02, relevant
+#
+# This is the low-friction curation workflow: edit this file on GitHub, commit,
+# and the next pipeline run (or your manual run) clears the badge.

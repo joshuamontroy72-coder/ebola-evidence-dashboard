@@ -1,0 +1,2627 @@
+{
+ "generated_at": "2026-09-02T12:57:37+00:00",
+ "record_count": 67,
+ "new_last_run": 67,
+ "counts": {
+  "by_type": {
+   "Journal article": 33,
+   "Clinical trial": 15,
+   "News story": 10,
+   "Guideline / NITAG": 3,
+   "Press release": 3,
+   "Preprint": 2,
+   "Outbreak report": 1
+  },
+  "by_channel": {
+   "Journals (Europe PMC / PubMed)": 33,
+   "ClinicalTrials.gov": 15,
+   "News (CBC / STAT / Reuters / …)": 10,
+   "Press releases": 3,
+   "WHO IRIS guidance": 2,
+   "Preprints (bioRxiv / medRxiv)": 2,
+   "WHO Disease Outbreak News": 1,
+   "Other guidance (Africa CDC / gov)": 1
+  },
+  "by_intervention": {
+   "Vaccine": 59,
+   "Monoclonal antibody": 13,
+   "Other therapeutic": 8,
+   "Unspecified": 2
+  },
+  "by_species": {
+   "human": 49,
+   "animal": 11,
+   "na": 7
+  },
+  "bundibugyo": 32,
+  "canadian": 14,
+  "new": 14,
+  "with_altmetric": 0
+ },
+ "source_status": {
+  "seed": 67
+ },
+ "coverage": {
+  "channels": [
+   "Journals (Europe PMC / PubMed)",
+   "Preprints (bioRxiv / medRxiv)",
+   "ClinicalTrials.gov",
+   "WHO IRIS guidance",
+   "WHO Disease Outbreak News",
+   "Other guidance (Africa CDC / gov)",
+   "News (CBC / STAT / Reuters / …)",
+   "Press releases"
+  ],
+  "run_counts": {
+   "Journals (Europe PMC / PubMed)": 33,
+   "Preprints (bioRxiv / medRxiv)": 2,
+   "ClinicalTrials.gov": 15,
+   "WHO IRIS guidance": 2,
+   "WHO Disease Outbreak News": 1,
+   "Other guidance (Africa CDC / gov)": 1,
+   "News (CBC / STAT / Reuters / …)": 10,
+   "Press releases": 3
+  },
+  "fetcher_errors": []
+ },
+ "records": [
+  {
+   "title": "WHO emergency guidance on the use of licensed Ebola vaccine during Bundibugyo virus disease outbreaks",
+   "summary": "WHO interim guidance (31 August 2026), updating the 28 May 2026 guidance following SAGE review on 19 August 2026, on the off-label use of the licensed Ebola vaccine Ervebo (rVSV-EBOV-GP) during Bundibugyo virus disease (BDBV) outbreaks. Ervebo is licensed and WHO-prequalified against Zaire ebolavirus; its efficacy against the antigenically distinct BDBV is unknown. Animal challenge data (non-human primates and ferrets) and human immunogenicity data suggest possible but unquantified cross-protection against BDBV-related mortality, with little or no protection against viraemia and clinical di…",
+   "url": "https://doi.org/10.2471/B09884",
+   "doi": "10.2471/B09884",
+   "source": "WHO IRIS",
+   "source_type": "guideline",
+   "published_date": "2026-08-31",
+   "journal": "World Health Organization",
+   "affiliations": "World Health Organization; Strategic Advisory Group of Experts on Immunization (SAGE)",
+   "authors": "",
+   "extra": {},
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "ervebo",
+    "immunogenicity",
+    "rvsv",
+    "vaccination",
+    "vaccine"
+   ],
+   "id": "03c4534c6df8fb66",
+   "first_seen": "2026-08-31",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Guideline / NITAG",
+   "channel": "WHO IRIS guidance",
+   "is_new": true
+  },
+  {
+   "title": "Ebola disease caused by Bundibugyo virus – Democratic Republic of the Congo",
+   "summary": "As of 26 August 2026 the outbreak reached 5,794 confirmed cases and 2,786 deaths across 60 health zones in six provinces. Vaccination using the Ervebo (rVSV-ZEBOV) vaccine began on 27 August for healthcare workers, though its effectiveness against Bundibugyo virus is unproven, while the PARTNERS clinical trial is enrolling patients to test treatments.",
+   "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON616",
+   "source": "WHO Disease Outbreak News",
+   "source_type": "outbreak_report",
+   "published_date": "2026-08-28",
+   "doi": "",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {},
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "ervebo",
+    "rvsv",
+    "vaccination",
+    "vaccine",
+    "zebov"
+   ],
+   "id": "35d38df028fa9218",
+   "first_seen": "2026-08-28",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Outbreak report",
+   "channel": "WHO Disease Outbreak News",
+   "is_new": true
+  },
+  {
+   "title": "Congo begins Ebola vaccinations against world's fastest-growing outbreak",
+   "summary": "The DRC began administering the Ervebo Ebola vaccine to health workers and contacts as it confronts the world's fastest-growing outbreak, caused by the Bundibugyo virus.",
+   "url": "https://www.euronews.com/health/2026/08/28/congo-begins-ebola-vaccinations-against-worlds-fastest-growing-outbreak",
+   "source": "Euronews",
+   "source_type": "news",
+   "published_date": "2026-08-28",
+   "doi": "",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {},
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "ervebo",
+    "vaccine"
+   ],
+   "id": "98bc45edabe5cd05",
+   "first_seen": "2026-08-28",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "Ebola vaccine enters Phase 3 trial. But will it work on a new target?",
+   "summary": "The licensed Ervebo Ebola vaccine enters a Phase 3 trial in the DRC to test whether the Zaire-targeted vaccine can protect against the Bundibugyo species driving the 2026 outbreak.",
+   "url": "https://cen.acs.org/pharmaceuticals/vaccines/ebola-vaccine-trial-drc/104/web/2026/08",
+   "source": "Chemical & Engineering News",
+   "source_type": "news",
+   "published_date": "2026-08-26",
+   "doi": "",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {},
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "ervebo",
+    "vaccine"
+   ],
+   "id": "84525458b2914bcc",
+   "first_seen": "2026-08-26",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "rVSV-EBOV vaccination protects ferrets from lethal Bundibugyo virus disease",
+   "summary": "An uncontrolled, rapidly growing outbreak of Bundibugyo virus (BDBV) is gripping the Democratic Republic of the Congo. There is no BDBV-specific vaccine, but emerging evidence suggests the Ebola virus-specific vaccine rVSV-EBOV (ERVEBO) may offer cross-protection. Evaluated in the uniformly lethal ferret model, all vaccinated animals survived BDBV challenge with minimal clinical signs, attributed to a moderate but protective humoral response — evidence supporting cross-protective efficacy of rVSV-EBOV and a potential role in mitigating the ongoing outbreak.",
+   "url": "https://www.biorxiv.org/content/10.64898/2026.08.24.746878v1",
+   "doi": "10.64898/2026.08.24.746878",
+   "source": "bioRxiv",
+   "source_type": "preprint",
+   "published_date": "2026-08-26",
+   "journal": "bioRxiv (preprint)",
+   "authors": "Wight J, Liu G, Chan M, Medina SJ, Lu D, Cao W, Krosta SJ, Tierney K, Azaransky K, Banadyga L",
+   "affiliations": "Special Pathogens Program, National Microbiology Laboratory, Public Health Agency of Canada, Winnipeg, Manitoba, Canada; Department of Medical Microbiology and Infectious Diseases, University of Manitoba, Winnipeg, Manitoba, Canada",
+   "extra": {},
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "animal",
+   "bundibugyo": true,
+   "canadian": true,
+   "keywords_matched": [
+    "ervebo",
+    "rvsv",
+    "vaccinated",
+    "vaccination",
+    "vaccine"
+   ],
+   "id": "63fc56850704f586",
+   "first_seen": "2026-08-26",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Preprint",
+   "channel": "Preprints (bioRxiv / medRxiv)",
+   "is_new": true
+  },
+  {
+   "title": "New Ebola vaccine trial launches as outbreak spreads in DR Congo",
+   "summary": "A new Ebola vaccine trial launches as the Bundibugyo-virus outbreak spreads in the DRC, with WHO and partners deploying Ervebo and evaluating cross-protection.",
+   "url": "https://news.un.org/en/story/2026/08/1168072",
+   "source": "UN News",
+   "source_type": "news",
+   "published_date": "2026-08-21",
+   "doi": "",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {},
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "ervebo",
+    "vaccine"
+   ],
+   "id": "4bff69c5326b9438",
+   "first_seen": "2026-08-21",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "Multiplex pan-filovirus assay performance and reproducibility across varied geographical and resource settings",
+   "summary": "Multiplex bead-based immunoassays (MIAs) are promising tools for simultaneously detecting humoral immunity to multiple targets, potentially playing a crucial role in serosurveillance and vaccine response assessments. However, evaluation of assay performance is paramount prior to widespread use. This study presents a performance evaluation of a pan-filovirus MIA through characterization of the analytical range for the EBOV glycoprotein (GP) target and assessments of assay precision and antigen discrimination. The precision of the MIA was evaluated by comparing the detection of anti-filovirus…",
+   "doi": "10.1371/journal.pone.0356257",
+   "url": "https://doi.org/10.1371/journal.pone.0356257",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2026-08-20",
+   "journal": "PloS one",
+   "authors": "Smith OA, Merritt S, Kompany JP, Hoff NA, Wong TAS, Kamara V",
+   "affiliations": "University of Hawai'i at Mānoa, Department of Tropical Medicine, Medical Microbiology, and Pharmacology, Honolulu, Hawaii, United States of America. | University of California Los Angeles, Department of Epidemiology, Fielding School of Public Health, Los Angeles, California, United States of America. | Institut National de Recherche Biomedicale (INRB), Department of Epidemiology and Global Health, Kinshasa, Democratic Republic of the Congo. | University of California Los Angeles, Department of Epidemiology, Fielding School of Public Health, Los Angeles, California, United States of America. | University of Hawai'i at Mānoa, Department of Tropical Medicine, Medical Microbiology, and Pharmacology, Honolulu, Hawaii, United States of America. | University of Hawai'i at Mānoa, Department of Tropical Medicine, Medical Microbiology, and Pharmacology, Honolulu, Hawaii, United States of America. | Institut National de Recherche Biomedicale (INRB), Department of Epidemiology and Global Health, Kinshasa, Democratic Republic of the Congo. | University of California Los Angeles, Department of Epidemiology, Fielding School of Public Health, Los Angeles, California, United States of America. | Max Rady College of Medicine, Department of Medical Microbiology and Infectious Diseases, University of Manitoba, Winnipeg, Manitoba, Canada. | University of California Los Angeles, Department of Epidemiology, Fielding School of Public Health, Los Angeles, California, United States of America. | University of California Los Angeles, Department of Epidemiology, Fielding School of Public Health, Los Angeles, California, United States of America. | University of California Los Angeles, Department of Epidemiology, Fielding School of Public Health, Los Angeles, California, United States of America. | Kapi'olani Community College, University of Hawai'i, Honolulu, Hawaii, United States of America. | Food and Drug Administration, Silver Spring, Maryland, United States of America. | Food and Drug Administration, Silver Spring, Maryland, United States of America. | Food and Drug Administration, Silver Spring, Maryland, United States of America. | Institut National de Recherche Biomedicale (INRB), Department of Epidemiology and Global Health, Kinshasa, Democratic Republic of the Congo. | Kinshasa School of Public Health, University of Kinshasa, Kinshasa, Democratic Republic of the Congo. | Institut National de Recherche Biomedicale (INRB), Department of Epidemiology and Global Health, Kinshasa, Democratic Republic of the Congo. | University of California Los Angeles, Department of Epidemiology, Fielding School of Public Health, Los Angeles, California, United States of America. | University of Hawai'i at Mānoa, Department of Tropical Medicine, Medical Microbiology, and Pharmacology, Honolulu, Hawaii, United States of America.",
+   "extra": {
+    "pmid": "42623404",
+    "pmc": "PMC13492765"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": true,
+   "keywords_matched": [
+    "ervebo",
+    "vaccinated",
+    "vaccination",
+    "vaccine"
+   ],
+   "id": "28be369f26fddb55",
+   "first_seen": "2026-08-20",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": true
+  },
+  {
+   "title": "WHO and Africa CDC welcome the allocation of Ebola vaccines to the Democratic Republic of the Congo",
+   "summary": "WHO and Africa CDC welcomed the allocation of 70,000 doses of the Ervebo vaccine to the DRC; 20,000 doses are earmarked for a phase 3 clinical trial to determine whether Ervebo offers cross-protection against the Bundibugyo strain driving the outbreak.",
+   "url": "https://www.who.int/news/item/20-08-2026-who-and-africa-cdc-welcome-the-allocation-of-ebola-vaccines-to-the-democratic-republic-of-the-congo",
+   "source": "WHO",
+   "source_type": "news",
+   "published_date": "2026-08-20",
+   "doi": "",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {},
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "ervebo",
+    "vaccine"
+   ],
+   "id": "5a9703a822b2a157",
+   "first_seen": "2026-08-20",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "WHO delivers Ebola vaccine to DR Congo to see if it can protect against Bundibugyo strain",
+   "summary": "The WHO allocated 70,000 doses of Ervebo to the DRC, although the vaccine targets Ebola Zaire, not the Bundibugyo strain causing the current crisis. Twenty thousand doses will be used in a phase 3 trial to test cross-protection; WHO notes early laboratory and animal data suggest it may provide some protection.",
+   "url": "https://www.cidrap.umn.edu/ebola/who-delivers-ebola-vaccine-dr-congo-see-if-it-can-protect-against-bundibugyo-strain",
+   "source": "CIDRAP",
+   "source_type": "news",
+   "published_date": "2026-08-20",
+   "doi": "",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {},
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "ervebo",
+    "vaccine"
+   ],
+   "id": "96b2dd6f4466ead8",
+   "first_seen": "2026-08-20",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "DR Congo to receive 70,000 doses of Ervebo vaccine as Ebola infections surge",
+   "summary": "The Democratic Republic of the Congo is to receive 70,000 doses of the Ervebo Ebola vaccine as Bundibugyo-virus infections surge, even though the vaccine was developed against the Zaire species.",
+   "url": "https://www.aljazeera.com/news/2026/8/20/dr-congo-to-receive-70000-doses-of-ervebo-vaccine-as-ebola-infections-surge",
+   "source": "Al Jazeera",
+   "source_type": "news",
+   "published_date": "2026-08-20",
+   "doi": "",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {},
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "na",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "ervebo",
+    "vaccine"
+   ],
+   "id": "bac655adc4599fcb",
+   "first_seen": "2026-08-20",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "Congo to receive 70,000 doses of Ervebo Ebola vaccine, which has been effective in past outbreaks",
+   "summary": "The DRC is to receive 70,000 doses of Merck's Ervebo Ebola vaccine, effective in past Zaire-species outbreaks, as it battles a Bundibugyo-virus epidemic.",
+   "url": "https://www.inquirer.com/news/nation-world/congo-ebola-vaccines-ervebo-20260820.html",
+   "source": "The Philadelphia Inquirer",
+   "source_type": "news",
+   "published_date": "2026-08-20",
+   "doi": "",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {},
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "na",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "ervebo",
+    "vaccine"
+   ],
+   "id": "750700c086c6054b",
+   "first_seen": "2026-08-20",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "The first Bundibugyo virus vaccine trial: from first-in-human testing to outbreak readiness",
+   "summary": "[Abstract not available]",
+   "doi": "10.1080/23744235.2026.2717159",
+   "url": "https://doi.org/10.1080/23744235.2026.2717159",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2026-08-17",
+   "journal": "Infectious diseases (London, England)",
+   "authors": "Mohamed MD, Sudi LA, Ibrahim IO, Abdi MS, Hassan AA, Abdullahi YB",
+   "affiliations": "Faculty of Health Sciences and Tropical Medicine, Somali National University, Mogadishu, Somalia. | Faculty of Health Sciences and Tropical Medicine, Somali National University, Mogadishu, Somalia. | Faculty of Health Sciences and Tropical Medicine, Somali National University, Mogadishu, Somalia. | Center for Health Research and Innovation, Somali National University, Mogadishu, Somalia. | Faculty of Health Sciences and Tropical Medicine, Somali National University, Mogadishu, Somalia. | Center for Health Research and Innovation, Somali National University, Mogadishu, Somalia. Mogadishu Institute of Health, Mogadishu, Somalia. Faculty of Health Sciences, Salaam University, Mogadishu, Somalia.",
+   "extra": {
+    "pmid": "42605508",
+    "pmc": ""
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "fd66c58917a21cb2",
+   "first_seen": "2026-08-17",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": true
+  },
+  {
+   "title": "Canada and the development of a vaccine for Bundibugyo virus",
+   "summary": "MSF Canada describes Canada's longstanding role in Ebola vaccine science — including the rVSV-ZEBOV vaccine originally developed at the National Microbiology Laboratory in Winnipeg — and current efforts toward a Bundibugyo virus vaccine.",
+   "url": "https://www.doctorswithoutborders.ca/canada-and-the-development-of-a-vaccine-for-bundibugyo-virus/",
+   "source": "MSF Canada",
+   "source_type": "news",
+   "published_date": "2026-08-15",
+   "doi": "",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {},
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "na",
+   "bundibugyo": true,
+   "canadian": true,
+   "keywords_matched": [
+    "rvsv",
+    "vaccine",
+    "zebov"
+   ],
+   "id": "6f5a5393c2db03e0",
+   "first_seen": "2026-08-15",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "Talks on launch of clinical trial of Ebola vaccine in DRC advance, WHO says",
+   "summary": "WHO says discussions have advanced on launching a clinical trial of the Ervebo Ebola vaccine in the Democratic Republic of the Congo to evaluate protection during the Bundibugyo virus outbreak.",
+   "url": "https://www.statnews.com/2026/08/12/ebola-who-drc-ebola-vaccine-trial/",
+   "source": "STAT",
+   "source_type": "news",
+   "published_date": "2026-08-12",
+   "doi": "",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {},
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "ervebo",
+    "vaccine"
+   ],
+   "id": "1133ed4766428f99",
+   "first_seen": "2026-08-12",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "Bundibugyo ebolavirus emergence in eastern Democratic Republic of Congo: The critical role of risk communication and community engagement in strengthening health security in fragile and conflict-affected settings",
+   "summary": "Since mid-May 2026, a rapidly evolving Ebola virus disease (EVD) outbreak caused by the Bundibugyo strain () has been spreading in eastern Democratic Republic of Congo (Ituri, North and South Kivu provinces) and Uganda (Kampala and Wakiso areas). Uganda has so far reported 14 imported cases and 5 secondary transmissions according to the World Health Organization (WHO). As of 30 July 2026, 3605 confirmed cases, including 1587 deaths, have been reported in the Democratic Republic of the Congo. Unlike previous Zaire outbreaks, no specific licensed vaccine or antiviral treatment exists for the…",
+   "doi": "10.1016/j.jve.2026.100633",
+   "url": "https://doi.org/10.1016/j.jve.2026.100633",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2026-08-11",
+   "journal": "Journal of virus eradication",
+   "authors": "Kihanduka E, Tague C, Nadarajah S, Rugendabanga E, Akilimali A, Muyisa B",
+   "affiliations": "Department of Research, Medical Research Circle (MedReC), Goma, DR, Congo. | Department of Research, Medical Research Circle (MedReC), Goma, DR, Congo. | Department of Mathematics, University of Manchester, Manchester, United Kingdom. | Department of Research, Medical Research Circle (MedReC), Goma, DR, Congo. | Department of Research, Medical Research Circle (MedReC), Goma, DR, Congo. | Department of Research, Medical Research Circle (MedReC), Goma, DR, Congo. | Department of Community Health, Faculty of Health Sciences, Mbarara University of Science and Technology, Mbarara, Uganda. | Office of the Vice Chancellor, Mbarara University of Science and Technology, Mbarara, Uganda.",
+   "extra": {
+    "pmid": "42633137",
+    "pmc": "PMC13499109"
+   },
+   "intervention": [
+    "vaccine",
+    "other_therapeutic"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "antiviral",
+    "vaccine"
+   ],
+   "id": "92571c6509376dbc",
+   "first_seen": "2026-08-11",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine",
+    "Other therapeutic"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Underinvestment in diagnostic and vaccine research & development has put the world at greater risk from the Bundibugyo virus epidemic in 2026",
+   "summary": "[Abstract not available]",
+   "doi": "10.1080/21505594.2026.2710544",
+   "url": "https://doi.org/10.1080/21505594.2026.2710544",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2026-08-09",
+   "journal": "Virulence",
+   "authors": "Ly H",
+   "affiliations": "Department of Veterinary & Biomedical Sciences, College of Veterinary Medicine, University of Minnesota, Twin Cities, MN, USA.",
+   "extra": {
+    "pmid": "42572249",
+    "pmc": "PMC13471102"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "na",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "30d08ea36085b71f",
+   "first_seen": "2026-08-09",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Safety and immunogenicity of one or two doses of the rVSVΔG-ZEBOV-GP Ebola virus vaccine in adults and adolescents living with HIV: a phase 2, multicentre, double-blind, randomised, placebo-controlled trial",
+   "summary": "A single dose of the replication-competent rVSVΔG-ZEBOV-GP vaccine is recommended by the WHO Strategic Advisory Group of Experts on Immunization during Ebola virus disease outbreaks. We aimed to assess the immunogenicity, safety, and tolerability of this vaccine in adults and adolescents with HIV.\n\nIn this phase 2, multicentre, double-blind, randomised, placebo-controlled trial, we enrolled participants aged 13-70 years who had laboratory-confirmed HIV infection, were on antiretroviral therapy (ART), had an undetectable viral load (<40 copies per mL), and had a CD4 count of 200 cells per μL…",
+   "doi": "10.1016/S2352-3018(26)00118-9",
+   "url": "https://doi.org/10.1016/S2352-3018(26)00118-9",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2026-08-07",
+   "journal": "The lancet. HIV",
+   "authors": "Tremblay C, Valea I, Ndiaye BP, Barry H, ElSherif M, Cooper C",
+   "affiliations": "Centre de Recherche du Centre Hospitalier de l'Université de Montréal, l'Université de Montréal, Montreal, QC, Canada. | Institut de Recherche en Sciences de la Santé, Unite de Recherche Clinique de Nanoro, Nanoro, Burkina Faso; Institut National de Sante Publique, Centre Muraz, Bobo-Dioulasso, Burkina Faso. | l'Institut de Recherche en Santé, de Surveillance Epidémiologique et de Formation, Dakar, Senegal. | Institut de Recherche en Sciences de la Santé, Unite de Recherche Clinique de Nanoro, Nanoro, Burkina Faso; Institut National de Sante Publique, Centre Muraz, Bobo-Dioulasso, Burkina Faso. | Canadian Center for Vaccinology, Dalhousie University, IWK Health and NS Health, Halifax, NS, Canada; Department of Microbiology and Immunology, Dalhousie University, Halifax, NS, Canada. | The Ottawa Hospital Research Institute, University of Ottawa, Ottawa, ON, Canada. | Canadian Center for Vaccinology, Dalhousie University, IWK Health and NS Health, Halifax, NS, Canada. | Canadian Center for Vaccinology, Dalhousie University, IWK Health and NS Health, Halifax, NS, Canada. | Canadian Center for Vaccinology, Dalhousie University, IWK Health and NS Health, Halifax, NS, Canada. | Merck Sharp & Dohme, Rahway, NJ, USA. | Canadian Center for Vaccinology, Dalhousie University, IWK Health and NS Health, Halifax, NS, Canada; Department of Pediatrics, Dalhousie University, Halifax, NS, Canada; Department of Microbiology and Immunology, Dalhousie University, Halifax, NS, Canada. | l'Institut de Recherche en Santé, de Surveillance Epidémiologique et de Formation, Dakar, Senegal. | Canadian Center for Vaccinology, Dalhousie University, IWK Health and NS Health, Halifax, NS, Canada; Department of Pediatrics, Dalhousie University, Halifax, NS, Canada; Department of Community Health and Epidemiology, Dalhousie University, Halifax, NS, Canada. Electronic address: joanne.langley@dal.ca.",
+   "extra": {
+    "pmid": "42567171",
+    "pmc": ""
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": true,
+   "keywords_matched": [
+    "immunization",
+    "immunogenicity",
+    "rvsv",
+    "vaccination",
+    "vaccine",
+    "zebov"
+   ],
+   "id": "1fcf26ea5cf16982",
+   "first_seen": "2026-08-07",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Health Canada authorizes mRNA vaccine trial for Ebola virus causing huge outbreak in Congo",
+   "summary": "Health Canada authorized Moderna to proceed with a Phase 1 clinical trial of an mRNA vaccine candidate against Bundibugyo virus. Canada is the second country after the UK to approve such a trial; the Public Health Agency of Canada's National Microbiology Laboratory in Winnipeg supports orthoebolavirus research.",
+   "url": "https://www.cbc.ca/news/health/ebola-vaccine-trial-health-canada-moderna-9.7295616",
+   "source": "CBC News",
+   "source_type": "news",
+   "published_date": "2026-08-04",
+   "doi": "",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {},
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": true,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "8cfbd92bb643f611",
+   "first_seen": "2026-08-04",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": false
+  },
+  {
+   "title": "Health Canada authorizes vaccine clinical trial for Ebola disease caused by the Bundibugyo virus",
+   "summary": "Health Canada authorized Moderna to begin a Phase 1 clinical trial (authorized 30 July 2026) of its candidate mRNA vaccine for Ebola disease caused by the Bundibugyo virus. The Public Health Agency of Canada continues to support orthoebolavirus research through its National Microbiology Laboratory in Winnipeg and maintains an mRNA manufacturing collaboration with Moderna in Canada.",
+   "url": "https://www.canada.ca/en/health-canada/news/2026/08/health-canada-authorizes-vaccine-clinical-trial-for-ebola-disease-caused-by-the-bundibugyo-virus.html",
+   "source": "Government of Canada",
+   "source_type": "guideline",
+   "published_date": "2026-08-04",
+   "doi": "",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {},
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": true,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "8368025cc2c70200",
+   "first_seen": "2026-08-04",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Guideline / NITAG",
+   "channel": "Other guidance (Africa CDC / gov)",
+   "is_new": false
+  },
+  {
+   "title": "Moderna Announces Initiation of Phase 1 Clinical Trial of mRNA-1469, Moderna's Investigational Vaccine Against Bundibugyo Ebolavirus",
+   "summary": "Moderna announced the initiation of a Phase 1 clinical trial of mRNA-1469, its investigational mRNA vaccine against Bundibugyo ebolavirus, in response to the ongoing outbreak in the DRC.",
+   "url": "https://finance.yahoo.com/healthcare/articles/moderna-announces-initiation-phase-1-150000501.html",
+   "source": "Moderna (press release)",
+   "source_type": "press_release",
+   "published_date": "2026-08-04",
+   "doi": "",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {},
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "mrna-1469",
+    "vaccine"
+   ],
+   "id": "e6c2264a5054d2a0",
+   "first_seen": "2026-08-04",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Press release",
+   "channel": "Press releases",
+   "is_new": false
+  },
+  {
+   "title": "Development and characterization of a recombinant Bundibugyo virus expressing a fluorescent reporter protein",
+   "summary": "Bundibugyo virus disease (BVD), caused by Bundibugyo virus (BDBV), is associated with substantial morbidity and mortality, with previous outbreaks reporting case fatality rates of 30%-50%. The ongoing BDBV outbreak in the Democratic Republic of the Congo and Uganda highlights the urgent need for virus-specific research tools and medical countermeasures. Unlike Ebola virus disease caused by Zaire ebolavirus, no licensed vaccines or specific therapeutics are currently available for BVD. The lack of research tools has limited studies with BDBV. To facilitate antiviral testing and neutralizatio…",
+   "doi": "10.1080/22221751.2026.2709847",
+   "url": "https://doi.org/10.1080/22221751.2026.2709847",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2026-08-03",
+   "journal": "Emerging microbes & infections",
+   "authors": "Jain S, Bergeron É, Flint M, Montgomery JM, Spiropoulou CF, Albariño CG",
+   "affiliations": "Viral Special Pathogens Branch, Division of High Consequence Pathogens and Pathology, Centers for Disease Control and Prevention, Atlanta, GA, USA. | Viral Special Pathogens Branch, Division of High Consequence Pathogens and Pathology, Centers for Disease Control and Prevention, Atlanta, GA, USA. | Viral Special Pathogens Branch, Division of High Consequence Pathogens and Pathology, Centers for Disease Control and Prevention, Atlanta, GA, USA. | Viral Special Pathogens Branch, Division of High Consequence Pathogens and Pathology, Centers for Disease Control and Prevention, Atlanta, GA, USA. | Viral Special Pathogens Branch, Division of High Consequence Pathogens and Pathology, Centers for Disease Control and Prevention, Atlanta, GA, USA. | Viral Special Pathogens Branch, Division of High Consequence Pathogens and Pathology, Centers for Disease Control and Prevention, Atlanta, GA, USA.",
+   "extra": {
+    "pmid": "42496613",
+    "pmc": "PMC13435268"
+   },
+   "intervention": [
+    "monoclonal",
+    "other_therapeutic"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "antiviral",
+    "monoclonal",
+    "monoclonal antibodies"
+   ],
+   "id": "6e9994b9196babb2",
+   "first_seen": "2026-08-03",
+   "reviewed": false,
+   "intervention_labels": [
+    "Monoclonal antibody",
+    "Other therapeutic"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Third meeting of the WHO Technical Advisory Group on candidate vaccine prioritization (TAG-CVP) for Bundibugyo virus disease outbreak response",
+   "summary": "WHO TAG-CVP meeting report (31 July 2026). Reviewing cross-protection evidence from animal challenge studies (ferret and non-human primate) and clinical immunogenicity data, the group recommended that Ervebo (rVSV-ZEBOV) be prioritized for inclusion in a Phase 3 ring-vaccination trial in the ongoing Bundibugyo outbreak — noting it could enter Phase 3 without an initial Phase 2 — while agreeing that a BDBV-specific vaccine remains the preferred option once one is ready. The pivotal ferret challenge study was funded by the Public Health Agency of Canada.",
+   "url": "https://doi.org/10.2471/B09865",
+   "doi": "10.2471/B09865",
+   "source": "WHO IRIS",
+   "source_type": "guideline",
+   "published_date": "2026-07-31",
+   "journal": "World Health Organization",
+   "affiliations": "World Health Organization; Public Health Agency of Canada; University of Manitoba, Canada",
+   "authors": "",
+   "extra": {},
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": true,
+   "keywords_matched": [
+    "ervebo",
+    "immunogenicity",
+    "rvsv",
+    "vaccination",
+    "vaccine",
+    "zebov"
+   ],
+   "id": "3672c9faa2f7a279",
+   "first_seen": "2026-07-31",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Guideline / NITAG",
+   "channel": "WHO IRIS guidance",
+   "is_new": false
+  },
+  {
+   "title": "Phase 1 study of mRNA-1469 vaccine to prevent Ebola-Bundibugyo virus disease in healthy adults",
+   "summary": "A Phase 1, observer-blind, placebo-controlled, dose-escalation study of Moderna's mRNA-1469 vaccine to prevent Ebola-Bundibugyo virus disease in healthy adults 18–65.",
+   "url": "https://clinicaltrials.gov/study/NCT07737717",
+   "source": "ClinicalTrials.gov",
+   "source_type": "clinical_trial",
+   "published_date": "2026-07-31",
+   "journal": "",
+   "authors": "ModernaTX, Inc.",
+   "affiliations": "ModernaTX, Inc. | United States",
+   "intervention_raw": "mRNA-1469 vaccine placebo",
+   "extra": {
+    "nct_id": "NCT07737717",
+    "status": "RECRUITING",
+    "phase": [
+     "PHASE1"
+    ],
+    "sponsor": "ModernaTX, Inc.",
+    "countries": [
+     "United States"
+    ]
+   },
+   "doi": "",
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "mrna-1469",
+    "vaccine"
+   ],
+   "id": "d0c46b15f35d49b1",
+   "first_seen": "2026-07-31",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Clinical trial",
+   "channel": "ClinicalTrials.gov",
+   "is_new": false
+  },
+  {
+   "title": "Pseudovirus-based analysis of host cell entry and vaccine-induced neutralisation of Bundibugyo virus",
+   "summary": "[Abstract not available]",
+   "doi": "10.1016/S1473-3099(26)00407-X",
+   "url": "https://doi.org/10.1016/S1473-3099(26)00407-X",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2026-07-23",
+   "journal": "The Lancet. Infectious diseases",
+   "authors": "Hoffmann M, Shandheep A, Pavlou A, Rahmel-Stein K, Ly ML, Chen N",
+   "affiliations": "Infection Biology Unit, German Primate Center-Leibniz Institute for Primate Research, 37077 Göttingen, Germany. Electronic address: mhoffmann@dpz.eu. | Institute for Experimental Infection Research, TWINCORE, Centre for Experimental and Clinical Infection Research, a joint venture between the Helmholtz Centre for Infection Research and the Hannover Medical School, Hannover, Germany. | Institute for Experimental Infection Research, TWINCORE, Centre for Experimental and Clinical Infection Research, a joint venture between the Helmholtz Centre for Infection Research and the Hannover Medical School, Hannover, Germany. | Institute for Experimental Infection Research, TWINCORE, Centre for Experimental and Clinical Infection Research, a joint venture between the Helmholtz Centre for Infection Research and the Hannover Medical School, Hannover, Germany. | Institute for Infection Research and Vaccine Development, University Medical Center Hamburg Eppendorf, Hamburg, Germany; Bernhard Nocht Institute for Tropical Medicine, Department for Clinical Immunology of Infectious Diseases, Hamburg, Germany; German Center for Infection Research, Partner Site Hamburg-Lübeck-Borstel-Riems, Hamburg, Germany. | Infection Biology Unit, German Primate Center-Leibniz Institute for Primate Research, 37077 Göttingen, Germany; Faculty of Biology and Psychology, Georg August University of Göttingen, Göttingen, Germany. | Infection Biology Unit, German Primate Center-Leibniz Institute for Primate Research, 37077 Göttingen, Germany; Faculty of Biology and Psychology, Georg August University of Göttingen, Göttingen, Germany. | Infection Biology Unit, German Primate Center-Leibniz Institute for Primate Research, 37077 Göttingen, Germany. | Institute of Virology, Charité-Universitätsmedizin Berlin, Corporate Member of Freie Universität Berlin, Humboldt University of Berlin and Berlin Institute of Health, Berlin, Germany; German Centre for Infection Research, Partner Site Charité, Berlin, Germany. | Institute for Experimental Infection Research, TWINCORE, Centre for Experimental and Clinical Infection Research, a joint venture between the Helmholtz Centre for Infection Research and the Hannover Medical School, Hannover, Germany; Cluster of Excellence RESIST (EXC 2155), Hannover Medical School, Hannover, Germany. | Institute for Infection Research and Vaccine Development, University Medical Center Hamburg Eppendorf, Hamburg, Germany; Bernhard Nocht Institute for Tropical Medicine, Department for Clinical Immunology of Infectious Diseases, Hamburg, Germany; German Center for Infection Research, Partner Site Hamburg-Lübeck-Borstel-Riems, Hamburg, Germany. | Infection Biology Unit, German Primate Center-Leibniz Institute for Primate Research, 37077 Göttingen, Germany; Faculty of Biology and Psychology, Georg August University of Göttingen, Göttingen, Germany; German Center for Infection Research, Associated Partner Site Göttingen, Göttingen, Germany.",
+   "extra": {
+    "pmid": "42492560",
+    "pmc": ""
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "na",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "4a91b289f9be939e",
+   "first_seen": "2026-07-23",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Reconsidering the rVSVΔG-ZEBOV-GP vaccine during the 2026 Bundibugyo virus outbreak",
+   "summary": "[Abstract not available]",
+   "doi": "10.1016/S1473-3099(26)00382-8",
+   "url": "https://doi.org/10.1016/S1473-3099(26)00382-8",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2026-07-20",
+   "journal": "The Lancet. Infectious diseases",
+   "authors": "Kuppalli K, Lokudu R, Azman AS, Sprecher A, Komanda GM, Ciglenecki I",
+   "affiliations": "Department of Medicine, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA; Peter O'Donnell Jr School of Public Health, University of Texas Southwestern Medical Center, Dallas, TX, USA. Electronic address: krutika.kuppalli@utsouthwestern.edu. | Mongbwalu General Referral Hospital, Mongbwalu, DR Congo. | Institute of Global Health, University of Geneva, Geneva, Switzerland; Geneva Centre for Emerging Viral Diseases, University Hospitals of Geneva, Geneva, Switzerland; Department of Epidemiology, Johns Hopkins University, Baltimore, MD, USA. | Médecins Sans Frontières, Brussels, Belgium. | Médecins Sans Frontières, Mongbwalu, DR Congo; Epicentre, Paris, France. | Médecins Sans Frontières, Geneva, Switzerland. | Médecins Sans Frontières, Geneva, Switzerland. | Department of Neurology, University Hospital of Kinshasa, Kinshasa, DR Congo; Institut National de Recherche Biomédicale, Kinshasa, DR Congo. | Africa Centres for Disease Control and Prevention, Addis Ababa, Ethiopia; Ebola Continental Incident Management Support Team, Kinshasa, DR Congo; Faculty of Medicine and Biomedical Sciences, University of Yaoundé, Yaoundé, Cameroon. | Biomedical Research Institute, Faculty of Medicine and Health Sciences, Stellenbosch University, Cape Town, South Africa; Departments of Epidemiology, Infectious Diseases and Microbiology, University of Pittsburgh, Pittsburgh, PA, USA; Department of Epidemiology and International Health, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA. | Institut National de Recherche Biomédicale, Kinshasa, DR Congo; Department of Medical Biology, Kinshasa University Hospital, Faculty of Medicine, University of Kinshasa, Kinshasa, DR Congo. | Institut National de Recherche Biomédicale, Kinshasa, DR Congo; Department of Medical Biology, Kinshasa University Hospital, Faculty of Medicine, University of Kinshasa, Kinshasa, DR Congo.",
+   "extra": {
+    "pmid": "42476156",
+    "pmc": ""
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine",
+    "zebov"
+   ],
+   "id": "f091fe213d504217",
+   "first_seen": "2026-07-20",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "The 2026 Bundibugyo virus disease outbreak in the Democratic Republic of the Congo: Virology, epidemiology, continental response, and research priorities",
+   "summary": "(BDBV), a member of the genus, family, is hereafter referred to as Bundibugyo virus, with the associated illness termed Bundibugyo virus disease (BVD). First identified in Uganda in 2007, the virus has received far less scientific attention than the highly pathogenic. In April 2026, a cluster of unexplained deaths emerged in the mining-intensive Mongbwalu Health Zone of Ituri Province in the Democratic Republic of the Congo (DRC), and the causative agent was confirmed by whole-genome sequencing on 14 May 2026 as Bundibugyo virus. This is the DRC's 17th Ebola outbreak and only the third BVD…",
+   "doi": "10.1016/j.imj.2026.100270",
+   "url": "https://doi.org/10.1016/j.imj.2026.100270",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2026-06-25",
+   "journal": "Infectious medicine",
+   "authors": "Zhang Y, Ren J, Ma X, He X",
+   "affiliations": "National Key Laboratory of Intelligent Tracking and Forecasting for Infectious Diseases, National Institute for Viral Disease Control and Prevention, Chinese Center for Disease Control and Prevention, Beijing, 102206, China. | National Key Laboratory of Intelligent Tracking and Forecasting for Infectious Diseases, National Institute for Viral Disease Control and Prevention, Chinese Center for Disease Control and Prevention, Beijing, 102206, China. | National Key Laboratory of Intelligent Tracking and Forecasting for Infectious Diseases, National Institute for Viral Disease Control and Prevention, Chinese Center for Disease Control and Prevention, Beijing, 102206, China. | National Key Laboratory of Intelligent Tracking and Forecasting for Infectious Diseases, National Institute for Viral Disease Control and Prevention, Chinese Center for Disease Control and Prevention, Beijing, 102206, China.",
+   "extra": {
+    "pmid": "42434018",
+    "pmc": "PMC13351123"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "6cef928022f84fc9",
+   "first_seen": "2026-06-25",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Antibodies Cross-Reactive with Bundibugyo Virus in Ferrets Vaccinated with Ebola Virus Vaccine",
+   "summary": "Banked serum samples from ferrets previously immunized with the Ebola virus vaccine revealed a prominent but limited humoral immune response that cross-reacted with Bundibugyo virus. The supporting immunogenicity data we report may help guide the ongoing response to the current outbreak of Bundibugyo virus in the Democratic Republic of the Congo.",
+   "doi": "10.3201/eid3208.260948",
+   "url": "https://doi.org/10.3201/eid3208.260948",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2026-06-24",
+   "journal": "Emerging infectious diseases",
+   "authors": "Wight J, Schulz H, Banadyga L",
+   "affiliations": " |  | ",
+   "extra": {
+    "pmid": "42342600",
+    "pmc": "PMC13426813"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "animal",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "immunogenicity",
+    "vaccinated",
+    "vaccine"
+   ],
+   "id": "3f0e81ad50a40748",
+   "first_seen": "2026-06-24",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Clinical trial priorities, adaptive strategies, and equitable partnerships for the Bundibugyo Ebola outbreak",
+   "summary": "[Abstract not available]",
+   "doi": "10.1016/S1473-3099(26)00315-4",
+   "url": "https://doi.org/10.1016/S1473-3099(26)00315-4",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2026-06-24",
+   "journal": "The Lancet. Infectious diseases",
+   "authors": "Nachega JB, Tshiani Mbaya O, Mulangu S, Folayan MO, Ndembi N, Ntoumi F",
+   "affiliations": "Biomedical Research Institute, Faculty of Medicine and Health Sciences, Stellenbosch University, Cape Town 7505, South Africa; University of Pittsburgh, Pittsburgh, PA, USA. Electronic address: jnachega@sun.ac.za. | Clinical Research Center of the Institut National de Recherche Biomédicale, Kinshasa, Democratic Republic of the Congo; US National Institute of Allergy and Infectious Diseases and the Frederick National Laboratory, Frederick, MD, USA; US National Institutes of Health, Frederick, MD, USA. | Clinical Research Center of the Institut National de Recherche Biomédicale, Kinshasa, Democratic Republic of the Congo; University of Kinshasa School of Medicine, Kinshasa, Democratic Republic of the Congo; Senior Vice President, Global Medical Affairs, Ridgeback Biotherapeutics, Miami, FL, USA. | Child Dental Health, Obafemi Awolowo University, Ile-Ife, Osun State, Nigeria. | International Vaccine Institute Africa Regional Office, Kigali, Rwanda; Institute of Human Virology, University of Maryland School of Medicine, Baltimore, MD, USA; Kanazawa University School of Medicine, Department of Viral Infection and International Public Health, Kanawaza, Japan. | Fondation Congolaise pour la Recherche Médicale, Brazzaville, Republic of the Congo; University of Tübingen, Tübingen, Germany. | Health Research Methods, Evidence, and Impact, McMaster University, Hamilton, ON, Canada. | Centre for the AIDS Programme of Research in South Africa, Nelson R Mandela Medical School, University of KwaZulu-Natal, Durban, South Africa; Department of Epidemiology, Mailman School of Public Health, Columbia University, New York, NY, USA. | University College London Centre for Clinical Microbiology, Institute of Infection, Immunity and Transplantation, University College London, London, UK; University College London Hospitals NHS Foundation Trust, London, UK. | Clinical Research Center of the Institut National de Recherche Biomédicale, Kinshasa, Democratic Republic of the Congo; University of Kinshasa School of Medicine, Kinshasa, Democratic Republic of the Congo.",
+   "extra": {
+    "pmid": "42341789",
+    "pmc": ""
+   },
+   "intervention": [
+    "unspecified"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": true,
+   "keywords_matched": [],
+   "id": "746bfcaac7c1ff8f",
+   "first_seen": "2026-06-24",
+   "reviewed": false,
+   "intervention_labels": [
+    "Unspecified"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "When it could have been prevented: A maternal death from postpartum hemorrhage due to genital tract lesions complicated by urinary fistula in an Ebola treatment unit in DR Congo",
+   "summary": "Ebola Virus Disease (EVD) increases the risk for complications to a healthy pregnancy and delivery, notably post-partum hemorrhage. Additionally, successful management of post-partum hemorrhage and resource-intensive clinical interventions are difficult in the low-resourced setting of an Ebola Treatment Unit (ETU).\n\nThis report describes the clinical course of a pregnant adolescent, gravida 2 para 1, with a history of delivery by cesarean section only 12 months before her second pregnancy. She was vaccinated with rVSV-ZEBOV following the death of a family member with confirmed EVD. She was…",
+   "doi": "10.1186/s12884-026-09271-2",
+   "url": "https://doi.org/10.1186/s12884-026-09271-2",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2026-06-23",
+   "journal": "BMC pregnancy and childbirth",
+   "authors": "Imani-Musimwa P, Grant E, Mukadi-Bamuleka D, Tsongo-Kibendelwa Z, Fraterne-Muhayangabo R, Mbala-Kingebeni P",
+   "affiliations": "Department of Obstetrics and Gynecology, School of Medicine and Public Health, University of Goma, Goma, Democratic Republic of Congo. princeimani12@gmail.com. Centre de Recherche et d'Evaluation en Santé Globale et Action Humanitaire (CRESAH), Goma, Democratic Republic of Congo. princeimani12@gmail.com. Faculty of Medicine and School of Public Health, Evangelical University in Africa (UEA), Bukavu, Democratic Republic of Congo. princeimani12@gmail.com. | Centre de Recherche et d'Evaluation en Santé Globale et Action Humanitaire (CRESAH), Goma, Democratic Republic of Congo. Maternal and Infant Care Center, University of Washington Medical Center, Seattle, WA, United States of America. | National Institute for Biomedical Research (INRB), Kinshasa, Democratic Republic of Congo. Department of Medical Biology, School of Medicine, University of Kinshasa, Kinshasa, Democratic Republic of Congo. Rodolphe Mérieux INRB-Goma Loaboratry, Goma, Democratic Republic of Congo. | Department of Internal Medicine, School of Medicine, University of Kisangani, Kisangani, Democratic Republic of Congo. | Centre de Recherche et d'Evaluation en Santé Globale et Action Humanitaire (CRESAH), Goma, Democratic Republic of Congo. | National Institute for Biomedical Research (INRB), Kinshasa, Democratic Republic of Congo. Department of Medical Biology, School of Medicine, University of Kinshasa, Kinshasa, Democratic Republic of Congo. | Ministry of Public Health, Hygiene and Prevention, Kinshasa, Democratic Republic of Congo. | Department of Surgery, School of Medicine, Official University of Bukavu, Bukavu, Democratic Republic of Congo. | Faculty of Medicine and School of Public Health, Evangelical University in Africa (UEA), Bukavu, Democratic Republic of Congo. Department of Obstetrics and Gynecology, School of Medicine, Official University of Bukavu, Bukavu, Democratic Republic of Congo. | Department of Obstetrics and Gynecology, School of Medicine, University of Kisangani, Kisangani, Democratic Republic of Congo. | Centre de Recherche et d'Evaluation en Santé Globale et Action Humanitaire (CRESAH), Goma, Democratic Republic of Congo. | Department of Specialities, School of Medicine, Official University of Bukavu, Bukavu, Democratic Republic of Congo. | Faculty of Medicine and School of Public Health, Evangelical University in Africa (UEA), Bukavu, Democratic Republic of Congo. Department of Surgery, School of Medicine, Official University of Bukavu, Bukavu, Democratic Republic of Congo. | Department of Pediatrics and Neonatology, School of Medicine, University of Goma, Goma, Democratic Republic of Congo. | Department of Obstetrics and Gynecology, School of Medicine, University of Kinshasa, Kinshasa, Democratic Republic of Congo. | Center for Humanitarian Health, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, United States of America.",
+   "extra": {
+    "pmid": "42332598",
+    "pmc": "PMC13330090"
+   },
+   "intervention": [
+    "vaccine",
+    "monoclonal"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "mab114",
+    "monoclonal",
+    "monoclonal antibody",
+    "rvsv",
+    "vaccinated",
+    "vaccination",
+    "zebov"
+   ],
+   "id": "ccfcbe116727e9de",
+   "first_seen": "2026-06-23",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine",
+    "Monoclonal antibody"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Cross-protection against Bundibugyo by Ebola and Sudan vaccines",
+   "summary": "Preprint reporting that vaccination with licensed Ebola (Zaire) and Sudan vaccines confers partial cross-protection against lethal Bundibugyo virus challenge in animal models, supporting emergency cross-species use.",
+   "url": "https://www.biorxiv.org/content/10.64898/2026.06.10.731377v1",
+   "source": "bioRxiv",
+   "source_type": "preprint",
+   "published_date": "2026-06-10",
+   "journal": "bioRxiv (preprint)",
+   "doi": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {},
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "animal",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccination"
+   ],
+   "id": "83387bf87e99371c",
+   "first_seen": "2026-06-10",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Preprint",
+   "channel": "Preprints (bioRxiv / medRxiv)",
+   "is_new": false
+  },
+  {
+   "title": "Ebola outbreak caused by Bundibugyo virus: challenges and priorities for epidemic preparedness and response",
+   "summary": "[Abstract not available]",
+   "doi": "10.1016/S0140-6736(26)01141-4",
+   "url": "https://doi.org/10.1016/S0140-6736(26)01141-4",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2026-06-09",
+   "journal": "Lancet (London, England)",
+   "authors": "Nachega JB, Mbala-Kingebeni P, Mulangu S, Ndembi N, Preiser W, Skinner D",
+   "affiliations": "Biomedical Research Institute, Faculty of Medicine and Health Sciences, Stellenbosch University, Cape Town 7505, South Africa; Epidemiology, Infectious Diseases and Microbiology, University of Pittsburgh, Pittsburgh, PA, USA. Electronic address: jnachega@sun.ac.za. | Clinical Research Center, Institut National de Recherche Biomédicale, Kinshasa, DR Congo; Department of Epidemiology and Global Health, Institut National de Recherche Biomédicale, Kinshasa, DR Congo; University of Kinshasa School of Medicine, Kinshasa, DR Congo. | University of Kinshasa School of Medicine, Kinshasa, DR Congo; Immunology Laboratory, Institut National de Recherche Biomédicale, Kinshasa, DR Congo. | International Vaccine Institute Africa Regional Office, Kigali, Rwanda; Institute of Human Virology, University of Maryland School of Medicine, Baltimore, MD, USA; Department of Viral Infection and International Public Health, Kanazawa University School of Medicine, Kanazawa, Japan. | Division of Medical Virology and National Health Laboratory Service Tygerberg, Faculty of Medicine and Health Sciences, Stellenbosch University Faculty of Medicine and Health Sciences, Cape Town, South Africa. | Department of Global Health, Faculty of Medicine and Health Sciences, Stellenbosch University, Cape Town, South Africa. | Division of Pediatric Infectious Diseases, University of Minnesota Medical School, Minneapolis, MN, USA; International Research Center of Excellence, Institute of Human Virology Nigeria, Abuja, Nigeria; Department of Pediatrics and Child Health, School of Medical Sciences, University of Cape Coast, Cape Coast, Ghana. | Fondation Congolaise pour la Recherche Médicale, Brazzaville, Republic of the Congo; Molecular Epidemiology of Infectious Diseases, University of Tübingen, Tübingen, Germany. | Centre for Epidemic Response and Innovation, School for Data Science and Computational Thinking, Stellenbosch University, Cape Town, South Africa. | Centre for Epidemic Response and Innovation, School for Data Science and Computational Thinking, Stellenbosch University, Cape Town, South Africa. | Centre for Epidemic Response and Innovation, School for Data Science and Computational Thinking, Stellenbosch University, Cape Town, South Africa. | Interdisciplinary Consortium for Epidemic Research, Kampala, Uganda; Rear Public Health Laboratory, Kampala, Uganda. | Uganda Virus Research Institute, Entebbe, Uganda; Department of Immunology, London School of Hygiene & Tropical Medicine, London, UK. | Department of Ophthalmology, Centre Médical de l'Alliance, Braine-l'Alleud, Belgium. | Warwick Centre for Applied Health Research and Delivery, Division of Health Sciences, Warwick Medical School, University of Warwick, Coventry, UK. | McMaster University, Hamilton, ON, Canada. | Department of Medicine, University of California, San Francisco, CA, USA. | University College London Centre for Clinical Microbiology, Institute of Infection, Immunity and Transplantation, University College London, London, UK; University College London Hospitals NHS Foundation Trust, London, UK. | Institut National de Recherche Biomédicale, Kinshasa, DR Congo; Virology and Microbiology, University of Kinshasa School of Medicine, Kinshasa, DR Congo.",
+   "extra": {
+    "pmid": "42263728",
+    "pmc": ""
+   },
+   "intervention": [
+    "unspecified"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": true,
+   "keywords_matched": [],
+   "id": "4ea6fc0d1272fa8b",
+   "first_seen": "2026-06-09",
+   "reviewed": false,
+   "intervention_labels": [
+    "Unspecified"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "New studies to test whether existing Ebola vaccines can generate immune responses to Bundibugyo ebolavirus",
+   "summary": "CEPI announced new studies to test whether licensed Ebola vaccines (including Ervebo and Ad26.ZEBOV/MVA-BN-Filo) can generate cross-reactive immune responses against Bundibugyo ebolavirus, drawing on laboratory and animal data.",
+   "url": "https://cepi.net/new-studies-test-whether-existing-ebola-vaccines-can-generate-immune-responses-bundibugyo",
+   "source": "CEPI",
+   "source_type": "press_release",
+   "published_date": "2026-06-05",
+   "doi": "",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {},
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "na",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "ad26",
+    "ad26.zebov",
+    "ervebo",
+    "mva-bn",
+    "zebov"
+   ],
+   "id": "5033a0a56f2ef6ee",
+   "first_seen": "2026-06-05",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Press release",
+   "channel": "Press releases",
+   "is_new": false
+  },
+  {
+   "title": "Beyond past Ebola outbreaks: delayed detection, preparedness gaps, and the vaccine race during the 2026 Bundibugyo virus outbreak",
+   "summary": "[Abstract not available]",
+   "doi": "10.1016/j.ijid.2026.108843",
+   "url": "https://doi.org/10.1016/j.ijid.2026.108843",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2026-05-29",
+   "journal": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+   "authors": "Haider N, Khan RA, Rahman KM",
+   "affiliations": "School of Life Sciences, Faculty of Natural Sciences, Keele University, Keele, Staffordshire, ST5 5BG, United Kingdom. Electronic address: n.haider@keele.ac.uk. | Department of Internal Medicine, Dell Medical School, The University of Texas at Austin, Austin, TX, USA. | Federation University NewMed School of Medicine, Brisbane, QLD, 4000, Australia.",
+   "extra": {
+    "pmid": "42217747",
+    "pmc": ""
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "d3c9f5217c732217",
+   "first_seen": "2026-05-29",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Regeneron's Ebola Antibody Recommended by WHO for Investigational Use in Response to Current Bundibugyo Ebolavirus Outbreak",
+   "summary": "Regeneron announced that WHO recommended its Ebola monoclonal antibody therapy Inmazeb (atoltivimab, maftivimab and odesivimab-ebgn) for investigational use in response to the current Bundibugyo ebolavirus outbreak.",
+   "url": "https://investor.regeneron.com/news-releases/news-release-details/regenerons-ebola-antibody-recommended-world-health-organization",
+   "source": "Regeneron (press release)",
+   "source_type": "press_release",
+   "published_date": "2026-05-28",
+   "doi": "",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {},
+   "intervention": [
+    "monoclonal"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "atoltivimab",
+    "inmazeb",
+    "maftivimab",
+    "monoclonal",
+    "monoclonal antibody",
+    "odesivimab"
+   ],
+   "id": "86af9132c347eecd",
+   "first_seen": "2026-05-28",
+   "reviewed": false,
+   "intervention_labels": [
+    "Monoclonal antibody"
+   ],
+   "source_type_label": "Press release",
+   "channel": "Press releases",
+   "is_new": false
+  },
+  {
+   "title": "Multivalent mRNA vaccine platform with compatible antigens conferred broad-spectrum protection against orthoebolaviruses' exposure",
+   "summary": "Several orthoebolaviruses have been established, including[for Ebola virus (EBOV)],[for Sudan virus (SUDV)], and[for Bundibugyo virus (BDBV)]. Orthoebolaviruses are highly virulent pathogens that cause severe disease in humans. However, most existing vaccines primarily target EBOV, and fail to provide robust cross-protection against other lethal orthoebolaviruses. The development of a broad-spectrum vaccine has the potential to efficiently mitigate outbreaks caused by multiple orthoebolaviruses. In this study, we developed and evaluated a broad-spectrum mRNA vaccine, designated [GPs+NP]@LNP…",
+   "doi": "10.1073/pnas.2517814123",
+   "url": "https://doi.org/10.1073/pnas.2517814123",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2026-05-18",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "authors": "Zhang J, Zhang X, Yao Y, Zhou J, Chen D, Shen Y",
+   "affiliations": "Department of Infectious Disease, The First Affiliated Hospital of University of Science and Technology of China, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230031, Anhui, People's Republic of China. Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230026, Anhui, People's Republic of China. | State Key Laboratory of Virology, Wuhan Institute of Virology, Center for Biosafety Mega-Science, Chinese Academy of Sciences, Wuhan 430062, People's Republic of China. | State Key Laboratory of Virology, Wuhan Institute of Virology, Center for Biosafety Mega-Science, Chinese Academy of Sciences, Wuhan 430062, People's Republic of China. | State Key Laboratory of Virology, Wuhan Institute of Virology, Center for Biosafety Mega-Science, Chinese Academy of Sciences, Wuhan 430062, People's Republic of China. University of Chinese Academy of Sciences, Beijing 100049, People's Republic of China. | Ministry of Education Key Laboratory for Cellular Dynamics, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230026, Anhui, People's Republic of China. | Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230026, Anhui, People's Republic of China. Institute of Health and Medicine, Hefei Comprehensive National Science Center, Hefei 230601, Anhui, People's Republic of China. RNAlfa Biotech, Hefei 230601, Anhui, People's Republic of China. | Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230026, Anhui, People's Republic of China. | Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230026, Anhui, People's Republic of China. | Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230026, Anhui, People's Republic of China. | Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230026, Anhui, People's Republic of China. | State Key Laboratory of Virology, Wuhan Institute of Virology, Center for Biosafety Mega-Science, Chinese Academy of Sciences, Wuhan 430062, People's Republic of China. | Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230026, Anhui, People's Republic of China. | Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230026, Anhui, People's Republic of China. | Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230026, Anhui, People's Republic of China. | State Key Laboratory of Virology, Wuhan Institute of Virology, Center for Biosafety Mega-Science, Chinese Academy of Sciences, Wuhan 430062, People's Republic of China. | State Key Laboratory of Virology, Wuhan Institute of Virology, Center for Biosafety Mega-Science, Chinese Academy of Sciences, Wuhan 430062, People's Republic of China. | State Key Laboratory of Virology, Wuhan Institute of Virology, Center for Biosafety Mega-Science, Chinese Academy of Sciences, Wuhan 430062, People's Republic of China. | Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230026, Anhui, People's Republic of China. Ministry of Education Key Laboratory for Cellular Dynamics, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230026, Anhui, People's Republic of China. RNAlfa Biotech, Hefei 230601, Anhui, People's Republic of China. | Department of Infectious Disease, The First Affiliated Hospital of University of Science and Technology of China, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230031, Anhui, People's Republic of China. Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230026, Anhui, People's Republic of China. Institute of Health and Medicine, Hefei Comprehensive National Science Center, Hefei 230601, Anhui, People's Republic of China. RNAlfa Biotech, Hefei 230601, Anhui, People's Republic of China. | Department of Infectious Disease, The First Affiliated Hospital of University of Science and Technology of China, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230031, Anhui, People's Republic of China. Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230026, Anhui, People's Republic of China. Key Laboratory of Anhui Province for Emerging and Reemerging Infectious Diseases, Hefei 230026, Anhui, People's Republic of China.",
+   "extra": {
+    "pmid": "42150061",
+    "pmc": "PMC13213939"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "animal",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "immunogenicity",
+    "vaccine"
+   ],
+   "id": "586e9c209177c0d1",
+   "first_seen": "2026-05-18",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "[Post-exposure prophylaxis against Ebola virus: arguments for expanding the role of monoclonal antibodies in a context of limited access]",
+   "summary": "While Ebola virus disease (EVD) remains a major threat, recent advances have led to the approval of several medical products, in particular the rVSVΔG-ZEBOV-GP vaccine (Ervebo) and two monoclonal antibody treatments, mAb114 (Ebanga) and REGN-EB3 (Inmazeb). However, their use in post-exposure prophylaxis (PEP) remains poorly documented. Our narrative review of the literature and guidelines aims to assess the potential of the rVSVΔG-ZEBOV-GP vaccine and monoclonal antibodies mAb114 and REGN-EB3 for PEP following high-risk exposure.\n\nVery few studies have been conducted specifically to determi…",
+   "doi": "10.48327/mtsi.v6i1.2026.835",
+   "url": "https://doi.org/10.48327/mtsi.v6i1.2026.835",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2026-03-31",
+   "journal": "Medecine tropicale et sante internationale",
+   "authors": "Potet J, Adjaho I, Dierberg K, Sprecher A, Coulborn RM",
+   "affiliations": "Médecins sans frontières, Centre opérationnel de Paris, 14-34 avenue Jean Jaurès, Paris, France. | Médecins sans frontières, Centre opérationnel d'Afrique de l'Ouest et centrale, Lot 44 îlot 7, Marcory Biétry Zone 4c, Abidjan, Côte d'Ivoire. | Médecins sans frontières, Centre opérationnel de Paris, 14-34 avenue Jean Jaurès, Paris, France. | Médecins sans frontières, Centre opérationnel de Bruxelles, Rue de l'Arbre Bénit 46, 1050 Bruxelles, Belgique. | Médecins sans frontières, Épicentre, Département d'épidémiologie d'intervention et formation, 14-34 avenue Jean Jaurès 75019 Paris, France.",
+   "extra": {
+    "pmid": "42221441",
+    "pmc": "PMC13216899"
+   },
+   "intervention": [
+    "vaccine",
+    "monoclonal",
+    "other_therapeutic"
+   ],
+   "species": "animal",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "ebanga",
+    "ervebo",
+    "immunisation",
+    "inmazeb",
+    "mab114",
+    "monoclonal",
+    "monoclonal antibodies",
+    "monoclonal antibody",
+    "post-exposure prophylaxis",
+    "regn-eb3",
+    "vaccination",
+    "vaccine",
+    "zebov"
+   ],
+   "id": "55cf74567bf015b1",
+   "first_seen": "2026-03-31",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine",
+    "Monoclonal antibody",
+    "Other therapeutic"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Marburg Virus: A Looming Threat Nigeria Cannot Ignore",
+   "summary": "Marburg virus, a filovirus closely related to Ebola, causes a severe haemorrhagic illness with case fatality rates ranging from 24 % to 88 %, depending on the timeliness and strength of the outbreak response [1]. Transmission occurs through contact with infected body fluids or contaminated materials, and via exposure to infected fruit bats (), which have been recorded in several Nigerian ecological zones [1,2]. Deforestation, wildlife trade, and settlement encroachment further elevate spill-over risk.Nigeria's experiences with Lassa fever reveal enduring structural weaknesses: notably, dela…",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42488857/",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2026-03-26",
+   "journal": "Nigerian medical journal : journal of the Nigeria Medical Association",
+   "authors": "Oisakede EO",
+   "affiliations": "Department of Clinical Oncology, Leeds Teaching Hospitals Trust, Leeds, England. Department of Health Research, University of Leeds, Leeds, England.",
+   "extra": {
+    "pmid": "42488857",
+    "pmc": "PMC13391109"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "animal",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "immunisation",
+    "vaccination",
+    "vaccine"
+   ],
+   "id": "8cb2fbc2372f661c",
+   "first_seen": "2026-03-26",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "A cocktail vaccine with monkeypox virus antigens confers protection without selecting mutations in potential immune evasion genes in the vaccinia WR strain challenge",
+   "summary": "Faced with the global monkeypox outbreak, current vaccine development predominantly focuses on the mRNA platform despite its limitations in stability and long-term efficacy. Here, we engineered a recombinant vesicular stomatitis virus (rVSV)-vectored cocktail vaccine encoding four conserved monkeypox virus (MPXV) antigens (A35R, A29L, M1R, and B6R; >94% clade homology), leveraging the thermostable properties of the VSV platform validated for 4°C storage in Ebola vaccines. In BALB/c mice, this multi-antigen vaccine elicited a rapid humoral response with specific IgG detectable by day 7, effe…",
+   "doi": "10.1128/mbio.03200-25",
+   "url": "https://doi.org/10.1128/mbio.03200-25",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2025-12-31",
+   "journal": "mBio",
+   "authors": "Sun X, Zhang L, Chen G, Yang F, Ning X, Qiu J",
+   "affiliations": "State Key Laboratory of Animal Disease Control and Prevention, Lanzhou Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Lanzhou, China. Gansu Province Research Center for Basic Disciplines of Pathogen Biology, Lanzhou, China. | State Key Laboratory of Animal Disease Control and Prevention, Lanzhou Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Lanzhou, China. Gansu Province Research Center for Basic Disciplines of Pathogen Biology, Lanzhou, China. | State Key Laboratory of Animal Disease Control and Prevention, Lanzhou Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Lanzhou, China. Gansu Province Research Center for Basic Disciplines of Pathogen Biology, Lanzhou, China. | Division of Respiratory and Critical Care Medicine, State Key Laboratory of Biotherapy, West China Hospital of Sichuan University and Collaborative Innovation Center of Biotherapy, Chengdu, China. | State Key Laboratory of Animal Disease Control and Prevention, Lanzhou Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Lanzhou, China. Gansu Province Research Center for Basic Disciplines of Pathogen Biology, Lanzhou, China. | State Key Laboratory of Animal Disease Control and Prevention, Lanzhou Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Lanzhou, China. Gansu Province Research Center for Basic Disciplines of Pathogen Biology, Lanzhou, China. | State Key Laboratory of Animal Disease Control and Prevention, Harbin Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Harbin, China. | State Key Laboratory of Animal Disease Control and Prevention, Lanzhou Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Lanzhou, China. Gansu Province Research Center for Basic Disciplines of Pathogen Biology, Lanzhou, China. | State Key Laboratory of Animal Disease Control and Prevention, Lanzhou Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Lanzhou, China. Gansu Province Research Center for Basic Disciplines of Pathogen Biology, Lanzhou, China. | National Key Laboratory of Veterinary Public Health and Safety, Key Laboratory of Animal Epidemiology of the Ministry of Agriculture and Rural Affairs, College of Veterinary Medicine, China Agricultural University, Beijing, China. | State Key Laboratory of Animal Disease Control and Prevention, Lanzhou Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Lanzhou, China. Gansu Province Research Center for Basic Disciplines of Pathogen Biology, Lanzhou, China. | State Key Laboratory of Animal Disease Control and Prevention, Lanzhou Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Lanzhou, China. Gansu Province Research Center for Basic Disciplines of Pathogen Biology, Lanzhou, China. | School of Life Sciences, Lanzhou University, Lanzhou, China. | State Key Laboratory of Animal Disease Control and Prevention, Lanzhou Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Lanzhou, China. Gansu Province Research Center for Basic Disciplines of Pathogen Biology, Lanzhou, China. | State Key Laboratory of Animal Disease Control and Prevention, Harbin Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Harbin, China. | National Key Laboratory of Veterinary Public Health and Safety, Key Laboratory of Animal Epidemiology of the Ministry of Agriculture and Rural Affairs, College of Veterinary Medicine, China Agricultural University, Beijing, China. | State Key Laboratory of Animal Disease Control and Prevention, Lanzhou Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Lanzhou, China. Gansu Province Research Center for Basic Disciplines of Pathogen Biology, Lanzhou, China.",
+   "extra": {
+    "pmid": "41474326",
+    "pmc": "PMC12892989"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "animal",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "immunization",
+    "rvsv",
+    "vaccinated",
+    "vaccine"
+   ],
+   "id": "5da443fd64b2a555",
+   "first_seen": "2025-12-31",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Vector-Induced Humoral Responses After rVSVΔG-ZEBOV-GP Immunization Identify Vaccinated Individuals and Correlate With Ebola Virus Glycoprotein Antibodies",
+   "summary": "While vaccine antigen-induced antibodies are often used as proxies for vaccine efficacy, immune responses to vaccine vectors are less well-defined. We describe the kinetics of immunoglobulin (IgG) responses against the vector (vesicular stomatitis Indiana virus [VSIV]) nucleoprotein (N) and the inserted antigen (Ebola virus [EBOV]) glycoprotein (GP1,2) components of the rVSV-ZEBOV vaccine and evaluate their use as biomarkers to confirm self-reported vaccination status.\n\nWe selected 212 participants randomized to rVSV-ZEBOV (n = 107) or placebo (n = 105). Levels of IgG antibodies to EBOV GP1…",
+   "doi": "10.1093/infdis/jiae632",
+   "url": "https://doi.org/10.1093/infdis/jiae632",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2025-10-15",
+   "journal": "The Journal of infectious diseases",
+   "authors": "Chandrasekaran P, Berry IM, Callier V, Anthony SM, Hensley K, Kuhn JH",
+   "affiliations": "Integrated Research Facility at Fort Detrick, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Frederick, Maryland. | Integrated Research Facility at Fort Detrick, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Frederick, Maryland. | Clinical Monitoring Research Program Directorate, Frederick National Laboratory for Cancer Research, Frederick, Maryland. | Integrated Research Facility at Fort Detrick, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Frederick, Maryland. | Integrated Research Facility at Fort Detrick, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Frederick, Maryland. | Integrated Research Facility at Fort Detrick, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Frederick, Maryland. | Collaborative Clinical Research Branch, Division of Clinical Research, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, Maryland. | University of Liberia-Pacific Institute for Research & Evaluation (UL-PIRE) Africa Center, University of Liberia, Monrovia, Liberia. | University of Liberia-Pacific Institute for Research & Evaluation (UL-PIRE) Africa Center, University of Liberia, Monrovia, Liberia. | University of Liberia-Pacific Institute for Research & Evaluation (UL-PIRE) Africa Center, University of Liberia, Monrovia, Liberia. | Clinical Monitoring Research Program Directorate, Frederick National Laboratory for Cancer Research, Frederick, Maryland. | Laboratory of Immunoregulation. | Laboratory of Immunoregulation. | Integrated Research Facility at Fort Detrick, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Frederick, Maryland. | Biostatistics Research Branch, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, Maryland.",
+   "extra": {
+    "pmid": "39718991",
+    "pmc": "PMC12526988"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "immunization",
+    "rvsv",
+    "vaccinated",
+    "vaccination",
+    "vaccine",
+    "zebov"
+   ],
+   "id": "8b8cef8aa8f0a665",
+   "first_seen": "2025-10-15",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Recombinant live attenuated measles virus-based vaccines inducing comprehensive protection against Ebola and Marburg viruses",
+   "summary": "Filoviruses, including Ebola and Marburg viruses, present significant global health challenges due to their high mortality rates. Despite the availability of several Ebola virus vaccines, none provide cross-protection against multiple filovirus species. In this study, we developed recombinant live attenuated measles virus-based vaccine candidates designed to express Ebola or Marburg virus glycoproteins and generate virus-like particles for pan-filovirus immunization. The administration of these candidates by intraperitoneal injection into IFNARmice elicited robust antibody and cellular immu…",
+   "doi": "10.1016/j.ymthe.2025.08.022",
+   "url": "https://doi.org/10.1016/j.ymthe.2025.08.022",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2025-08-19",
+   "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+   "authors": "Zhou J, Zhang X, Yao Y, Xie Y, Li F, Wang W",
+   "affiliations": "State Key Laboratory of Virology and Biosafety, Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, Hubei 430062, China; University of Chinese Academy of Sciences, Beijing 100049, China. | State Key Laboratory of Virology and Biosafety, Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, Hubei 430062, China. Electronic address: zhangxh@wh.iov.cn. | State Key Laboratory of Virology and Biosafety, Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, Hubei 430062, China. | Hebei Key Lab of Laboratory Animal Science, Department of Laboratory Animal Science, Hebei Medical University, Shijiazhuang 050017, China. | State Key Laboratory of Virology and Biosafety, Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, Hubei 430062, China. | Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230022, China. | Key Laboratory of Jilin Province for Zoonosis Prevention and Control, Changchun Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Jilin 130122, China. | State Key Laboratory of Virology and Biosafety, Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, Hubei 430062, China. | State Key Laboratory of Virology and Biosafety, Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, Hubei 430062, China; University of Chinese Academy of Sciences, Beijing 100049, China. | State Key Laboratory of Virology and Biosafety, Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, Hubei 430062, China. | State Key Laboratory of Virology and Biosafety, Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, Hubei 430062, China. | State Key Laboratory of Virology and Biosafety, Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, Hubei 430062, China. | State Key Laboratory of Virology and Biosafety, Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, Hubei 430062, China. | State Key Laboratory of Virology and Biosafety, Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, Hubei 430062, China. Electronic address: hjzhang@wh.iov.cn. | State Key Laboratory of Virology and Biosafety, Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, Hubei 430062, China. Electronic address: gongpeng@wh.iov.cn. | Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230022, China; Department of Laboratory Medicine, The First Affiliated Hospital of USTC, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230036, China; Key Laboratory of Anhui Province for Emerging and Reemerging Infectious Diseases, Hefei, Anhui 230027, China. Electronic address: qiux@ustc.edu.cn.",
+   "extra": {
+    "pmid": "40836428",
+    "pmc": "PMC12628153"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "animal",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "immunization",
+    "vaccine"
+   ],
+   "id": "90349a7cb25f766b",
+   "first_seen": "2025-08-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Long-term Sequelae in Ebola Virus Disease Survivors Receiving Anti-Ebola Virus Therapies in the Democratic Republic of the Congo: A Prospective Cohort Study",
+   "summary": "The 2018-2020 Ebola outbreak in the Democratic Republic of the Congo marked the first major cohort of Ebola survivors treated with advanced therapeutics, including monoclonal antibodies (REGN-EB3, ansuvimab, ZMapp) and remdesivir. This study explored factors influencing long-term sequelae in survivors who received these specific therapies.\n\nA prospective multicenter study enrolled 750 Ebola survivors from the 10th outbreak in the Democratic Republic of the Congo between April and October 2020. Participants were followed for 12 months to assess the recurrence of clinical sequelae according t…",
+   "doi": "10.1093/ofid/ofaf436",
+   "url": "https://doi.org/10.1093/ofid/ofaf436",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2025-07-31",
+   "journal": "Open forum infectious diseases",
+   "authors": "Dilu-Keti A, Tovar-Sanchez T, Cuer B, Nkuba-Ndaye A, Mukadi-Bamuleka D, Panzi-Kalunda E",
+   "affiliations": "Ministère de la Santé Publique, Hygiène et Prévoyance Sociale, Kinshasa, Democratic Republic of the Congo. TransVIHMI, Université de Montpellier, Institut de Recherche pour le Développement (IRD), Institut National de la Santé et de la Recherche Médicale (Inserm), Montpellier, France. | TransVIHMI, Université de Montpellier, Institut de Recherche pour le Développement (IRD), Institut National de la Santé et de la Recherche Médicale (Inserm), Montpellier, France. | TransVIHMI, Université de Montpellier, Institut de Recherche pour le Développement (IRD), Institut National de la Santé et de la Recherche Médicale (Inserm), Montpellier, France. | Département de Virologie, Institut National de Recherche Biomédicale (INRB), Kinshasa, Democratic Republic of the Congo. Service de Microbiologie, Département de Biologie Médicale, Cliniques Universitaire de Kinshasa, Université de Kinshasa, Kinshasa, Democratic Républic of the Congo. | Service de Microbiologie, Département de Biologie Médicale, Cliniques Universitaire de Kinshasa, Université de Kinshasa, Kinshasa, Democratic Républic of the Congo. Rodolphe Mérieux Institut National de Recherche Biomédicale (INRB)-Goma, Laboratoire de Virologie, Goma, Democratic Républic of the Congo. | Département de la Santé Communautaire, Institut Supérieur des Techniques Médicales de Kinshasa, Kinshasa, Democratic Républic of the Congo. | Programme National d'Urgences et Actions Humanitaires, Ministère de la Santé Publique, Hygiène et Prévoyance Sociale, Kinshasa, Democratic Républic of the Congo. | Département de Virologie, Institut National de Recherche Biomédicale (INRB), Kinshasa, Democratic Republic of the Congo. Faculté de Médecine, Université Protestante au Congo, Kinshasa, Democratic Républic of the Congo. | Département de Virologie, Institut National de Recherche Biomédicale (INRB), Kinshasa, Democratic Republic of the Congo. Service de Microbiologie, Département de Biologie Médicale, Cliniques Universitaire de Kinshasa, Université de Kinshasa, Kinshasa, Democratic Républic of the Congo. | Département de Virologie, Institut National de Recherche Biomédicale (INRB), Kinshasa, Democratic Republic of the Congo. Service de Microbiologie, Département de Biologie Médicale, Cliniques Universitaire de Kinshasa, Université de Kinshasa, Kinshasa, Democratic Républic of the Congo. | TransVIHMI, Université de Montpellier, Institut de Recherche pour le Développement (IRD), Institut National de la Santé et de la Recherche Médicale (Inserm), Montpellier, France. | Département de Virologie, Institut National de Recherche Biomédicale (INRB), Kinshasa, Democratic Republic of the Congo. Service de Microbiologie, Département de Biologie Médicale, Cliniques Universitaire de Kinshasa, Université de Kinshasa, Kinshasa, Democratic Républic of the Congo. | TransVIHMI, Université de Montpellier, Institut de Recherche pour le Développement (IRD), Institut National de la Santé et de la Recherche Médicale (Inserm), Montpellier, France. Bureau d'expertise et de Recherche Epidémiologique et clinique, Epigreen, Paris, France. | Centre de Connaissances en Santé en République Démocratique du Congo, Kinshasa, Democratic Républic of the Congo. Ecole de Santé Publique, Faculté de Médecine, Université de Lubumbashi, Lubumbashi, Democratic Républic of the Congo. | TransVIHMI, Université de Montpellier, Institut de Recherche pour le Développement (IRD), Institut National de la Santé et de la Recherche Médicale (Inserm), Montpellier, France. | Département de Virologie, Institut National de Recherche Biomédicale (INRB), Kinshasa, Democratic Republic of the Congo. Service de Microbiologie, Département de Biologie Médicale, Cliniques Universitaire de Kinshasa, Université de Kinshasa, Kinshasa, Democratic Républic of the Congo. | ",
+   "extra": {
+    "pmid": "40809394",
+    "pmc": "PMC12345625"
+   },
+   "intervention": [
+    "monoclonal",
+    "other_therapeutic"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "ansuvimab",
+    "monoclonal",
+    "monoclonal antibodies",
+    "monoclonal antibody",
+    "regn-eb3",
+    "remdesivir",
+    "zmapp"
+   ],
+   "id": "785dca06587cff45",
+   "first_seen": "2025-07-31",
+   "reviewed": false,
+   "intervention_labels": [
+    "Monoclonal antibody",
+    "Other therapeutic"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Impact of most promising Ebola therapies on survival: a secondary analysis during the tenth outbreak in the Democratic Republic of Congo",
+   "summary": "MAb114, REGN-EB3, Remdesivir, and ZMapp, which are monoclonal antibody-based treatments, have been compared and shown to be promising therapies against the Ebola Virus Disease (EVD). There has been no comparison between these medications and standard treatment (without antiviral). Our study aimed to examine the contribution of each regimen compared to standard treatment on the survival of EVD patients and assess whether this association was modified by EVD vaccination (rVSV-ZEBOV Ebola vaccine) status.\n\nWe performed a secondary analysis study using retrospective cohort data obtained from fo…",
+   "doi": "10.1186/s12985-025-02766-y",
+   "url": "https://doi.org/10.1186/s12985-025-02766-y",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2025-05-15",
+   "journal": "Virology journal",
+   "authors": "Kikwango EM, Akilimali PZ, Tran NT",
+   "affiliations": "Field Epidemiology training program, Kinshasa School of Public Health, University of Kinshasa, P.O. Box 11850, Kinshasa, Democratic Republic of Congo. | Department of Nutrition, Kinshasa School of Public Health, University of Kinshasa, P.O. Box 11850, Kinshasa, Democratic Republic of Congo. pierre.akilimali@unikin.ac.cd. Patrick Kayembe Research Center, Kinshasa School of Public Health, University of Kinshasa, P.O. Box 11850, Kinshasa, Democratic Republic of Congo. pierre.akilimali@unikin.ac.cd. | Australian Center for Public and Population Health Research, Faculty of Health, University of Technology, P.O. Box 123, Sydney, NSW, 2007, Australia. Faculty of Medicine, University of Geneva, Rue Michel-Servet 1, Genève, 1206, Switzerland.",
+   "extra": {
+    "pmid": "40375337",
+    "pmc": "PMC12079879"
+   },
+   "intervention": [
+    "vaccine",
+    "monoclonal",
+    "other_therapeutic"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "antiviral",
+    "mab114",
+    "monoclonal",
+    "monoclonal antibody",
+    "regn-eb3",
+    "remdesivir",
+    "rvsv",
+    "vaccinated",
+    "vaccination",
+    "vaccine",
+    "zebov",
+    "zmapp"
+   ],
+   "id": "17650254d3bd63b3",
+   "first_seen": "2025-05-15",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine",
+    "Monoclonal antibody",
+    "Other therapeutic"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Ophthalmological manifestations and plasma markers of inflammation in Ebola survivors in post-treatment era",
+   "summary": "This study aimed to characterize ophthalmological manifestations and associated inflammatory markers in EVD survivors in post-treatment era. Case-control study of ophthalmological manifestations and plasma inflammatory biomarker profile in EVD survivors (n = 120) from the 2018-2020 outbreak in DRC, their gender- and age-matched close contacts (n = 120) and non-contact (healthy) controls (n = 120). Expressions of inflammatory markers were assessed using the Olink Explore 384 Assay and compared across study groups before and after stratification by treatment with monoclonal antibodies (mAB114…",
+   "doi": "10.1038/s41598-025-96256-4",
+   "url": "https://doi.org/10.1038/s41598-025-96256-4",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2025-04-29",
+   "journal": "Scientific reports",
+   "authors": "Mwanza JC, Kahindo AK, Mbusa-Kombi J, Mumbere MV, Kitenge RO, McIlwain DR",
+   "affiliations": "Department of Ophthalmology, University of North Carolina at Chapel Hill, 130 Mason Farm Rd, Chapel Hill, NC, 27599, USA. jean-claude_mwanza@med.unc.edu. Department of Ophthalmology, University of Kinshasa, Kinshasa, Democratic Republic of the Congo. jean-claude_mwanza@med.unc.edu. | Department of Ophthalmology, Catholic University of Graben, Butembo, Democratic Republic of the Congo. | Department of Neurology, University of Kinshasa, Kinshasa, Democratic Republic of the Congo. | Department of Neurology & Psychiatry, Catholic University of Graben, Butembo, Democratic Republic of the Congo. | National Emergency Program, Ministry of Health, Kinshasa, Democratic Republic of the Congo. | Department of Microbiology and Immunology, University of Nevada, Reno, NV, USA. | National Institute for Biomedical Research, Kinshasa, Democratic Republic of the Congo. Department of Medical Biology, University of Kinshasa, Kinshasa, Democratic Republic of the Congo. | National Institute for Biomedical Research, Kinshasa, Democratic Republic of the Congo. Department of Medical Biology, University of Kinshasa, Kinshasa, Democratic Republic of the Congo. | Department of Neurology, University of Kinshasa, Kinshasa, Democratic Republic of the Congo. | Michigan Alzheimer's Disease Research Center, University of Michigan, Ann Arbor, MI, USA. | Department of Psychiatry, Michigan State University, East Lansing, MI, USA. Department of Psychiatry, University of Michigan, Ann Arbor, MI, USA. | Department of Psychiatry, College of Osteopathic Medicine, Michigan State University, East Lansing, MI, USA. | Department of Ophthalmology, University of Kinshasa, Kinshasa, Democratic Republic of the Congo. | Department of Ophthalmology, F.I. Proctor Foundation, University of California San Francisco, San Francisco, CA, USA. | Truhlsen Eye Institute, University of Nebraska Medical Center, Omaha, NE, USA. Department of Ophthalmology, Emory University, Atlanta, GA, USA. | National Institute for Biomedical Research, Kinshasa, Democratic Republic of the Congo. Department of Medical Biology, University of Kinshasa, Kinshasa, Democratic Republic of the Congo. | Department of Neurology, University of Kinshasa, Kinshasa, Democratic Republic of the Congo. National Institute for Biomedical Research, Kinshasa, Democratic Republic of the Congo. Department of Neurology, Oregon Health & Sciences University, Portland, OR, USA.",
+   "extra": {
+    "pmid": "40301432",
+    "pmc": "PMC12041595"
+   },
+   "intervention": [
+    "monoclonal",
+    "other_therapeutic"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "antiviral",
+    "mab114",
+    "monoclonal",
+    "monoclonal antibodies",
+    "remdesivir",
+    "zmapp"
+   ],
+   "id": "7e29057d499622f6",
+   "first_seen": "2025-04-29",
+   "reviewed": false,
+   "intervention_labels": [
+    "Monoclonal antibody",
+    "Other therapeutic"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Maternal and fetal survival following Ebola, HIV and Malaria co-infection in the first trimester of gestation in resource-limited setting in Democratic Republic of Congo",
+   "summary": "Ebola-HIV and malaria co-infection is one of the rare clinical situations that remains complex to manage even in the context of unlimited resources. In pregnancy, each of these infections can compromise maternal and fetal outcomes. The synergy of their effects on maternal immunity are often fatal, and survival is an exception, especially in a context of limited resources, such as in Ebola Treatment Units (ETUs).\n\nOur 22-year-old patient, weighing 56 kg and nine weeks pregnant was admitted to the ETU during the 10th outbreak in DRC. She had HIV and had abandoned antiretroviral treatment (ART…",
+   "doi": "10.1186/s12884-025-07265-0",
+   "url": "https://doi.org/10.1186/s12884-025-07265-0",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2025-02-26",
+   "journal": "BMC pregnancy and childbirth",
+   "authors": "Imani-Musimwa P, Grant E, Mukadi-Bamuleka D, Tsongo-Kibendelwa Z, Fraterne-Muhayangabo R, Mbala-Kingebeni P",
+   "affiliations": "Department of Obstetrics and Gynecology, School of Medicine, University of Goma, Goma, Democratic Republic of Congo. princeimani12@gmail.com. Centre Régional d'Expertise en Recherche et Actions Humanitaires (CIERAH-Africa), Goma, Democratic Republic of Congo. princeimani12@gmail.com. School of Public Health, University of Goma, Goma, Democratic Republic of Congo. princeimani12@gmail.com. | Centre Régional d'Expertise en Recherche et Actions Humanitaires (CIERAH-Africa), Goma, Democratic Republic of Congo. | Institut National de Recherche Bio-Médicale (INRB), Kinshasa, Democratic Republic of Congo. Department of Medical Biology, School of Medicine, University of Kinshasa, Kinshasa, Democratic Republic of Congo. Rodolphe Mérieux INRB-Goma Loaboratry, Goma, Democratic Republic of Congo. | School of Public Health, University of Goma, Goma, Democratic Republic of Congo. Department of Internal Medicine, School of Medicine, University of Kisangani, Kisangani, Democratic Republic of Congo. | Centre Régional d'Expertise en Recherche et Actions Humanitaires (CIERAH-Africa), Goma, Democratic Republic of Congo. School of Public Health, University of Goma, Goma, Democratic Republic of Congo. | Department of Medical Biology, School of Medicine, University of Kinshasa, Kinshasa, Democratic Republic of Congo. Rodolphe Mérieux INRB-Goma Loaboratry, Goma, Democratic Republic of Congo. | Ministry of Public Health, Hygiene and Prevention, Kinshasa, Democratic Republic of Congo. | Department of Obstetrics and Gynecology, School of Medicine, Official University of Bukavu, Bukavu, Democratic Republic of Congo. | Department of Surgery, School of Medicine, Official University of Bukavu, Bukavu, Democratic Republic of Congo. | Department of Internal Medicine, School of Medicine, University of Goma, Goma, Democratic Republic of Congo. | Department of Obstetrics and Gynecology, School of Medicine, University of Kisangani, Kisangani, Democratic Republic of Congo. | School of Public Health, University of Goma, Goma, Democratic Republic of Congo. Department of Pediatrics and Neonatology, School of Medicine, University of Goma, Goma, Democratic Republic of Congo. | Department of Obstetrics and Gynecology, School of Medicine, University of Kinshasa, Kinshasa, Democratic Republic of Congo. | Center for Humanitarian Health, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, United States of America.",
+   "extra": {
+    "pmid": "40011840",
+    "pmc": "PMC11863912"
+   },
+   "intervention": [
+    "vaccine",
+    "monoclonal"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "mab114",
+    "monoclonal",
+    "monoclonal antibody",
+    "rvsv",
+    "vaccinated",
+    "zebov"
+   ],
+   "id": "6c6bdc84544c1520",
+   "first_seen": "2025-02-26",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine",
+    "Monoclonal antibody"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Ervebo and Zabdeno booster vaccines against Ebola virus in DRC (mix-and-match RCT)",
+   "summary": "A Phase 3 randomized controlled trial evaluating Ervebo and Zabdeno booster vaccination in people previously vaccinated with the Zabdeno/Mvabea or Ervebo schedules in the DRC.",
+   "url": "https://clinicaltrials.gov/study/NCT06126822",
+   "source": "ClinicalTrials.gov",
+   "source_type": "clinical_trial",
+   "published_date": "2025-02-25",
+   "journal": "",
+   "authors": "Institute of Tropical Medicine, Belgium",
+   "affiliations": "Institute of Tropical Medicine, Belgium | Congo",
+   "intervention_raw": "Ervebo booster Zabdeno booster vaccine",
+   "extra": {
+    "nct_id": "NCT06126822",
+    "status": "RECRUITING",
+    "phase": [
+     "PHASE3"
+    ],
+    "sponsor": "Institute of Tropical Medicine, Belgium",
+    "countries": [
+     "Congo"
+    ]
+   },
+   "doi": "",
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "booster",
+    "ervebo",
+    "mvabea",
+    "vaccinated",
+    "vaccination",
+    "vaccine",
+    "zabdeno"
+   ],
+   "id": "dadd51f8303c2ebc",
+   "first_seen": "2025-02-25",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Clinical trial",
+   "channel": "ClinicalTrials.gov",
+   "is_new": false
+  },
+  {
+   "title": "Ebola Outbreak Response in the DRC with rVSV-ZEBOV-GP Ring Vaccination",
+   "summary": "At the beginning of the 2018-2020 outbreak of Ebola virus disease (EVD) in eastern Democratic Republic of Congo (DRC), no vaccine had been licensed. However, cluster-randomized evidence from Guinea in 2015 had indicated that ring vaccination around new cases (targeting contacts and contacts-of-contacts) with the use of single-dose live-replicating rVSV-ZEBOV-GP vaccine reduced EVD rates starting 10 days after vaccination. Thus, ring vaccination was added to the standard control measures for that outbreak.\n\nIn this study, we evaluated the incidence of EVD within the first 9 days after vaccin…",
+   "doi": "10.1056/NEJMoa1904387",
+   "url": "https://doi.org/10.1056/NEJMoa1904387",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2024-12-19",
+   "journal": "The New England journal of medicine",
+   "authors": "Muyembe JJ, Pan H, Peto R, Diallo A, Touré A, Mbala-Kingebene P",
+   "affiliations": "From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | From the Institut National de Recherche Biomédicale and Faculté de Médecine, Université de Kinshasa (J.-J.M., P.M.-K., S.M., S.A.-M.), and the Ministry of Public Health (S.H.B.M., N.T., E.M.M.) - both in Kinshasa, Democratic Republic of Congo; the Nuffield Department of Population Health, University of Oxford, Oxford (H.P., R.P.), and the London School of Hygiene and Tropical Medicine, London (C.H.R., M.M.) - both in the United Kingdom; University of Florida, Gainesville (I.M.L.); and the World Health Organization, Geneva (A.D., A.T., G.E., P.-S.G., X.R.B., M.N.K.Y., A.S.G., I.-S.F., P.S., M.J.R., A.M.H.-R.). | ",
+   "extra": {
+    "pmid": "39693543",
+    "pmc": ""
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "rvsv",
+    "vaccinated",
+    "vaccination",
+    "vaccine",
+    "zebov"
+   ],
+   "id": "f8da304d27b46dab",
+   "first_seen": "2024-12-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Recent advances in the treatment of Ebola disease: A brief overview",
+   "summary": "Ebola disease (EBOD) remains a significant and ongoing threat to African countries, characterized by a mortality rate of 25% to 90% in patients with high viral load and significant transmissibility. The most recent outbreak, reported in Uganda in September 2022, was declared officially over in January 2023. However, it was caused by the Sudan Ebola virus (SUDV), a culprit species not previously reported for a decade. Since its discovery in 1976, the management of EBOD has primarily relied on supportive care. Following the devastating outbreak in West Africa from 2014 to 2016 secondary to th…",
+   "doi": "10.1371/journal.ppat.1012038",
+   "url": "https://doi.org/10.1371/journal.ppat.1012038",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2024-03-15",
+   "journal": "PLoS pathogens",
+   "authors": "El Ayoubi LW, Mahmoud O, Zakhour J, Kanj SS",
+   "affiliations": "Division of Infectious Diseases, Department of Internal Medicine, Faculty of Medicine, American University of Beirut, Beirut, Lebanon. | Division of Public Health, Infectious Diseases and Occupational Medicine, Department of Medicine, Mayo Clinic, Rochester, Minnesota, United States of America. | Internal Medicine Department, Henry Ford Hospital, Detroit, Michigan, United States of America. | Division of Infectious Diseases, Department of Internal Medicine, Faculty of Medicine, American University of Beirut, Beirut, Lebanon. Center for Infectious Diseases Research, American University of Beirut, Beirut, Lebanon.",
+   "extra": {
+    "pmid": "38489257",
+    "pmc": "PMC10942026"
+   },
+   "intervention": [
+    "vaccine",
+    "monoclonal"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "ebanga",
+    "ervebo",
+    "inmazeb",
+    "monoclonal",
+    "monoclonal antibodies",
+    "vaccine"
+   ],
+   "id": "f69998b7c335fdfd",
+   "first_seen": "2024-03-15",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine",
+    "Monoclonal antibody"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Safety and immunogenicity of Sudan ebolavirus vaccines in Uganda",
+   "summary": "A Phase 1/2 randomized placebo-controlled trial of Sudan ebolavirus vaccine candidates (cAd3, ChAdOx1, rVSV-SUDV) in Uganda.",
+   "url": "https://clinicaltrials.gov/study/NCT05909358",
+   "source": "ClinicalTrials.gov",
+   "source_type": "clinical_trial",
+   "published_date": "2024-01-15",
+   "journal": "",
+   "authors": "Makerere University",
+   "affiliations": "Makerere University | Uganda",
+   "intervention_raw": "cAd3 ChAdOx1 rVSV-SUDV vaccine",
+   "extra": {
+    "nct_id": "NCT05909358",
+    "status": "RECRUITING",
+    "phase": [
+     "PHASE1",
+     "PHASE2"
+    ],
+    "sponsor": "Makerere University",
+    "countries": [
+     "Uganda"
+    ]
+   },
+   "doi": "",
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "immunogenicity",
+    "rvsv",
+    "vaccine"
+   ],
+   "id": "7eaca6f59e7cba56",
+   "first_seen": "2024-01-15",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Clinical trial",
+   "channel": "ClinicalTrials.gov",
+   "is_new": false
+  },
+  {
+   "title": "Prevention and post-exposure management of occupational exposure to Ebola virus",
+   "summary": "There have been significant advances in the prevention and management of Ebola virus disease (EVD) caused by Zaire Ebola virus (ZEBOV), including the development of two effective vaccines, rVSV-ZEBOV and Ad26.ZEBOV/MVA-BN-Filo. In addition, ZEBOV monoclonal antibodies have become first-line therapy for EVD. However, the 2022-23 outbreak of Sudan Ebola virus (SUDV) in Uganda has highlighted the gap in current therapies and vaccines, whose efficacy is uncertain against non-ZEBOV species. Health-care and laboratory staff working in EVD treatment centres or Ebola virus diagnostic and research l…",
+   "doi": "10.1016/S1473-3099(23)00376-6",
+   "url": "https://doi.org/10.1016/S1473-3099(23)00376-6",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2023-09-15",
+   "journal": "The Lancet. Infectious diseases",
+   "authors": "Moso MA, Lim CK, Williams E, Marshall C, McCarthy J, Williamson DA",
+   "affiliations": "Victorian Infectious Diseases Reference Laboratory, The Peter Doherty Institute for Infection and Immunity, Melbourne, VIC, Australia; Department of Infectious Diseases, The University of Melbourne, The Peter Doherty Institute for Infection and Immunity, Melbourne, VIC, Australia; Victorian Infectious Diseases Service, The Royal Melbourne Hospital, The Peter Doherty Institute for Infection and Immunity, Melbourne, VIC, Australia. Electronic address: michael.moso@mh.org.au. | Victorian Infectious Diseases Reference Laboratory, The Peter Doherty Institute for Infection and Immunity, Melbourne, VIC, Australia. | Victorian Infectious Diseases Reference Laboratory, The Peter Doherty Institute for Infection and Immunity, Melbourne, VIC, Australia. | Department of Infectious Diseases, The University of Melbourne, The Peter Doherty Institute for Infection and Immunity, Melbourne, VIC, Australia; Victorian Infectious Diseases Service, The Royal Melbourne Hospital, The Peter Doherty Institute for Infection and Immunity, Melbourne, VIC, Australia. | Department of Infectious Diseases, The University of Melbourne, The Peter Doherty Institute for Infection and Immunity, Melbourne, VIC, Australia; Victorian Infectious Diseases Service, The Royal Melbourne Hospital, The Peter Doherty Institute for Infection and Immunity, Melbourne, VIC, Australia. | Victorian Infectious Diseases Reference Laboratory, The Peter Doherty Institute for Infection and Immunity, Melbourne, VIC, Australia; Department of Infectious Diseases, The University of Melbourne, The Peter Doherty Institute for Infection and Immunity, Melbourne, VIC, Australia.",
+   "extra": {
+    "pmid": "37722397",
+    "pmc": ""
+   },
+   "intervention": [
+    "vaccine",
+    "monoclonal",
+    "other_therapeutic"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "ad26",
+    "ad26.zebov",
+    "monoclonal",
+    "monoclonal antibodies",
+    "mva-bn",
+    "post-exposure prophylaxis",
+    "rvsv",
+    "zebov"
+   ],
+   "id": "820d1c7e9813b51c",
+   "first_seen": "2023-09-15",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine",
+    "Monoclonal antibody",
+    "Other therapeutic"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Antibody responses to recombinant vesicular stomatitis virus-Zaire Ebolavirus vaccination for Ebola virus disease across doses and continents: 5-year durability",
+   "summary": "To report 5-year persistence and avidity of antibodies produced by the live-attenuated recombinant vesicular stomatitis virus (rVSV) expressing the Zaire Ebolavirus (ZEBOV) glycoprotein (GP), known as rVSV-ZEBOV (Ervebo®).\n\nHealthy adults vaccinated with 300,000 or 10-50 million plaque-forming units of rVSV-ZEBOV in the WHO-coordinated trials of 2014-2015 were followed for up to 4 (Lambaréné, Gabon) and 5 (Geneva, Switzerland) years. We report seropositivity rates, geometric mean titres (GMTs), and population distribution of ZEBOV-GP ELISA IgG antibodies, neutralizing antibodies (pseudoviru…",
+   "doi": "10.1016/j.cmi.2023.08.026",
+   "url": "https://doi.org/10.1016/j.cmi.2023.08.026",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2023-09-03",
+   "journal": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
+   "authors": "Huttner A, Agnandji ST, Engler O, Hooper JW, Kwilas S, Ricks K",
+   "affiliations": "Division of Infectious Diseases, University Hospitals of Geneva, Geneva, Switzerland; Clinical Trials Unit, Centre for Clinical Research, University Hospitals of Geneva and Faculty of Medicine, Geneva, Switzerland; Centre for Vaccinology, University Hospitals of Geneva and Faculty of Medicine, Geneva, Switzerland. Electronic address: Angela.huttner@hcuge.ch. | Centre de Recherches Médicales de Lambaréné, Campus CERMEL, Lambaréné, Gabon; Institut für Tropenmedizin, Reisemedizin und Humanparasitologie Universitätsklinikum Tübingen, Tübingen, Germany; GermanCenter for Infection Research (DZIF), Partner Site Tübingen, Tübingen, Germany. | Spiez Laboratory, Federal Office for Civil Protection, Spiez, Switzerland. | Foundational Science Directorate, US Army Medical Research Institute of Infectious Diseases, Frederick, MD, USA. | Foundational Science Directorate, US Army Medical Research Institute of Infectious Diseases, Frederick, MD, USA. | Foundational Science Directorate, US Army Medical Research Institute of Infectious Diseases, Frederick, MD, USA. | Foundational Science Directorate, US Army Medical Research Institute of Infectious Diseases, Frederick, MD, USA. | Spiez Laboratory, Federal Office for Civil Protection, Spiez, Switzerland. | Department of Microbiology and Immunology, Sahlgrenska Academy, University of Gothenburg, Gothenburg, Sweden. | Spiez Laboratory, Federal Office for Civil Protection, Spiez, Switzerland; Institute of Microbiology, University Hospital Center and University of Lausanne, Lausanne, Switzerland. | Centre de Recherches Médicales de Lambaréné, Campus CERMEL, Lambaréné, Gabon; Institut für Tropenmedizin, Reisemedizin und Humanparasitologie Universitätsklinikum Tübingen, Tübingen, Germany; GermanCenter for Infection Research (DZIF), Partner Site Tübingen, Tübingen, Germany. | Spiez Laboratory, Federal Office for Civil Protection, Spiez, Switzerland. | Laboratory of Molecular Microbiology and Biotechnology, Department of Medical Biotechnologies, University of Siena, Siena, Italy. | Department of Infectious Diseases, Leiden Hospital Centre and University Hospital, Leiden, The Netherlands. | Department of Microbiology and Immunology, Sahlgrenska Academy, University of Gothenburg, Gothenburg, Sweden; Vaccine Evaluation Centre, BC Children's Hospital Research Institute, University of British Columbia, Vancouver, BC, Canada. | Centre for Vaccinology, University Hospitals of Geneva and Faculty of Medicine, Geneva, Switzerland. |  |  | ",
+   "extra": {
+    "pmid": "37661067",
+    "pmc": ""
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": true,
+   "keywords_matched": [
+    "ervebo",
+    "immunization",
+    "rvsv",
+    "vaccinated",
+    "vaccination",
+    "zebov"
+   ],
+   "id": "5dd41beb0200f5aa",
+   "first_seen": "2023-09-03",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "rVSVΔG-SEBOV-GP Sudan ebolavirus vaccine (Phase 1)",
+   "summary": "A Phase 1, single-blind, placebo-controlled dose-escalation trial of the rVSVΔG-SEBOV-GP Sudan ebolavirus vaccine at three dose levels in healthy adults.",
+   "url": "https://clinicaltrials.gov/study/NCT05724472",
+   "source": "ClinicalTrials.gov",
+   "source_type": "clinical_trial",
+   "published_date": "2023-06-19",
+   "journal": "",
+   "authors": "International AIDS Vaccine Initiative",
+   "affiliations": "International AIDS Vaccine Initiative | United States,Kenya",
+   "intervention_raw": "rVSVΔG-SEBOV-GP vaccine",
+   "extra": {
+    "nct_id": "NCT05724472",
+    "status": "COMPLETED",
+    "phase": [
+     "PHASE1"
+    ],
+    "sponsor": "International AIDS Vaccine Initiative",
+    "countries": [
+     "United States",
+     "Kenya"
+    ]
+   },
+   "doi": "",
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "4a74dbae8740e6b0",
+   "first_seen": "2023-06-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Clinical trial",
+   "channel": "ClinicalTrials.gov",
+   "is_new": false
+  },
+  {
+   "title": "Multimerization of Ebola GPΔmucin on protein nanoparticle vaccines has minimal effect on elicitation of neutralizing antibodies",
+   "summary": "Ebola virus (EBOV), a member of thefamily of viruses and a causative agent of Ebola Virus Disease (EVD), is a highly pathogenic virus that has caused over twenty outbreaks in Central and West Africa since its formal discovery in 1976. The only FDA-licensed vaccine against Ebola virus, rVSV-ZEBOV-GP (Ervebo), is efficacious against infection following just one dose. However, since this vaccine contains a replicating virus, it requires ultra-low temperature storage which imparts considerable logistical challenges for distribution and access. Additional vaccine candidates could provide expande…",
+   "doi": "10.3389/fimmu.2022.942897",
+   "url": "https://doi.org/10.3389/fimmu.2022.942897",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2022-08-24",
+   "journal": "Frontiers in immunology",
+   "authors": "Powell AE, Xu D, Roth GA, Zhang K, Chiu W, Appel EA",
+   "affiliations": "Department of Biochemistry and Stanford ChEM-H, Stanford University, Stanford, CA, United States. | Department of Biochemistry and Stanford ChEM-H, Stanford University, Stanford, CA, United States. | Department of Bioengineering, Stanford University, Stanford, CA, United States. | Department of Bioengineering, Stanford University, Stanford, CA, United States. | Department of Bioengineering, Stanford University, Stanford, CA, United States. Chan Zuckerberg Biohub, San Francisco, CA, United States. Division of CryoEM and Bioimaging, Stanford Synchrotron Radiation Lightsource, Stanford Linear Accelerator Center National Accelerator Laboratory, Menlo Park, CA, United States. | Department of Bioengineering, Stanford University, Stanford, CA, United States. | Department of Biochemistry and Stanford ChEM-H, Stanford University, Stanford, CA, United States. Chan Zuckerberg Biohub, San Francisco, CA, United States.",
+   "extra": {
+    "pmid": "36091016",
+    "pmc": "PMC9449635"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "animal",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "ervebo",
+    "immunization",
+    "rvsv",
+    "vaccine",
+    "zebov"
+   ],
+   "id": "9ff1b6cbe4977c44",
+   "first_seen": "2022-08-24",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Bivalent ChAdOx1 vaccine against Zaire and Sudan Ebola species",
+   "summary": "A Phase 1 study to determine safety and immunogenicity of a bivalent ChAdOx1-vectored vaccine (ChAdOx1 biEBOV) against Zaire and Sudan Ebola virus species in healthy adults.",
+   "url": "https://clinicaltrials.gov/study/NCT05301504",
+   "source": "ClinicalTrials.gov",
+   "source_type": "clinical_trial",
+   "published_date": "2022-03-30",
+   "journal": "",
+   "authors": "University of Oxford",
+   "affiliations": "University of Oxford | Tanzania",
+   "intervention_raw": "ChAdOx1 biEBOV vaccine",
+   "extra": {
+    "nct_id": "NCT05301504",
+    "status": "COMPLETED",
+    "phase": [
+     "PHASE1"
+    ],
+    "sponsor": "University of Oxford",
+    "countries": [
+     "Tanzania"
+    ]
+   },
+   "doi": "",
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "immunogenicity",
+    "vaccine"
+   ],
+   "id": "580b0dc045de2a69",
+   "first_seen": "2022-03-30",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Clinical trial",
+   "channel": "ClinicalTrials.gov",
+   "is_new": false
+  },
+  {
+   "title": "Rapid Protection from COVID-19 in Nonhuman Primates Vaccinated Intramuscularly but Not Intranasally with a Single Dose of a Vesicular Stomatitis Virus-Based Vaccine",
+   "summary": "The ongoing pandemic of coronavirus (CoV) disease 2019 (COVID-19) continues to exert a significant burden on health care systems worldwide. With limited treatments available, vaccination remains an effective strategy to counter transmission of severe acute respiratory syndrome CoV 2 (SARS-CoV-2). Recent discussions concerning vaccination strategies have focused on identifying vaccine platforms, number of doses, route of administration, and time to reach peak immunity against SARS-CoV-2. Here, we generated a single-dose, fast-acting vesicular stomatitis virus (VSV)-based vaccine derived from…",
+   "doi": "10.1128/mbio.03379-21",
+   "url": "https://doi.org/10.1128/mbio.03379-21",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2022-01-11",
+   "journal": "mBio",
+   "authors": "Furuyama W, Shifflett K, Pinski AN, Griffin AJ, Feldmann F, Okumura A",
+   "affiliations": "Laboratory of Virology, Division of Intramural Research, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Hamilton, Montana, USA. | Laboratory of Virology, Division of Intramural Research, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Hamilton, Montana, USA. | Department of Molecular Biology and Biochemistry, University of California-Irvinegrid.266093.8, Irvine, California, USA. | Laboratory of Virology, Division of Intramural Research, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Hamilton, Montana, USA. | Rocky Mountain Veterinary Branch, Division of Intramural Research, National Institute of Allergy and Infectious Diseasesgrid.419681.3, National Institutes of Health, Hamilton, Montana, USA. | Laboratory of Virology, Division of Intramural Research, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Hamilton, Montana, USA. | Laboratory of Virology, Division of Intramural Research, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Hamilton, Montana, USA. | Department of Molecular Biology and Biochemistry, University of California-Irvinegrid.266093.8, Irvine, California, USA. | Rocky Mountain Veterinary Branch, Division of Intramural Research, National Institute of Allergy and Infectious Diseasesgrid.419681.3, National Institutes of Health, Hamilton, Montana, USA. | Rocky Mountain Veterinary Branch, Division of Intramural Research, National Institute of Allergy and Infectious Diseasesgrid.419681.3, National Institutes of Health, Hamilton, Montana, USA. | Rocky Mountain Veterinary Branch, Division of Intramural Research, National Institute of Allergy and Infectious Diseasesgrid.419681.3, National Institutes of Health, Hamilton, Montana, USA. | Rocky Mountain Veterinary Branch, Division of Intramural Research, National Institute of Allergy and Infectious Diseasesgrid.419681.3, National Institutes of Health, Hamilton, Montana, USA. | Department of Molecular Biology and Biochemistry, University of California-Irvinegrid.266093.8, Irvine, California, USA. | Laboratory of Virology, Division of Intramural Research, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Hamilton, Montana, USA. | Laboratory of Virology, Division of Intramural Research, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Hamilton, Montana, USA.",
+   "extra": {
+    "pmid": "35012339",
+    "pmc": "PMC8749411"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "animal",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "immunogenicity",
+    "rvsv",
+    "vaccinated",
+    "vaccination",
+    "vaccine",
+    "zebov"
+   ],
+   "id": "c8ed78d5d3cd1384",
+   "first_seen": "2022-01-11",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Monoclonal antibody and vaccine post-exposure prophylaxis in high-risk Ebola contacts",
+   "summary": "A Phase 2 pilot evaluating a post-exposure prophylaxis strategy combining the monoclonal antibody ansuvimab with the Ervebo vaccine in high-risk contacts of Ebola virus disease.",
+   "url": "https://clinicaltrials.gov/study/NCT04822376",
+   "source": "ClinicalTrials.gov",
+   "source_type": "clinical_trial",
+   "published_date": "2021-10-17",
+   "journal": "",
+   "authors": "ANRS, Emerging Infectious Diseases",
+   "affiliations": "ANRS, Emerging Infectious Diseases | Guinea",
+   "intervention_raw": "ansuvimab monoclonal antibody Ervebo vaccine",
+   "extra": {
+    "nct_id": "NCT04822376",
+    "status": "COMPLETED",
+    "phase": [
+     "PHASE2"
+    ],
+    "sponsor": "ANRS, Emerging Infectious Diseases",
+    "countries": [
+     "Guinea"
+    ]
+   },
+   "doi": "",
+   "intervention": [
+    "vaccine",
+    "monoclonal",
+    "other_therapeutic"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "ansuvimab",
+    "ervebo",
+    "monoclonal",
+    "monoclonal antibody",
+    "post-exposure prophylaxis",
+    "vaccine"
+   ],
+   "id": "3c38b6f6623f8cc1",
+   "first_seen": "2021-10-17",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine",
+    "Monoclonal antibody",
+    "Other therapeutic"
+   ],
+   "source_type_label": "Clinical trial",
+   "channel": "ClinicalTrials.gov",
+   "is_new": false
+  },
+  {
+   "title": "Humanized monoclonal antibody (Gamezumab) for emergency prevention of Ebola",
+   "summary": "An open study of the safety and pharmacokinetics of Gamezumab, a humanized monoclonal antibody drug for emergency prevention of Ebola virus disease.",
+   "url": "https://clinicaltrials.gov/study/NCT04717830",
+   "source": "ClinicalTrials.gov",
+   "source_type": "clinical_trial",
+   "published_date": "2021-02-15",
+   "journal": "",
+   "authors": "Gamaleya Research Institute",
+   "affiliations": "Gamaleya Research Institute | Russia",
+   "intervention_raw": "Gamezumab monoclonal antibody",
+   "extra": {
+    "nct_id": "NCT04717830",
+    "status": "COMPLETED",
+    "phase": [
+     "PHASE1"
+    ],
+    "sponsor": "Gamaleya Research Institute",
+    "countries": [
+     "Russia"
+    ]
+   },
+   "doi": "",
+   "intervention": [
+    "monoclonal"
+   ],
+   "species": "na",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "gamezumab",
+    "monoclonal",
+    "monoclonal antibody"
+   ],
+   "id": "8c1b2121b66b1285",
+   "first_seen": "2021-02-15",
+   "reviewed": false,
+   "intervention_labels": [
+    "Monoclonal antibody"
+   ],
+   "source_type_label": "Clinical trial",
+   "channel": "ClinicalTrials.gov",
+   "is_new": false
+  },
+  {
+   "title": "cAd3-EBO-S and cAd3-Marburg filovirus vaccines (Phase 1)",
+   "summary": "A Phase 1b trial evaluating safety, tolerability and immune responses of two monovalent chimpanzee-adenovirus-vectored filovirus vaccines (cAd3-EBO-S and cAd3-Marburg) in healthy adults.",
+   "url": "https://clinicaltrials.gov/study/NCT04723602",
+   "source": "ClinicalTrials.gov",
+   "source_type": "clinical_trial",
+   "published_date": "2021-01-06",
+   "journal": "",
+   "authors": "Albert B. Sabin Vaccine Institute",
+   "affiliations": "Albert B. Sabin Vaccine Institute | United States",
+   "intervention_raw": "cAd3-EBO-S cAd3-Marburg vaccine",
+   "extra": {
+    "nct_id": "NCT04723602",
+    "status": "COMPLETED",
+    "phase": [
+     "PHASE1"
+    ],
+    "sponsor": "Albert B. Sabin Vaccine Institute",
+    "countries": [
+     "United States"
+    ]
+   },
+   "doi": "",
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "df40e2d2da16ec05",
+   "first_seen": "2021-01-06",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Clinical trial",
+   "channel": "ClinicalTrials.gov",
+   "is_new": false
+  },
+  {
+   "title": "Ad26.ZEBOV / MVA-BN-Filo Ebola vaccine regimen in healthy pregnant women",
+   "summary": "A Phase 3 open-label randomized trial of the two-dose Ad26.ZEBOV followed by MVA-BN-Filo Ebola vaccine regimen in healthy pregnant women.",
+   "url": "https://clinicaltrials.gov/study/NCT04556526",
+   "source": "ClinicalTrials.gov",
+   "source_type": "clinical_trial",
+   "published_date": "2020-10-05",
+   "journal": "",
+   "authors": "Janssen Vaccines & Prevention B.V.",
+   "affiliations": "Janssen Vaccines & Prevention B.V. | Congo,Rwanda",
+   "intervention_raw": "Ad26.ZEBOV MVA-BN-Filo vaccine",
+   "extra": {
+    "nct_id": "NCT04556526",
+    "status": "COMPLETED",
+    "phase": [
+     "PHASE3"
+    ],
+    "sponsor": "Janssen Vaccines & Prevention B.V.",
+    "countries": [
+     "Congo",
+     "Rwanda"
+    ]
+   },
+   "doi": "",
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "ad26",
+    "ad26.zebov",
+    "mva-bn",
+    "vaccine",
+    "zebov"
+   ],
+   "id": "c34867fd926c462d",
+   "first_seen": "2020-10-05",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Clinical trial",
+   "channel": "ClinicalTrials.gov",
+   "is_new": false
+  },
+  {
+   "title": "Prior vaccination with recombinant Vesicular Stomatitis Virus - Zaire Ebolavirus vaccine is associated with improved survival among patients with Ebolavirus infection",
+   "summary": "The second largest Ebolavirus disease (EVD) outbreak ever recorded is currently ongoing in Eastern Democratic Republic of the Congo (DRC). This is the first outbreak for which the recombinant Vesicular Stomatitis Virus - Zaire Ebolavirus (rVSV-ZEBOV) candidate vaccine has been widely administered, using a ring vaccination strategy. We examined whether prior vaccination with rVSV-ZEBOV impacts viral load, organ impairment, and survival among patients with EVD admitted to Ebola Treatment Units (ETUs) in the DRC. We conducted a retrospective observational study of patients admitted to the ETUs…",
+   "doi": "10.1016/j.vaccine.2020.02.044",
+   "url": "https://doi.org/10.1016/j.vaccine.2020.02.044",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2020-02-21",
+   "journal": "Vaccine",
+   "authors": "Kasereka MC, Ericson AD, Conroy AL, Tumba L, Mwesha OD, Hawkes MT",
+   "affiliations": "Department of Medicine, Université Catholique du Graben, Butembo, The Democratic Republic of the Congo. | University of Alberta, Edmonton, AB, Canada. | Ryan White Center for Pediatric Infectious Diseases and Global Health, Indiana University School of Medicine, Indianapolis, USA. | Coordination Prise en Charge Maladie à Virus Ebola, World Health Organization, The Democratic Republic of the Congo. | Ebola Virus Disease Infection Prevention and Control, World Health Organization, The Democratic Republic of the Congo. | Department of Pediatrics, University of Alberta, Edmonton, AB, Canada; Department of Medical Microbiology and Immunology, University of Alberta, Edmonton, AB, Canada; School of Public Health, University of Alberta, Edmonton, AB, Canada; Distinguished Researcher, Stollery Science Lab, University of Alberta, Edmonton, AB, Canada; Women and Children's Research Institute, University of Alberta, Edmonton, AB, Canada. Electronic address: mthawkes@ualberta.ca.",
+   "extra": {
+    "pmid": "32093984",
+    "pmc": ""
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": true,
+   "keywords_matched": [
+    "rvsv",
+    "vaccinated",
+    "vaccination",
+    "vaccine",
+    "zebov"
+   ],
+   "id": "746bc424dee54f4f",
+   "first_seen": "2020-02-21",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "Recombinant subunit vaccines protect guinea pigs from lethal Ebola virus challenge",
+   "summary": "Ebola virus (EBOV) is among the deadliest pathogens known to man causing infrequent outbreaks of hemorrhagic disease. In humans, the case fatality rates in the outbreaks can reach 90%. During the West African epidemic almost 30,000 people were infected and of these over 11,000 fatalities were reported. Currently, we are facing an uncontained larger outbreak in the Democratic Republic of the Congo. Even though EBOV was discovered in 1976, extensive efforts to develop countermeasures, particularly therapeutics and vaccines, started late and there is still no FDA-approved product available. Ne…",
+   "doi": "10.1016/j.vaccine.2019.06.035",
+   "url": "https://doi.org/10.1016/j.vaccine.2019.06.035",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2019-07-16",
+   "journal": "Vaccine",
+   "authors": "Lehrer AT, Wong TS, Lieberman MM, Johns L, Medina L, Feldmann F",
+   "affiliations": "PanThera Biopharma, LLC, Aiea, HI 96701, United States; University of Hawaii at Manoa, John A. Burns School of Medicine, Honolulu, HI 96813, United States. Electronic address: lehrer@hawaii.edu. | PanThera Biopharma, LLC, Aiea, HI 96701, United States; University of Hawaii at Manoa, John A. Burns School of Medicine, Honolulu, HI 96813, United States. | University of Hawaii at Manoa, John A. Burns School of Medicine, Honolulu, HI 96813, United States. | PanThera Biopharma, LLC, Aiea, HI 96701, United States; University of Hawaii at Manoa, John A. Burns School of Medicine, Honolulu, HI 96813, United States. | University of Hawaii at Manoa, John A. Burns School of Medicine, Honolulu, HI 96813, United States. | Rocky Mountain Veterinary Branch, Division of Intramural Research, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Hamilton, MT 59840, United States. | Laboratory of Virology, Division of Intramural Research, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Hamilton, MT 59840, United States. | Laboratory of Virology, Division of Intramural Research, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Hamilton, MT 59840, United States. Electronic address: marzia@niaid.nih.gov.",
+   "extra": {
+    "pmid": "31324500",
+    "pmc": "PMC6825541"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "animal",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "immunogenicity",
+    "rvsv",
+    "vaccine",
+    "zebov"
+   ],
+   "id": "b70e8e201451995c",
+   "first_seen": "2019-07-16",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "rVSVΔG-ZEBOV-GP (V920) Ebola vaccine in HIV-infected adults and adolescents",
+   "summary": "A Phase 2 randomized, double-blind, placebo-controlled study of the V920 (rVSVΔG-ZEBOV-GP) Ebola vaccine in HIV-infected adults and adolescents, run by the Canadian Immunization Research Network.",
+   "url": "https://clinicaltrials.gov/study/NCT03031912",
+   "source": "ClinicalTrials.gov",
+   "source_type": "clinical_trial",
+   "published_date": "2017-08-01",
+   "journal": "",
+   "authors": "Canadian Immunization Research Network",
+   "affiliations": "Canadian Immunization Research Network | Canada",
+   "intervention_raw": "V920 rVSVΔG-ZEBOV-GP vaccine",
+   "extra": {
+    "nct_id": "NCT03031912",
+    "status": "COMPLETED",
+    "phase": [
+     "PHASE2"
+    ],
+    "sponsor": "Canadian Immunization Research Network",
+    "countries": [
+     "Canada"
+    ]
+   },
+   "doi": "",
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": true,
+   "keywords_matched": [
+    "immunization",
+    "v920",
+    "vaccine",
+    "zebov"
+   ],
+   "id": "f93cbb9c157d4210",
+   "first_seen": "2017-08-01",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Clinical trial",
+   "channel": "ClinicalTrials.gov",
+   "is_new": false
+  },
+  {
+   "title": "Efficacy and effectiveness of an rVSV-vectored vaccine in preventing Ebola virus disease: final results from the Guinea ring vaccination, open-label, cluster-randomised trial (Ebola Ça Suffit!)",
+   "summary": "rVSV-ZEBOV is a recombinant, replication competent vesicular stomatitis virus-based candidate vaccine expressing a surface glycoprotein of Zaire Ebolavirus. We tested the effect of rVSV-ZEBOV in preventing Ebola virus disease in contacts and contacts of contacts of recently confirmed cases in Guinea, west Africa.\n\nWe did an open-label, cluster-randomised ring vaccination trial (Ebola ça Suffit!) in the communities of Conakry and eight surrounding prefectures in the Basse-Guinée region of Guinea, and in Tomkolili and Bombali in Sierra Leone. We assessed the efficacy of a single intramuscular…",
+   "doi": "10.1016/S0140-6736(16)32621-6",
+   "url": "https://doi.org/10.1016/S0140-6736(16)32621-6",
+   "source": "PubMed",
+   "source_type": "journal_article",
+   "published_date": "2016-12-23",
+   "journal": "Lancet (London, England)",
+   "authors": "Henao-Restrepo AM, Camacho A, Longini IM, Watson CH, Edmunds WJ, Egger M",
+   "affiliations": "WHO, Geneva, Switzerland. Electronic address: henaorestrepoa@who.int. | Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine, London, UK. | Department of Biostatistics, University of Florida, Gainesville, FL, USA. | Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine, London, UK. | Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine, London, UK. | Institute of Social and Preventive Medicine, University of Bern, Bern, Switzerland; Centre for Infectious Disease Epidemiology and Research, University of Cape Town, Cape Town, South Africa. | Public Health England, London, UK. | Department of Biostatistics, University of Florida, Gainesville, FL, USA. | Clinical Trials Unit Bern, University of Bern, Bern, Switzerland. | WHO, Geneva, Switzerland; Centre National d'Appui à la Lutte contre la Maladie, Bamako, Mali. | Médecins Sans Frontières, Brussels, Belgium. | Bernard Nocht Institute for Tropical Medicine, University of Hamburg, Hamburg, Germany. | WHO, Geneva, Switzerland. | Epicentre, Paris, France. | Bernard Nocht Institute for Tropical Medicine, University of Hamburg, Hamburg, Germany. | WHO, Geneva, Switzerland. | Clinical Trials Unit Bern, University of Bern, Bern, Switzerland. | Division of Infectious Disease Control, Norwegian Institute of Public Health, Oslo, Norway. | Center Of Excellence For Training, Research On Malaria & Priority Diseases In Guinea, Conakry, Guinea. | Ebola Response, Ministry of Health, Conakry, Guinea. | WHO, Geneva, Switzerland. | Bernard Nocht Institute for Tropical Medicine, University of Hamburg, Hamburg, Germany. | Center for Vaccine Development, University of Maryland School of Medicine, Baltimore, MD, USA. | Public Health England, London, UK. | WHO, Geneva, Switzerland. | Division of Infectious Disease Control, Norwegian Institute of Public Health, Oslo, Norway. | WHO, Geneva, Switzerland. | Epicentre, Paris, France. | Clinical Trials Unit Bern, University of Bern, Bern, Switzerland. | WHO, Geneva, Switzerland. | Division of Infectious Disease Control, Norwegian Institute of Public Health, Oslo, Norway; Department of Health and Society, University of Oslo, Norway; Department of Global Health and Population, Harvard TH Chan School of Public Health, Boston, MA, USA; Coalition for Epidemic Preparedness Innovations, care of Norwegian Institute of Public Health, Oslo, Norway. | WHO, Geneva, Switzerland.",
+   "extra": {
+    "pmid": "28017403",
+    "pmc": "PMC5364328"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": true,
+   "keywords_matched": [
+    "rvsv",
+    "vaccinated",
+    "vaccination",
+    "vaccine",
+    "zebov"
+   ],
+   "id": "9c7f4e457de244b3",
+   "first_seen": "2016-12-23",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": false
+  },
+  {
+   "title": "PREPARE: rVSVΔG-ZEBOV-GP for pre-exposure prophylaxis in at-risk workers",
+   "summary": "A multicenter Phase 2 study (PREPARE) of the rVSVΔG-ZEBOV-GP (V920) vaccine for pre-exposure prophylaxis in individuals at potential occupational risk of Ebola exposure.",
+   "url": "https://clinicaltrials.gov/study/NCT02788227",
+   "source": "ClinicalTrials.gov",
+   "source_type": "clinical_trial",
+   "published_date": "2016-10-14",
+   "journal": "",
+   "authors": "National Institutes of Health Clinical Center",
+   "affiliations": "National Institutes of Health Clinical Center | United States",
+   "intervention_raw": "rVSVΔG-ZEBOV-GP vaccine",
+   "extra": {
+    "nct_id": "NCT02788227",
+    "status": "COMPLETED",
+    "phase": [
+     "PHASE2"
+    ],
+    "sponsor": "National Institutes of Health Clinical Center",
+    "countries": [
+     "United States"
+    ]
+   },
+   "doi": "",
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "v920",
+    "vaccine",
+    "zebov"
+   ],
+   "id": "4ee08acfe65688c5",
+   "first_seen": "2016-10-14",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Clinical trial",
+   "channel": "ClinicalTrials.gov",
+   "is_new": false
+  },
+  {
+   "title": "Ad26.ZEBOV and MVA-BN-Filo prophylactic Ebola vaccine (Phase 3)",
+   "summary": "A staged Phase 3 study, including a double-blind controlled stage, evaluating the two-dose Ad26.ZEBOV and MVA-BN-Filo prophylactic Ebola vaccine regimen.",
+   "url": "https://clinicaltrials.gov/study/NCT02509494",
+   "source": "ClinicalTrials.gov",
+   "source_type": "clinical_trial",
+   "published_date": "2015-09-30",
+   "journal": "",
+   "authors": "Janssen Vaccines & Prevention B.V.",
+   "affiliations": "Janssen Vaccines & Prevention B.V. | United States",
+   "intervention_raw": "Ad26.ZEBOV MVA-BN-Filo vaccine",
+   "extra": {
+    "nct_id": "NCT02509494",
+    "status": "COMPLETED",
+    "phase": [
+     "PHASE3"
+    ],
+    "sponsor": "Janssen Vaccines & Prevention B.V.",
+    "countries": [
+     "United States"
+    ]
+   },
+   "doi": "",
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "ad26",
+    "ad26.zebov",
+    "mva-bn",
+    "vaccine",
+    "zebov"
+   ],
+   "id": "6874373986871093",
+   "first_seen": "2015-09-30",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Clinical trial",
+   "channel": "ClinicalTrials.gov",
+   "is_new": false
+  },
+  {
+   "title": "Recombinant adenovirus vector Ebola vaccine (Ad5-EBOV) booster (Phase 1)",
+   "summary": "A Phase 1 study of a booster dose of the recombinant adenovirus type-5 vectored Ebola vaccine (Ad5-EBOV) in healthy adults after primary immunization.",
+   "url": "https://clinicaltrials.gov/study/NCT02533791",
+   "source": "ClinicalTrials.gov",
+   "source_type": "clinical_trial",
+   "published_date": "2015-07-01",
+   "journal": "",
+   "authors": "Jiangsu Province CDC",
+   "affiliations": "Jiangsu Province CDC | China",
+   "intervention_raw": "Ad5-EBOV vaccine",
+   "extra": {
+    "nct_id": "NCT02533791",
+    "status": "COMPLETED",
+    "phase": [
+     "PHASE1"
+    ],
+    "sponsor": "Jiangsu Province CDC",
+    "countries": [
+     "China"
+    ]
+   },
+   "doi": "",
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "ad5-ebov",
+    "booster",
+    "immunization",
+    "vaccine"
+   ],
+   "id": "daeb38ef6ebe7002",
+   "first_seen": "2015-07-01",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Clinical trial",
+   "channel": "ClinicalTrials.gov",
+   "is_new": false
+  },
+  {
+   "title": "PREVAIL II: investigational therapeutics including ZMapp for Ebola infection",
+   "summary": "A multicenter randomized study (PREVAIL II) of investigational therapeutics — the ZMapp monoclonal antibody cocktail plus standard of care — in patients with Ebola virus infection.",
+   "url": "https://clinicaltrials.gov/study/NCT02363322",
+   "source": "ClinicalTrials.gov",
+   "source_type": "clinical_trial",
+   "published_date": "2015-03-13",
+   "journal": "",
+   "authors": "National Institute of Allergy and Infectious Diseases (NIAID)",
+   "affiliations": "National Institute of Allergy and Infectious Diseases (NIAID) | United States,Liberia,Guinea",
+   "intervention_raw": "ZMapp monoclonal antibody",
+   "extra": {
+    "nct_id": "NCT02363322",
+    "status": "COMPLETED",
+    "phase": [
+     "PHASE1",
+     "PHASE2"
+    ],
+    "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+    "countries": [
+     "United States",
+     "Liberia",
+     "Guinea"
+    ]
+   },
+   "doi": "",
+   "intervention": [
+    "monoclonal"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "monoclonal",
+    "monoclonal antibody",
+    "zmapp"
+   ],
+   "id": "adb1bbee428130ad",
+   "first_seen": "2015-03-13",
+   "reviewed": false,
+   "intervention_labels": [
+    "Monoclonal antibody"
+   ],
+   "source_type_label": "Clinical trial",
+   "channel": "ClinicalTrials.gov",
+   "is_new": false
+  },
+  {
+   "title": "BPSC-1001 (VSVΔG-ZEBOV) Ebola vaccine dose-ranging study",
+   "summary": "A Phase 1 randomized, double-blind, placebo-controlled dose-ranging study of the BPSC-1001 (VSVΔG-ZEBOV) Ebola vaccine candidate in healthy adults, led from Dalhousie University in Canada.",
+   "url": "https://clinicaltrials.gov/study/NCT02374385",
+   "source": "ClinicalTrials.gov",
+   "source_type": "clinical_trial",
+   "published_date": "2014-11-01",
+   "journal": "",
+   "authors": "Dalhousie University",
+   "affiliations": "Dalhousie University | Canada",
+   "intervention_raw": "BPSC-1001 VSVΔG-ZEBOV vaccine",
+   "extra": {
+    "nct_id": "NCT02374385",
+    "status": "COMPLETED",
+    "phase": [
+     "PHASE1"
+    ],
+    "sponsor": "Dalhousie University",
+    "countries": [
+     "Canada"
+    ]
+   },
+   "doi": "",
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": true,
+   "keywords_matched": [
+    "vaccine",
+    "zebov"
+   ],
+   "id": "ba5e3c92db23dadc",
+   "first_seen": "2014-11-01",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Clinical trial",
+   "channel": "ClinicalTrials.gov",
+   "is_new": false
+  }
+ ]
+}
