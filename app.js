@@ -29,10 +29,26 @@
   const TYPE_LABEL = Object.fromEntries(TYPES.map(t => [t.key, t.label]));
   const TYPE_VAR = Object.fromEntries(TYPES.map(t => [t.key, t.varc]));
 
+  // Organization sub-filters shown within the Evidence type panel. These filter
+  // by the publishing organization (derived from each record's source), so they
+  // cut across document types — e.g. "WHO" catches WHO IRIS guidance, WHO
+  // Disease Outbreak News, and WHO news alike.
+  const ORGS = [
+    { key: "WHO", label: "WHO", varc: "--brand" },
+    { key: "Africa CDC", label: "Africa CDC", varc: "--c-other" },
+  ];
+  function orgFromSource(src) {
+    const s = (src || "").toLowerCase();
+    if (s.startsWith("who") || s.includes("world health organization")) return "WHO";
+    if (s.includes("africa cdc") || s.includes("africacdc")) return "Africa CDC";
+    return "";
+  }
+
   // ---- state ------------------------------------------------------------
   const state = {
     interventions: new Set(),
     types: new Set(),
+    orgs: new Set(),
     species: new Set(),
     dateDays: "all",
     bundibugyo: false,
@@ -75,6 +91,7 @@
     const p = new URLSearchParams(location.search);
     if (p.get("iv")) p.get("iv").split(",").forEach(v => state.interventions.add(v));
     if (p.get("type")) p.get("type").split(",").forEach(v => state.types.add(v));
+    if (p.get("org")) p.get("org").split(",").forEach(v => state.orgs.add(v));
     if (p.get("sp")) p.get("sp").split(",").forEach(v => state.species.add(v));
     if (p.get("date")) state.dateDays = p.get("date");
     if (p.get("q")) state.search = p.get("q");
@@ -87,6 +104,7 @@
     const p = new URLSearchParams();
     if (state.interventions.size) p.set("iv", [...state.interventions].join(","));
     if (state.types.size) p.set("type", [...state.types].join(","));
+    if (state.orgs.size) p.set("org", [...state.orgs].join(","));
     if (state.species.size) p.set("sp", [...state.species].join(","));
     if (state.dateDays !== "all") p.set("date", state.dateDays);
     if (state.search) p.set("q", state.search);
@@ -106,6 +124,7 @@
     return {
       intervention: r => !state.interventions.size || r.intervention.some(i => state.interventions.has(i)),
       type: r => !state.types.size || state.types.has(r.source_type),
+      org: r => !state.orgs.size || state.orgs.has(orgFromSource(r.source)),
       species: r => !state.species.size || state.species.has(r.species),
       date: r => !cutoff || (r.published_date && r.published_date >= cutoff),
       bundibugyo: r => !state.bundibugyo || r.bundibugyo,
@@ -218,6 +237,12 @@
     const tyCounts = countFacet("type", r => [r.source_type]);
     const tyHost = $("#f-type"); tyHost.innerHTML = "";
     TYPES.forEach(o => { if ((tyCounts[o.key] || 0) > 0 || state.types.has(o.key)) tyHost.appendChild(choiceRow("type", o.key, o.label, tyCounts[o.key] || 0, o.varc)); });
+    // organization sub-filters (within the Evidence type panel)
+    const orgCounts = countFacet("org", r => { const o = orgFromSource(r.source); return o ? [o] : []; });
+    const sub = el("div");
+    sub.innerHTML = '<span style="display:block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-muted);margin:10px 0 6px;padding-top:9px;border-top:1px solid var(--hairline)">By organization</span>';
+    tyHost.appendChild(sub);
+    ORGS.forEach(o => tyHost.appendChild(choiceRow("org", o.key, o.label, orgCounts[o.key] || 0, o.varc)));
     // species
     const spCounts = countFacet("species", r => [r.species]);
     const spHost = $("#f-species"); spHost.innerHTML = "";
@@ -225,9 +250,9 @@
     // toggles + date + reset button visual
     $$(".toggle-row").forEach(t => t.classList.toggle("on", state[t.dataset.toggle]));
     $$("#f-date button").forEach(b => b.classList.toggle("on", b.dataset.days === state.dateDays));
-    const anyActive = state.interventions.size || state.types.size || state.species.size || state.dateDays !== "all" || state.bundibugyo || state.canadian || state.isnew || state.search;
+    const anyActive = state.interventions.size || state.types.size || state.orgs.size || state.species.size || state.dateDays !== "all" || state.bundibugyo || state.canadian || state.isnew || state.search;
     $("#clear-filters").disabled = !anyActive;
-    const fc = [state.interventions.size, state.types.size, state.species.size, state.bundibugyo, state.canadian, state.isnew, state.dateDays !== "all", !!state.search].reduce((a, b) => a + (b ? 1 : 0), 0);
+    const fc = [state.interventions.size, state.types.size, state.orgs.size, state.species.size, state.bundibugyo, state.canadian, state.isnew, state.dateDays !== "all", !!state.search].reduce((a, b) => a + (b ? 1 : 0), 0);
     const mfc = $("#mobile-fcount"); if (mfc) { mfc.hidden = !fc; mfc.textContent = fc; }
   }
   function countFacet(setKey, getVals) {
@@ -236,7 +261,12 @@
     base.forEach(r => getVals(r).forEach(v => { counts[v] = (counts[v] || 0) + 1; }));
     return counts;
   }
-  function setFor(group) { return state[group === "intervention" ? "interventions" : group === "type" ? "types" : "species"]; }
+  function setFor(group) {
+    return group === "intervention" ? state.interventions
+      : group === "type" ? state.types
+        : group === "org" ? state.orgs
+          : state.species;
+  }
   function choiceRow(group, key, label, count, varc) {
     const on = setFor(group).has(key);
     const row = el("label", "choice" + (on ? " on" : ""));
@@ -373,7 +403,7 @@
     $$("#f-date button").forEach(b => b.addEventListener("click", () => { state.dateDays = b.dataset.days; update(); }));
     $$(".toggle-row").forEach(tr => tr.addEventListener("click", () => { state[tr.dataset.toggle] = !state[tr.dataset.toggle]; update(); }));
     $("#clear-filters").addEventListener("click", () => {
-      state.interventions.clear(); state.types.clear(); state.species.clear();
+      state.interventions.clear(); state.types.clear(); state.orgs.clear(); state.species.clear();
       state.dateDays = "all"; state.bundibugyo = state.canadian = state.isnew = false;
       state.search = ""; $("#search").value = "";
       update();
