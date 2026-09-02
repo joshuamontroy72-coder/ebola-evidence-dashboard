@@ -47,8 +47,8 @@ jobs:
 
       - name: Commit updated data
         run: |
-          git config user.name  "evidence-bot"
-          git config user.email "actions@users.noreply.github.com"
+          git config user.name  "joshuamontroy72-coder"
+          git config user.email "286388960+joshuamontroy72-coder@users.noreply.github.com"
           if [[ -n "$(git status --porcelain data/evidence.json)" ]]; then
             git add data/evidence.json
             git commit -m "data: daily evidence refresh ($(date -u +%Y-%m-%d))"
