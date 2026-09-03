@@ -232,7 +232,7 @@ a:hover { text-decoration: underline; }
 .filters-backdrop { display: none; }
 
 /* ---------- filters (sidebar) ---------- */
-.filters { position: sticky; top: 78px; background: var(--surface); border: 1px solid var(--hairline); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+.filters { position: sticky; top: 78px; background: var(--surface); border: 1px solid var(--hairline); border-radius: var(--radius); box-shadow: var(--shadow); overflow-x: hidden; overflow-y: auto; max-height: calc(100vh - 100px); }
 .filters-head { padding: 13px 16px; border-bottom: 1px solid var(--hairline); display: flex; align-items: center; justify-content: space-between; }
 .filters-head h2 { font-size: 13px; margin: 0; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-muted); }
 .btn-clear { font-size: 12px; color: var(--brand); background: none; border: none; cursor: pointer; font-weight: 600; padding: 2px 4px; }
