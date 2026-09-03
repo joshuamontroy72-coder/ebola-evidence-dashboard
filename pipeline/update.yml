@@ -1,0 +1,60 @@
+name: Update evidence data
+
+# Runs the pipeline daily, commits any changes to data/evidence.json.
+# Because Vercel's Git integration redeploys on every push to the default
+# branch, a data change automatically publishes a fresh dashboard — no Vercel
+# token required here.
+
+on:
+  schedule:
+    # 11:23 UTC daily  ≈ 07:23 America/Toronto (EDT) / 06:23 (EST).
+    # Deliberately NOT at the top of the hour — GitHub frequently drops :00 cron
+    # runs during high-traffic periods; an off-minute time fires much more reliably.
+    - cron: "23 11 * * *"
+  workflow_dispatch: {}      # lets you run it on demand from the Actions tab
+
+permissions:
+  contents: write            # allow the action to commit updated data
+
+concurrency:
+  group: evidence-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Run evidence pipeline
+        env:
+          # Optional — set these in Settings ▸ Secrets and variables ▸ Actions
+          # to raise rate limits / unlock features. The pipeline works without them.
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          ALTMETRIC_API_KEY: ${{ secrets.ALTMETRIC_API_KEY }}
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+        run: python pipeline/update.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "evidence-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain data/evidence.json)" ]]; then
+            git add data/evidence.json
+            git commit -m "data: daily evidence refresh ($(date -u +%Y-%m-%d))"
+            git push
+            echo "Pushed updated evidence.json"
+          else
+            echo "No changes to evidence.json"
+          fi

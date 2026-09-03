@@ -147,11 +147,10 @@ DIRECT_FEEDS = [
         "url": "https://www.cidrap.umn.edu/taxonomy/term/28/feed",
         "type": "news",
     },
-    {
-        "source": "WHO Disease Outbreak News",
-        "url": "https://www.who.int/feeds/entity/csr/don/en/rss.xml",
-        "type": "outbreak_report",
-    },
+    # NOTE: The legacy WHO DON RSS feed (https://www.who.int/feeds/entity/csr/don/en/rss.xml)
+    # was retired and returns 0 items. WHO Disease Outbreak News is now fetched by the
+    # dedicated fetch_who_don() function in sources.py, which uses targeted Google News
+    # searches to find WHO DON pages about Ebola and classifies them as outbreak_report.
     {
         "source": "WHO News",
         "url": "https://www.who.int/rss-feeds/news-english.xml",

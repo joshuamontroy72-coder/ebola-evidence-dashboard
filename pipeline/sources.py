@@ -387,7 +387,97 @@ def fetch_direct_feeds() -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
-# 4. Google News RSS searches (aggregates CBC / STAT / Reuters / etc.)
+# 4. WHO Disease Outbreak News — targeted fetcher
+#    The legacy WHO DON RSS (https://www.who.int/feeds/entity/csr/don/en/rss.xml)
+#    was retired. This replaces it with two Google News RSS searches that
+#    specifically target WHO DON pages about Ebola, classifying genuine DON
+#    items as source_type "outbreak_report" so the dashboard's "Current
+#    situation" banner keeps updating.
+# ---------------------------------------------------------------------------
+
+
+def fetch_who_don() -> list[dict]:
+    """
+    WHO Disease Outbreak News — targeted replacement for the retired RSS feed.
+
+    Uses Google News to find WHO DON pages about Ebola.  Any item whose
+    resolved URL contains "disease-outbreak-news" or "/don/" on who.int is
+    classified as outbreak_report; other WHO items become news.
+    """
+    records: list[dict] = []
+    if feedparser is None:
+        _log("feedparser not installed; skipping WHO DON targeted search")
+        return records
+
+    cutoff = TODAY - dt.timedelta(days=NEWS_WINDOW_DAYS)
+
+    # Three passes: tight → broad, so we get fresh DON items even when the
+    # tight query returns nothing. The cutoff date filters old items downstream.
+    don_searches = [
+        'site:who.int "disease-outbreak-news" ebola',
+        '"WHO disease outbreak news" ebola outbreak',
+        'WHO ebola outbreak report 2026',
+    ]
+
+    seen_urls: set[str] = set()
+    for term in don_searches:
+        q = urllib.parse.quote(term)
+        url = f"https://news.google.com/rss/search?q={q}&hl=en&gl=US&ceid=US:en"
+        _log(f"WHO DON search: {term[:70]}")
+        try:
+            parsed = feedparser.parse(url, agent=USER_AGENT)
+        except Exception as e:  # noqa: BLE001
+            _log(f"  ! WHO DON search error: {e}")
+            continue
+
+        for entry in parsed.entries[:40]:
+            link = entry.get("link", "")
+            if link in seen_urls:
+                continue
+            pub = _entry_date(entry)
+            if pub and _to_date(pub) and _to_date(pub) < cutoff:
+                continue
+            title = entry.get("title", "").strip()
+            if " - " in title:
+                title_main, _ = title.rsplit(" - ", 1)
+                title = title_main.strip()
+
+            u = link.lower()
+            if "who.int" in u and ("disease-outbreak-news" in u or "/don/" in u):
+                stype = "outbreak_report"
+                src = "WHO Disease Outbreak News"
+            elif "who.int" in u:
+                stype = "news"
+                src = "WHO"
+            else:
+                stype = "news"
+                src = outlet_name(link, "News")
+
+            seen_urls.add(link)
+            records.append(
+                {
+                    "title": title,
+                    "summary": _clean_html(
+                        entry.get("summary", "") or entry.get("description", "")
+                    )[:600],
+                    "url": link,
+                    "doi": "",
+                    "source": src,
+                    "source_type": stype,
+                    "published_date": pub,
+                    "journal": "",
+                    "authors": "",
+                    "affiliations": "",
+                    "extra": {"feed": "WHO DON targeted search"},
+                }
+            )
+
+    _log(f"WHO DON total: {len(records)}")
+    return records
+
+
+# ---------------------------------------------------------------------------
+# 5. Google News RSS searches (aggregates CBC / STAT / Reuters / etc.)
 # ---------------------------------------------------------------------------
 
 GNEWS = "https://news.google.com/rss/search"
@@ -625,6 +715,7 @@ ALL_FETCHERS: list[tuple[str, Callable[[], list[dict]]]] = [
     ("Europe PMC (journals + preprints)", fetch_europepmc),
     ("ClinicalTrials.gov", fetch_clinicaltrials),
     ("WHO IRIS (guidance/technical reports)", fetch_who_iris),
+    ("WHO Disease Outbreak News (targeted search)", fetch_who_don),
     ("Direct feeds (CIDRAP/WHO/EID/Africa CDC/bioRxiv/medRxiv)", fetch_direct_feeds),
     ("Google News (CBC/STAT/Reuters/...)", fetch_google_news),
 ]
