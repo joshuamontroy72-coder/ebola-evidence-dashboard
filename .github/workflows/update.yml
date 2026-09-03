@@ -9,7 +9,7 @@ on:
   schedule:
     # 11:00 UTC daily  ≈ 07:00 America/Toronto (EDT) / 06:00 (EST).
     # Adjust the time if you prefer; cron is always in UTC.
-    - cron: "0 11 * * *"
+    - cron: "23 11 * * *"
   workflow_dispatch: {}      # lets you run it on demand from the Actions tab
 
 permissions:
