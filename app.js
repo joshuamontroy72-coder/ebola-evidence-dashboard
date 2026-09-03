@@ -168,15 +168,31 @@
 
   // ---- rendering: situation banner --------------------------------------
   function renderSituation() {
-    const reports = DATA.filter(r => r.source_type === "outbreak_report")
+    // Primary: most recent WHO Disease Outbreak News item.
+    let reports = DATA.filter(r => r.source_type === "outbreak_report")
       .sort((a, b) => (b.published_date || "").localeCompare(a.published_date || ""));
+
+    // Fallback: if no outbreak reports are available (e.g. feed gap), show the
+    // most recent WHO IRIS guidance document so the banner is never empty while
+    // there is an active outbreak and WHO is publishing guidance.
+    let isFallback = false;
+    if (!reports.length) {
+      reports = DATA.filter(r =>
+          r.source_type === "guideline" &&
+          ((r.source || "").toUpperCase().startsWith("WHO") || (r.source || "").includes("IRIS"))
+        )
+        .sort((a, b) => (b.published_date || "").localeCompare(a.published_date || ""));
+      isFallback = true;
+    }
+
     const slot = $("#situation-slot");
     if (!reports.length) { slot.innerHTML = ""; return; }
     const r = reports[0];
+    const tagLabel = isFallback ? "Latest WHO guidance" : "Current situation";
     slot.innerHTML = `<div class="situation">
       <span class="pulse" aria-hidden="true"></span>
       <div class="body">
-        <span class="tag">Current situation</span>
+        <span class="tag">${tagLabel}</span>
         <h3><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a></h3>
         <p>${esc(r.summary)}</p>
         <div class="meta">${esc(r.source)} · ${fmtDate(r.published_date)}</div>
