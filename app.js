@@ -184,20 +184,42 @@
   }
 
   // ---- rendering: source coverage --------------------------------------
+  // Map a record to its coverage channel (mirrors the pipeline; used as a
+  // fallback if a record predates the stored `channel` field).
+  function channelOf(r) {
+    const st = r.source_type, src = r.source || "";
+    if (st === "preprint") return "Preprints (bioRxiv / medRxiv)";
+    if (st === "clinical_trial") return "ClinicalTrials.gov";
+    if (st === "outbreak_report") return "WHO Disease Outbreak News";
+    if (st === "guideline") return (src.indexOf("IRIS") >= 0 || src === "WHO") ? "WHO IRIS guidance" : "Other guidance (Africa CDC / gov)";
+    if (st === "press_release") return "Press releases";
+    if (st === "news") return "News (CBC / STAT / Reuters / …)";
+    return "Journals (Europe PMC / PubMed)";
+  }
   function renderCoverage() {
     const slot = $("#coverage-slot");
     const cov = META.coverage;
     if (!cov || !cov.channels) { slot.innerHTML = ""; return; }
     const byChan = (META.counts && META.counts.by_channel) || {};
-    const runCounts = cov.run_counts || {};
     const empties = cov.channels.filter(c => (byChan[c] || 0) === 0);
     const errs = cov.fetcher_errors || [];
 
+    // "New this refresh" = items first seen on the most recent run date, per
+    // channel — the genuine delta the last run added (not the fetch volume).
+    const lastRun = (META.generated_at || "").slice(0, 10);
+    const newByChan = {};
+    if (lastRun) DATA.forEach(r => {
+      if (r.first_seen === lastRun) {
+        const ch = r.channel || channelOf(r);
+        newByChan[ch] = (newByChan[ch] || 0) + 1;
+      }
+    });
+
     const rows = cov.channels.map(c => {
       const corpus = byChan[c] || 0;
-      const run = runCounts[c] || 0;
+      const run = newByChan[c] || 0;
       const cls = corpus === 0 ? "watch" : "ok";
-      const runTxt = run > 0 ? `<span class="cov-run">+${run} this refresh</span>` : "";
+      const runTxt = run > 0 ? `<span class="cov-run">+${run} new</span>` : "";
       return `<div class="cov-item ${cls}">
         <span class="cov-dot"></span>
         <span class="cov-name">${esc(c)}</span>
@@ -221,7 +243,7 @@
       </summary>
       <div class="cov-grid">${rows}</div>
       ${errs.length ? `<div class="cov-errline">Fetch errors last run: ${errs.map(esc).join(", ")}. These sources kept their previously-collected items; the next run retries them.</div>` : ""}
-      <div class="cov-foot">A channel showing <strong>0 items</strong> means nothing has been captured from it yet — the signal to check that source. Counts reflect the whole corpus; “this refresh” shows what the last pipeline run added.</div>
+      <div class="cov-foot">A channel showing <strong>0 items</strong> means nothing has been captured from it yet — the signal to check that source. Item counts reflect the whole corpus; <strong>“+N new”</strong> is how many <em>new</em> items the last run added from that channel${lastRun ? " (" + lastRun + ")" : ""} — most days that's a handful, since the pipeline mostly re-confirms items you already have.</div>
     </details>`;
   }
 
