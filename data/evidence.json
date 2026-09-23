@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-22T15:35:29+00:00",
- "record_count": 1010,
- "new_last_run": 11,
+ "generated_at": "2026-09-23T15:32:37+00:00",
+ "record_count": 1011,
+ "new_last_run": 1,
  "counts": {
   "by_type": {
-   "Journal article": 474,
+   "Journal article": 475,
    "News story": 387,
    "Clinical trial": 95,
    "Guideline / NITAG": 42,
@@ -13,7 +13,7 @@
    "Outbreak report": 1
   },
   "by_channel": {
-   "Journals (Europe PMC / PubMed)": 474,
+   "Journals (Europe PMC / PubMed)": 475,
    "News (CBC / STAT / Reuters / …)": 387,
    "ClinicalTrials.gov": 95,
    "WHO IRIS guidance": 23,
@@ -24,27 +24,27 @@
   },
   "by_intervention": {
    "Vaccine": 498,
-   "Unspecified": 368,
+   "Unspecified": 369,
    "Other therapeutic": 152,
    "Monoclonal antibody": 56
   },
   "by_species": {
-   "human": 613,
+   "human": 614,
    "na": 340,
    "animal": 57
   },
-  "bundibugyo": 404,
+  "bundibugyo": 405,
   "canadian": 69,
-  "new": 943,
+  "new": 944,
   "with_altmetric": 0
  },
  "source_status": {
-  "Europe PMC (journals + preprints)": 567,
+  "Europe PMC (journals + preprints)": 787,
   "ClinicalTrials.gov": 107,
   "WHO IRIS (guidance/technical reports)": 68,
-  "WHO Disease Outbreak News (targeted search)": 63,
-  "Direct feeds (CIDRAP/WHO/EID/Africa CDC/bioRxiv/medRxiv)": 148,
-  "Google News (CBC/STAT/Reuters/...)": 348
+  "WHO Disease Outbreak News (targeted search)": 0,
+  "Direct feeds (CIDRAP/WHO/EID/Africa CDC/bioRxiv/medRxiv)": 128,
+  "Google News (CBC/STAT/Reuters/...)": 0
  },
  "coverage": {
   "channels": [
@@ -58,18 +58,52 @@
    "Press releases"
   ],
   "run_counts": {
-   "Journals (Europe PMC / PubMed)": 307,
+   "Journals (Europe PMC / PubMed)": 293,
    "Preprints (bioRxiv / medRxiv)": 1,
    "ClinicalTrials.gov": 94,
-   "WHO IRIS guidance": 20,
+   "WHO IRIS guidance": 19,
    "WHO Disease Outbreak News": 0,
-   "Other guidance (Africa CDC / gov)": 8,
-   "News (CBC / STAT / Reuters / …)": 162,
+   "Other guidance (Africa CDC / gov)": 0,
+   "News (CBC / STAT / Reuters / …)": 0,
    "Press releases": 0
   },
   "fetcher_errors": []
  },
  "records": [
+  {
+   "title": "Investigation of Dinga Dinga: A Cluster of Bilateral Lower-Extremity Tremors-Bundibugyo District, Uganda, 2023-2024",
+   "summary": "In September 2023, a cluster of unexplained illness in women affecting their ability to stand/walk was reported at Bundibugyo Hospital, Uganda. Field investigations were conducted to verify reports, conduct active case finding, and identify potential causes using a hypothesis-generating questionnaire, a neurological examination tool, and a standardized laboratory panel. As of January 31, 2025, 136 patients were identified; all were female. Among 108 with age data, the median age was 18 years old, and all but one lived in Bundibugyo District. All reported bilateral lower-extremity tremors in…",
+   "url": "https://doi.org/10.4269/ajtmh.26-0088",
+   "doi": "10.4269/ajtmh.26-0088",
+   "source": "Europe PMC",
+   "source_type": "journal_article",
+   "published_date": "2026-09-22",
+   "journal": "The American journal of tropical medicine and hygiene",
+   "authors": "Mulei S, Orit D, Choi MJ, Whitmer S, Sadigh KS, Baluku J, Smith K, Todres A, Torach CR, Namara B, Nanjubu M, Lubega SP, Baguma A, Ejoku E, Kuhn JH, Yu S, Karpathy S, Christiansen A, Ng TFF, Sejvar J, Shoemaker T, Montgomery JM, Lutwama J, Kadobera D, Kiyita C, Mwebesa H, Nyakarahuka L, Balinandi S, Klena JD.",
+   "affiliations": "Uganda Virus Research Institute, Entebbe, Uganda. | Uganda Field Epidemiology Training Program, TEPHINET, The Task Force for Global Health, Makerere University, Kampala, Uganda. | Viral Special Pathogens Branch, Division of High Consequence Pathogens and Pathology, National Center for Emerging and Zoonotic Infectious Disease, Centers for Disease Control and Prevention, Atlanta, Georgia, USA. | Viral Special Pathogens Branch, Division of High Consequence Pathogens and Pathology, National Center for Emerging and Zoonotic Infectious Disease, Centers for Disease Control and Prevention, Atlanta, Georgia, USA. | Viral Special Pathogens Branch, Division of High Consequence Pathogens and Pathology, National Center for Emerging and Zoonotic Infectious Disease, Centers for Disease Control and Prevention, Atlanta, Georgia, USA. | Uganda Virus Research Institute, Entebbe, Uganda. | Viral Special Pathogens Branch, Division of High Consequence Pathogens and Pathology, National Center for Emerging and Zoonotic Infectious Disease, Centers for Disease Control and Prevention, Atlanta, Georgia, USA. | Viral Special Pathogens Branch, Division of High Consequence Pathogens and Pathology, National Center for Emerging and Zoonotic Infectious Disease, Centers for Disease Control and Prevention, Atlanta, Georgia, USA.",
+   "extra": {
+    "pmid": "42772264",
+    "cited_by": 0,
+    "open_access": false,
+    "preprint_server": ""
+   },
+   "intervention": [
+    "unspecified"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [],
+   "id": "1ef35155d276929f",
+   "first_seen": "2026-09-23",
+   "reviewed": false,
+   "intervention_labels": [
+    "Unspecified"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": true
+  },
   {
    "title": "Congo rolls out Canadian-developed vaccine to fight Ebola outbreak",
    "summary": "Congo rolls out Canadian-developed vaccine to fight Ebola outbreak The Globe and Mail",
@@ -778,7 +812,7 @@
    "is_new": true
   },
   {
-   "title": "MicroRNAs in Veterinary Viral Diseases: A Comprehensive Review from Molecular Mechanisms to Clinical Translation",
+   "title": "MicroRNAs in veterinary viral diseases: A comprehensive review from molecular mechanisms to clinical translation",
    "summary": "MicroRNAs (miRNAs) are small non-coding RNA molecules, approximately 22 nucleotides in length, that regulate post-transcriptional gene expression and have emerged as pivotal modulators of host-virus interactions. Veterinary viral diseases continue to pose substantial challenges to animal health, livestock productivity, food security, and public health, particularly due to their zoonotic potential. While miRNA research has advanced considerably, a comprehensive and critically integrated understanding of their biological functions and clinical applications across veterinary viral diseases rem…",
    "url": "https://doi.org/10.1016/j.virusres.2026.199800",
    "doi": "10.1016/j.virusres.2026.199800",
@@ -787,7 +821,7 @@
    "published_date": "2026-09-16",
    "journal": "Virus research",
    "authors": "Choobineh MR, Choobineh D, Hajieghrari B.",
-   "affiliations": "Department of Clinical Sciences, Faculty of Veterinary Medicine, Kaz. C. Islamic Azad University, Kazerun, Iran. | University of Applied Science and Technology, Fars, Iran. | Department of Agricultural Biotechnology, College of Agriculture, Jahrom University, Jahrom, Iran. Electronic address: bheghrari@yahoo.com.",
+   "affiliations": "Department of Clinical Sciences, Faculty of Veterinary Medicine, Kaz. C. Islamic Azad University, Kazerun, Iran. | University of Applied Science and Technology, Fars, Iran. | Department of Agricultural Biotechnology, College of Agriculture, Jahrom University, Jahrom, P.O. Box 74135-111, Iran. Electronic address: bheghrari@jahromu.ac.ir.",
    "extra": {
     "pmid": "42749191",
     "cited_by": 0,
