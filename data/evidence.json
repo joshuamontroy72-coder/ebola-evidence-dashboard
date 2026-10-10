@@ -1,41 +1,41 @@
 {
- "generated_at": "2026-10-09T17:31:19+00:00",
- "record_count": 1120,
- "new_last_run": 6,
+ "generated_at": "2026-10-10T16:18:09+00:00",
+ "record_count": 1124,
+ "new_last_run": 4,
  "counts": {
   "by_type": {
-   "Journal article": 506,
-   "News story": 452,
+   "Journal article": 507,
+   "News story": 454,
    "Clinical trial": 96,
    "Guideline / NITAG": 50,
-   "Preprint": 12,
+   "Preprint": 13,
    "Press release": 3,
    "Outbreak report": 1
   },
   "by_channel": {
-   "Journals (Europe PMC / PubMed)": 506,
-   "News (CBC / STAT / Reuters / …)": 452,
+   "Journals (Europe PMC / PubMed)": 507,
+   "News (CBC / STAT / Reuters / …)": 454,
    "ClinicalTrials.gov": 96,
    "WHO IRIS guidance": 30,
    "Other guidance (Africa CDC / gov)": 20,
-   "Preprints (bioRxiv / medRxiv)": 12,
+   "Preprints (bioRxiv / medRxiv)": 13,
    "Press releases": 3,
    "WHO Disease Outbreak News": 1
   },
   "by_intervention": {
    "Vaccine": 548,
-   "Unspecified": 414,
-   "Other therapeutic": 167,
+   "Unspecified": 417,
+   "Other therapeutic": 168,
    "Monoclonal antibody": 59
   },
   "by_species": {
-   "human": 683,
-   "na": 380,
+   "human": 684,
+   "na": 383,
    "animal": 57
   },
-  "bundibugyo": 468,
+  "bundibugyo": 470,
   "canadian": 78,
-  "new": 179,
+  "new": 159,
   "with_altmetric": 0
  },
  "source_status": {
@@ -43,8 +43,8 @@
   "ClinicalTrials.gov": 108,
   "WHO IRIS (guidance/technical reports)": 69,
   "WHO Disease Outbreak News (targeted search)": 60,
-  "Direct feeds (CIDRAP/WHO/EID/Africa CDC/bioRxiv/medRxiv)": 95,
-  "Google News (CBC/STAT/Reuters/...)": 304
+  "Direct feeds (CIDRAP/WHO/EID/Africa CDC/bioRxiv/medRxiv)": 105,
+  "Google News (CBC/STAT/Reuters/...)": 346
  },
  "coverage": {
   "channels": [
@@ -59,17 +59,112 @@
   ],
   "run_counts": {
    "Journals (Europe PMC / PubMed)": 405,
-   "Preprints (bioRxiv / medRxiv)": 4,
+   "Preprints (bioRxiv / medRxiv)": 5,
    "ClinicalTrials.gov": 95,
-   "WHO IRIS guidance": 22,
+   "WHO IRIS guidance": 21,
    "WHO Disease Outbreak News": 0,
-   "Other guidance (Africa CDC / gov)": 0,
-   "News (CBC / STAT / Reuters / …)": 143,
+   "Other guidance (Africa CDC / gov)": 5,
+   "News (CBC / STAT / Reuters / …)": 155,
    "Press releases": 0
   },
   "fetcher_errors": []
  },
  "records": [
+  {
+   "title": "Immunomodulatory RIG-I Agonist SLR14 Confers Protection Against a Range of Highly Pathogenic Negative Sense RNA viruses",
+   "summary": "Emerging and re-emerging zoonotic RNA viruses, including filoviruses, henipaviruses and Rift Valley Fever virus (RVFV), pose a significant threat to human health. Due to their epidemic potential and high pathogenicity, these viruses are categorized as WHO priority pathogens, yet we still lack effective medical countermeasures (MCMs) against most of these dangerous pathogens, supporting that host-directed antivirals will be advantageous for broadly acting MCMs. Here we assessed the antiviral efficacy of SLR14, an immunomodulatory stem-loop RNA that activates RIG-I, for its activity against a…",
+   "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757743v1?rss=1",
+   "doi": "",
+   "source": "bioRxiv",
+   "source_type": "preprint",
+   "published_date": "2026-10-10",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "feed": "bioRxiv"
+   },
+   "intervention": [
+    "other_therapeutic"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "antiviral"
+   ],
+   "id": "4ff2945b923f8414",
+   "first_seen": "2026-10-10",
+   "reviewed": false,
+   "intervention_labels": [
+    "Other therapeutic"
+   ],
+   "source_type_label": "Preprint",
+   "channel": "Preprints (bioRxiv / medRxiv)",
+   "is_new": true
+  },
+  {
+   "title": "Ebola: What to know about drugs being tested against Bundibugyo virus| The New Times",
+   "summary": "Ebola: What to know about drugs being tested against Bundibugyo virus| The New Times The New Times",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNc0xNQWE2UmRVUU5lbC1mQWJfVmVISmVkUklRVk85a0RqczdvbURxNzR1UDZmdG5lSXN3T25fTHlhNkN4Z2FpdEZLTDkwWjE1a0laSWJieDd6d3hNaUJPYUF3OVhKRWtZbVA1dExZQjYteWRMY0Y3RGlyMURxRkxSYXFoT2FlaFpBRVBMWkhxNHg5bTJBU2Y3WnlJbEEwcnMwa2M5UndNWDJZN0dqbUN0X0xNeE1wWW0wRTVSOGtvZ0g4Z03SAcMBQVVfeXFMTXNMTUFhNlJkVVFOZWwtZkFiX1ZlSEplZFJJUVZPOWtEanM3b21EcTc0dVA2ZnRuZUlzd09uX0x5YTZDeGdhaXRGS0w5MFoxNWtJWkliYng3end4TWlCT2FBdzlYSkVrWW1QNXRMWUI2LXlkTGNGN0RpcjFEcUZMUmFxaE9hZWhaQUVQTFpIcTR4OW0yQVNmN1p5SWxBMHJzMGtjOVJ3TVgyWTdHam1DdF9MTXhNcFltMEU1Ujhrb2dIOGdN?oc=5",
+   "doi": "",
+   "source": "The New Times",
+   "source_type": "news",
+   "published_date": "2026-10-10",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "Ebola treatment Inmazeb OR Ebanga"
+   },
+   "intervention": [
+    "unspecified"
+   ],
+   "species": "na",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [],
+   "id": "cf77deab811507f7",
+   "first_seen": "2026-10-10",
+   "reviewed": false,
+   "intervention_labels": [
+    "Unspecified"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "Computational Models Warn Ebola Antibody Drugs May Lose Power Against Bundibugyo Virus",
+   "summary": "Computational Models Warn Ebola Antibody Drugs May Lose Power Against Bundibugyo Virus Bioengineer.org",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPanJ6emRadnBPVlBRLUROdU12TUZBSFRuZndSWEMtM21SdlotRU9nZFlRc2RMbjc0SnJSdHAzSHM5eDU3aVk3V0NoQWtpdlFRQk4xMTVpUTBxcm1uNmd4R25zRW1CSXVVWF9oUEZ0czVPUEkzR2xqcTdFcThjSjB2b1lkakpqTk1nQjExVUd0NUx3Ymg0d01pXzhON0lnejNqS2RKMlB5V095X1hnbnhJOQ?oc=5",
+   "doi": "",
+   "source": "Bioengineer.org",
+   "source_type": "news",
+   "published_date": "2026-10-10",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "Ebola treatment Inmazeb OR Ebanga"
+   },
+   "intervention": [
+    "unspecified"
+   ],
+   "species": "na",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [],
+   "id": "e2580d90911b0381",
+   "first_seen": "2026-10-10",
+   "reviewed": false,
+   "intervention_labels": [
+    "Unspecified"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
   {
    "title": "Considérations de prévention et de contrôle des infections pour les activités de vaccination de routine pendant l’épidémie de maladie à virus Bundibugyo : orientations provisoires, 21 août 2026",
    "summary": "Ces orientations provisoires présentent des considérations relatives à la prévention et au contrôle des infections (PCI) pour soutenir la planification, la mise en œuvre et la continuité en toute sécurité des activités de vaccination de routine pendant une flambée épidémique de maladie à virus Bundibugyo (MVB). Elles s’adressent aux responsables des programmes nationaux de vaccination, aux personnes chargées de la planification vaccinale, aux référents en matière de PCI, aux autorités de santé publique, aux personnels de santé, aux vaccinateurs et aux partenaires intervenant dans les zones…",
@@ -843,7 +938,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola treatment Inmazeb OR Ebanga"
+    "search_term": "Ebola monoclonal antibody"
    },
    "intervention": [
     "unspecified"
@@ -1036,14 +1131,14 @@
    "summary": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo World Health Organization (WHO)",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1hcFZpT1Vwa3d6VmFjQlo4bmxEWU8wNDZXLWI1WFV5d1ZmdnVGQnVUS0RLWUNlbDhpT0s1SklWeHI3NWcxTjdlRkxfSWYxVDlsWHBCY242RHhvMGV2WEFxMmpkM21keE9lNXVnTlNhQ3FSUlpoTVhRRG1n?oc=5",
    "doi": "",
-   "source": "World Health Organization (WHO)",
+   "source": "News",
    "source_type": "news",
    "published_date": "2026-09-25",
    "journal": "",
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Bundibugyo Ebola"
+    "feed": "WHO DON targeted search"
    },
    "intervention": [
     "unspecified"
@@ -2549,7 +2644,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Retrieval-Guided Transfer Learning for Low-Resource Ebola Drug-Target Affinity Prediction",
@@ -9548,7 +9643,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "ERVEBO Ebola vaccine"
+    "search_term": "Ebola vaccine"
    },
    "intervention": [
     "vaccine"
@@ -11760,7 +11855,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola vaccine Canada"
+    "search_term": "Ebola outbreak Congo vaccine"
    },
    "intervention": [
     "vaccine"
@@ -15747,7 +15842,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola treatment Inmazeb OR Ebanga"
+    "search_term": "Ebola monoclonal antibody"
    },
    "intervention": [
     "unspecified"
@@ -16391,7 +16486,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Africa CDC Ebola vaccine guidance"
+    "search_term": "Ebola monoclonal antibody"
    },
    "intervention": [
     "unspecified"
@@ -17790,7 +17885,7 @@
    ],
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Bundibugyo Ebola Virus Disease (BVD) | Interim Guidance on Blanket Travel Restrictions and Public Gatherings",
@@ -18168,7 +18263,7 @@
    "extra": {
     "pmid": "42728358",
     "cited_by": 0,
-    "open_access": false,
+    "open_access": true,
     "preprint_server": ""
    },
    "intervention": [
@@ -18801,7 +18896,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola treatment Inmazeb OR Ebanga"
+    "search_term": "Ebola monoclonal antibody"
    },
    "intervention": [
     "other_therapeutic"
@@ -19621,10 +19716,10 @@
   },
   {
    "title": "UNICEF and Gavi launch call to manufacturers in support of accelerated access to Bundibugyo Ebolavirus vaccines",
-   "summary": "UNICEF and Gavi launch call to manufacturers in support of accelerated access to Bundibugyo Ebolavirus vaccines UNICEF",
+   "summary": "UNICEF and Gavi launch call to manufacturers in support of accelerated access to Bundibugyo Ebolavirus vaccines Unicef",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNE5ESHJyYkVLcDVDRGNwSGdoMkNWcDVVRGJHU0tWbkdIemlwWW0tYmt3LVF3U0dQeURuWU9GOUdvcnJDcjh2R0V3dllMVU94VmllbGpFbVlLMlB5cnNxSVRzdVV6N2xTVjlwR0pSa2k1TDRZVjA3SVB6a1o2YVljZWstMFh6dVVrblZmQkhqajhPNkZqZTJlRVdPbU53aC1zNnNMRnZvaHpnSjFOQ2pqT3UxcjYza1gz?oc=5",
    "doi": "",
-   "source": "UNICEF",
+   "source": "Unicef",
    "source_type": "news",
    "published_date": "2026-06-24",
    "journal": "",
@@ -20667,7 +20762,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola treatment Inmazeb OR Ebanga"
+    "search_term": "Ebola monoclonal antibody"
    },
    "intervention": [
     "unspecified"
@@ -20899,7 +20994,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Africa CDC Ebola vaccine guidance"
+    "search_term": "Ebola monoclonal antibody"
    },
    "intervention": [
     "vaccine"
@@ -23056,7 +23151,7 @@
    ],
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "The 2026 Bundibugyo Ebola outbreak: why R&D investment matters",
@@ -29545,6 +29640,40 @@
    "is_new": false
   },
   {
+   "title": "Filovirus reactive antibodies in wildlife hunting communities suggest ongoing zoonotic spillover in forested Guinea",
+   "summary": "",
+   "url": "https://europepmc.org/article/PMC/PMC13650133",
+   "doi": "",
+   "source": "Europe PMC",
+   "source_type": "journal_article",
+   "published_date": "2026-01-01",
+   "journal": "Nature communications",
+   "authors": "Hood G, Akoi Bore J, Tipton T, Onivogui Z, Sovogui K, Zoumanigui K, Timothy J, Roe M, Yan L, Scott S, Temperton N, Wright E, Hughes G, Boumbaly S, Laing E, Magassouba N, Fornace K, Carroll M.",
+   "affiliations": "Oxford, United Kingdom | Centre de Recherche et d’Analyse Biomédicale (CRAM), Macenta, Republic of Guinea | Oxford, United Kingdom | University of Sonfonia, Conakry, Republic of Guinea | Centre de Recherche et d’Analyse Biomédicale (CRAM), Macenta, Republic of Guinea | Centre de Recherche et d’Analyse Biomédicale (CRAM), Macenta, Republic of Guinea | London, UK | Bethesda, MD USA",
+   "extra": {
+    "pmid": "",
+    "cited_by": 0,
+    "open_access": true,
+    "preprint_server": ""
+   },
+   "intervention": [
+    "unspecified"
+   ],
+   "species": "na",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [],
+   "id": "ef1e0c278d1cc305",
+   "first_seen": "2026-10-10",
+   "reviewed": false,
+   "intervention_labels": [
+    "Unspecified"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": true
+  },
+  {
    "title": "The 2026 Bundibugyo Ebola Outbreak: A Warning for Global Preparedness for Future Epidemics",
    "summary": "",
    "url": "https://europepmc.org/article/PMC/PMC13648289",
@@ -34139,7 +34268,7 @@
    "affiliations": "Department of Pharmaceutical Sciences, University of Illinois Chicago, Chicago, Illinois 60612, United States. | Department of Microbiology and Immunology, University of Illinois Chicago, Chicago, Illinois 60612, United States. | Department of Microbiology and Immunology, University of Illinois Chicago, Chicago, Illinois 60612, United States. | Department of Virology, Immunology, and Microbiology, National Emerging Infectious Diseases Laboratories, Boston University Medical Campus, Boston, Massachusetts 02118, United States. | Department of Virology, Immunology, and Microbiology, National Emerging Infectious Diseases Laboratories, Boston University Medical Campus, Boston, Massachusetts 02118, United States. | Department of Virology, Immunology, and Microbiology, National Emerging Infectious Diseases Laboratories, Boston University Medical Campus, Boston, Massachusetts 02118, United States. | UICentre: Drug Discovery, University of Illinois Chicago, Chicago, Illinois 60612, United States. | Chicago BioSolutions Inc., Chicago, Illinois 60612, United States.",
    "extra": {
     "pmid": "39169825",
-    "cited_by": 6,
+    "cited_by": 7,
     "open_access": false,
     "preprint_server": ""
    },
@@ -34426,7 +34555,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Transition to Motherhood and Lived Experiences of Teenage Mothers Delivering in Kasese and Bundibugyo Districts, Western Uganda",
@@ -34889,7 +35018,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Sentiment Analysis of Social Media Data on Ebola Outbreak Using Deep Learning Classifiers",
@@ -35576,7 +35705,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "PI(4,5)P&lt;sub&gt;2&lt;/sub&gt; binding sites in the Ebola virus matrix protein VP40 modulate assembly and budding",
@@ -35680,7 +35809,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Long-term Safety Follow-up of Participants Exposed to the Candidate Ebola Vaccines Ad26.ZEBOV and/or MVA-BN-Filo",
@@ -35811,7 +35940,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Single-dose VSV-based vaccine protects cynomolgus macaques from disease after Taï Forest virus infection",
@@ -35852,7 +35981,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Robust evidence for bats as reservoir hosts is lacking in most African virus studies: a review and call to optimize sampling and conserve bats",
@@ -35886,7 +36015,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "The evolution and determinants of neutralization of potent head-binding antibodies against Ebola virus",
@@ -35926,7 +36055,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Recombinant Sudan virus and evaluation of humoral cross-reactivity between Ebola and Sudan virus glycoproteins after infection or rVSV-ΔG-ZEBOV-GP vaccination",
@@ -35965,7 +36094,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Sequence optimized diagnostic assay for Ebola virus detection",
@@ -36001,7 +36130,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Perspectives on Advancing Countermeasures for Filovirus Disease: Report From a Multisector Meeting",
@@ -36037,7 +36166,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "The Multiple Origins of Ebola Disease Outbreaks",
@@ -36071,7 +36200,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "A Single-Dose Intranasal Combination Panebolavirus Vaccine",
@@ -36108,7 +36237,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "RNA Editing as a General Trait of Ebolaviruses",
@@ -36145,7 +36274,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "A Recombinant Vesicular Stomatitis Virus-Based Vaccine Provides Postexposure Protection Against Bundibugyo Ebolavirus Infection",
@@ -36183,7 +36312,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "A Pan-Ebolavirus Monoclonal Antibody Cocktail Provides Protection Against Ebola and Sudan Viruses",
@@ -36224,7 +36353,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "A Highly Attenuated Panfilovirus VesiculoVax Vaccine Rapidly Protects Nonhuman Primates Against Marburg Virus and 3 Species of Ebola Virus",
@@ -36263,7 +36392,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Case fatality rate for Ebola disease, 1976-2022: A meta-analysis of global data",
@@ -36299,7 +36428,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Structural insights on the nucleoprotein C-terminal domain of Měnglà virus",
@@ -36335,7 +36464,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "<i>In Silico</i> Analyses, Experimental Verification and Application in DNA Vaccines of Ebolavirus GP-Derived pan-MHC-II-Restricted Epitopes",
@@ -36373,7 +36502,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Blocking of ebolavirus spread through intercellular connections by an MPER-specific antibody depends on BST2/tetherin",
@@ -36410,7 +36539,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Prevention and post-exposure management of occupational exposure to Ebola virus",
