@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-18T14:42:02+00:00",
- "record_count": 1166,
- "new_last_run": 8,
+ "generated_at": "2026-10-19T17:35:58+00:00",
+ "record_count": 1187,
+ "new_last_run": 21,
  "counts": {
   "by_type": {
-   "Journal article": 519,
-   "News story": 482,
+   "Journal article": 527,
+   "News story": 495,
    "Clinical trial": 96,
    "Guideline / NITAG": 52,
    "Preprint": 13,
@@ -13,8 +13,8 @@
    "Outbreak report": 1
   },
   "by_channel": {
-   "Journals (Europe PMC / PubMed)": 519,
-   "News (CBC / STAT / Reuters / …)": 482,
+   "Journals (Europe PMC / PubMed)": 527,
+   "News (CBC / STAT / Reuters / …)": 495,
    "ClinicalTrials.gov": 96,
    "WHO IRIS guidance": 31,
    "Other guidance (Africa CDC / gov)": 21,
@@ -23,28 +23,28 @@
    "WHO Disease Outbreak News": 1
   },
   "by_intervention": {
-   "Vaccine": 569,
-   "Unspecified": 436,
+   "Vaccine": 585,
+   "Unspecified": 441,
    "Other therapeutic": 170,
    "Monoclonal antibody": 59
   },
   "by_species": {
-   "human": 703,
-   "na": 406,
+   "human": 716,
+   "na": 414,
    "animal": 57
   },
-  "bundibugyo": 491,
+  "bundibugyo": 505,
   "canadian": 79,
-  "new": 125,
+  "new": 141,
   "with_altmetric": 0
  },
  "source_status": {
-  "Europe PMC (journals + preprints)": 1011,
+  "Europe PMC (journals + preprints)": 1009,
   "ClinicalTrials.gov": 108,
   "WHO IRIS (guidance/technical reports)": 68,
-  "WHO Disease Outbreak News (targeted search)": 51,
-  "Direct feeds (CIDRAP/WHO/EID/Africa CDC/bioRxiv/medRxiv)": 124,
-  "Google News (CBC/STAT/Reuters/...)": 345
+  "WHO Disease Outbreak News (targeted search)": 54,
+  "Direct feeds (CIDRAP/WHO/EID/Africa CDC/bioRxiv/medRxiv)": 126,
+  "Google News (CBC/STAT/Reuters/...)": 348
  },
  "coverage": {
   "channels": [
@@ -58,18 +58,80 @@
    "Press releases"
   ],
   "run_counts": {
-   "Journals (Europe PMC / PubMed)": 410,
+   "Journals (Europe PMC / PubMed)": 416,
    "Preprints (bioRxiv / medRxiv)": 1,
    "ClinicalTrials.gov": 95,
    "WHO IRIS guidance": 20,
    "WHO Disease Outbreak News": 0,
-   "Other guidance (Africa CDC / gov)": 3,
-   "News (CBC / STAT / Reuters / …)": 153,
+   "Other guidance (Africa CDC / gov)": 2,
+   "News (CBC / STAT / Reuters / …)": 162,
    "Press releases": 0
   },
   "fetcher_errors": []
  },
  "records": [
+  {
+   "title": "Multi-country Bundibugyo Ebola Virus Disease Outbreak Situation Report No. 22 (5 - 11 October 2026)",
+   "summary": "Multi-country Bundibugyo Ebola Virus Disease Outbreak Situation Report No. 22 (5 - 11 October 2026) ReliefWeb",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNM3NlZVQtVXdTQmhLanNLMlpqeDdXOElQVUg1NFFJem5ZaU9MS0REc2h6XzZfTzFvMXVCWldtWTV0alRhd1ozaWRLQ2tkenp6RVVMaVhRblFPcU9IN1VGdWE1TFlSZUxnbjl2ZlVQUF9CUlpTSXJnNTA2ZHFUNEkwd1hjZ0Z6cklTQUJSNFhveUxZUzdMSlpVN1BsNlV3b2g3enBhWkpsQ1J6WnZjRHg0LW10Nzd0OG5xU19TcWRqakJuWENTMDdtcnZjVWlWZS1fV3JCUDhodzY1R3FXUWlOVTVsbw?oc=5",
+   "doi": "",
+   "source": "News",
+   "source_type": "news",
+   "published_date": "2026-10-19",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "feed": "WHO DON targeted search"
+   },
+   "intervention": [
+    "unspecified"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [],
+   "id": "b7f6fcb2377f419c",
+   "first_seen": "2026-10-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Unspecified"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "Multi-country Bundibugyo Ebola Virus Disease Outbreak Situation Report No. 21 (28 September - 04 October 2026)",
+   "summary": "Multi-country Bundibugyo Ebola Virus Disease Outbreak Situation Report No. 21 (28 September - 04 October 2026) ReliefWeb",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPVjVqUEdDVlBTSXRmRENFT202WHFNUFVob09ubWptaHVvTzlTbmczN1FzRFlkbWVnUEE4TXFVV3FUU3Y1b1p6aWZiZXVGeWo2WUZINXkxX0lXY0M2M2UxaEI3UkNWRDlZYWRJQ0MtZU5zUkRsN0FSRkNQQURtQlY4amNvTXU4dTZzQ0Y3ajlyS2UtaDV3SHNma1Y1d2cyeE9YRUlWRUdrRGthcGc2WkpvQ3lmaTE3T2s0bF9GclpvWmR5RWY4OHJ4SFNfSjg1TXE4Mkc5SGtoOXBXaEg5LVpJcGFGNkZaSS1pNjZCZEpfNGtVZw?oc=5",
+   "doi": "",
+   "source": "News",
+   "source_type": "news",
+   "published_date": "2026-10-19",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "feed": "WHO DON targeted search"
+   },
+   "intervention": [
+    "unspecified"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [],
+   "id": "95d4f88c70e45888",
+   "first_seen": "2026-10-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Unspecified"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
   {
    "title": "Ebola vaccine trials 'reason for hope' in DR Congo and beyond",
    "summary": "Ebola vaccine trials 'reason for hope' in DR Congo and beyond RFI",
@@ -204,6 +266,39 @@
    "is_new": true
   },
   {
+   "title": "Moderna begins Phase 1 clinical trial of Ebola vaccine against strain behind DRC outbreak - ABC News",
+   "summary": "Moderna begins Phase 1 clinical trial of Ebola vaccine against strain behind DRC outbreak ABC News - Breaking News, Latest News and Videos",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUHZVVU52ZV9BME5XeURYMmFnb0ZvWldaTFVwMWw5STBBRmx2MVVBVnpKZHk3WndvbUR5SEEtSkNMaE5naHE0c2pFaVMtdTU4NFo3N2ItR0FHUENZWE51M0RGT1R1QjNvSXBvbWRRWjhXdlBnRzJxZERFMFAyc1FmYlQ5WWxUOHdwNzhULTh4RG42TXpSMklHand2X196QdIBowFBVV95cUxPVXgzVUE1ZndSbTNFTTdHTXJvZkM0QnVHa2xMV1FJUzRsTkwtb0gyeXlyMjM2blVSXzVSaXNNb0x4RUZZWHBmM1ZxaTlFa0JZU0JLbVpJUTVMZ0lnd2NacnpDaDVJeGptTjNJZ3lTb3pzRjdscWw3UkpobHRXLTl0T1ZWaFgxb05HZHlvUDByamxmMEJfeGIzVVMyUzJ6RDkxalpN?oc=5",
+   "doi": "",
+   "source": "Breaking News, Latest News and Videos",
+   "source_type": "news",
+   "published_date": "2026-10-17",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "Ebola vaccine Canada"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "1b8fe515dac758d1",
+   "first_seen": "2026-09-02",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": false
+  },
+  {
    "title": "Weekly Epidemiological Record, 2026, vol. 101, 41 [full issue]",
    "summary": "This issue of the Weekly Epidemiological Record (No. 41, 16 October 2026) presents updates on global public health threats, respiratory virus activity, the Bundibugyo virus disease outbreak in the Democratic Republic of the Congo, and WHO recommendations for influenza vaccine composition for the 2027 southern hemisphere season. During 5–11 October 2026, WHO screened approximately 644 282 signals through digital event-based surveillance, identifying 25 signals or events for further assessment. Global influenza, SARS-CoV-2 and respiratory syncytial virus activity remained generally low, with…",
    "url": "https://iris.who.int/handle/10665/387881",
@@ -238,37 +333,38 @@
    "is_new": true
   },
   {
-   "title": "Moderna begins Phase 1 clinical trial of Ebola vaccine against strain behind DRC outbreak - ABC News",
-   "summary": "Moderna begins Phase 1 clinical trial of Ebola vaccine against strain behind DRC outbreak ABC News - Breaking News, Latest News and Videos",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUHZVVU52ZV9BME5XeURYMmFnb0ZvWldaTFVwMWw5STBBRmx2MVVBVnpKZHk3WndvbUR5SEEtSkNMaE5naHE0c2pFaVMtdTU4NFo3N2ItR0FHUENZWE51M0RGT1R1QjNvSXBvbWRRWjhXdlBnRzJxZERFMFAyc1FmYlQ5WWxUOHdwNzhULTh4RG42TXpSMklHand2X196QdIBowFBVV95cUxPVXgzVUE1ZndSbTNFTTdHTXJvZkM0QnVHa2xMV1FJUzRsTkwtb0gyeXlyMjM2blVSXzVSaXNNb0x4RUZZWHBmM1ZxaTlFa0JZU0JLbVpJUTVMZ0lnd2NacnpDaDVJeGptTjNJZ3lTb3pzRjdscWw3UkpobHRXLTl0T1ZWaFgxb05HZHlvUDByamxmMEJfeGIzVVMyUzJ6RDkxalpN?oc=5",
+   "title": "Licensed Ebola Vaccine Ervebo Triggered T Cells Against Bundibugyo in 13 of 20 Recipients, but Protection Remains Unproven",
+   "summary": "Licensed Ebola Vaccine Ervebo Triggered T Cells Against Bundibugyo in 13 of 20 Recipients, but Protection Remains Unproven Medical Daily",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZW9pRUNLSDJqQlQwVGZoRVMzbkJsT3ZtejJ2aGF1eExMd0Zqd3RRdDBmbWhPY3gxTWZXTEFGWGV6MWFNSVROaEw3LUFRbTYwT2NFRWRWZG9oQ3Z5TFZCNWlWUmVPN0tKclJRWVl0bE9RWmljSUJySVdPV3VWVDNubHJHSzIwb3EyazhNaWF3?oc=5",
    "doi": "",
-   "source": "Breaking News, Latest News and Videos",
+   "source": "Medical Daily",
    "source_type": "news",
-   "published_date": "2026-10-16",
+   "published_date": "2026-10-15",
    "journal": "",
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola vaccine Canada"
+    "search_term": "Africa CDC Ebola vaccine guidance"
    },
    "intervention": [
     "vaccine"
    ],
    "species": "human",
-   "bundibugyo": false,
+   "bundibugyo": true,
    "canadian": false,
    "keywords_matched": [
+    "ervebo",
     "vaccine"
    ],
-   "id": "1b8fe515dac758d1",
-   "first_seen": "2026-09-02",
+   "id": "29cb1a39b163c692",
+   "first_seen": "2026-10-19",
    "reviewed": false,
    "intervention_labels": [
     "Vaccine"
    ],
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
-   "is_new": false
+   "is_new": true
   },
   {
    "title": "EBOLA BUNDIBUGYO VIRUS DISEASE OUTBREAK Democratic Republic of the Congo Weekly External Situation Report 15, Data as of 23 August 2026",
@@ -296,6 +392,75 @@
    "reviewed": false,
    "intervention_labels": [
     "Unspecified"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "Bat-borne zoonoses: transmission, impact, prevention, and management",
+   "summary": "Climate change and biodiversity loss are global environmental crises driving emerging infectious diseases, including bat-borne pathogens of public health significance: Ebola, Marburg, Nipah, Hendra, classic rabies virus, and Australian bat lyssavirus, as well as the fungus <i>Histoplasma</i> This review presents the evidence on the mechanisms of transmission, impact, and prevention and management strategies relevant to each of these pathogens. Transmission pathways vary between pathogens but often involve exposure to body fluids or excreta of a bat or other infected animal or human. The dis…",
+   "url": "https://doi.org/10.1136/bmj-2026-100560",
+   "doi": "10.1136/bmj-2026-100560",
+   "source": "Europe PMC",
+   "source_type": "journal_article",
+   "published_date": "2026-10-14",
+   "journal": "BMJ (Clinical research ed.)",
+   "authors": "Stanhope J, Boardman WSJ, Burrell C, Bi P, Weinstein P.",
+   "affiliations": "School of Public Health, Adelaide University, Adelaide, SA, Australia. | Environment Institute, Adelaide University, Adelaide, SA, Australia. | School of Animal and Veterinary Sciences, Adelaide University, Adelaide, SA, Australia. | Environment Institute, Adelaide University, Adelaide, SA, Australia. | School of Animal and Veterinary Sciences, Adelaide University, Adelaide, SA, Australia. | School of Medicine, Adelaide University, Adelaide, SA, Australia. | ImmVirX Pty Ltd, New Lambton Heights, NSW, Australia. | School of Public Health, Adelaide University, Adelaide, SA, Australia.",
+   "extra": {
+    "pmid": "42875048",
+    "cited_by": 0,
+    "open_access": false,
+    "preprint_server": ""
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccination"
+   ],
+   "id": "a9197e252c53bb9d",
+   "first_seen": "2026-10-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": true
+  },
+  {
+   "title": "Ebola vaccine induces T cell cross-reactivity against Bundibugyo virus in humans",
+   "summary": "Ebola vaccine induces T cell cross-reactivity against Bundibugyo virus in humans Medical Xpress",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcWhNRVJla0xPYlI2WlpOYmVmLVk0SGl1dHZYMWdxTFh1aERxT1N1TFZETFZ2alhoblZJUkhVVGxtdkd4TkZ3bDNCV0dLckF0QUlFWlJUZ3g5eWpQWWswdHZmWHRScjA2RGZnbFRJNEY0OC1kUWV1SVpvbmM4U2tvUTRUMm9SeWkyaDB6Mw?oc=5",
+   "doi": "",
+   "source": "Medical Xpress",
+   "source_type": "news",
+   "published_date": "2026-10-14",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "Ebola vaccine"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "na",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "12c40ee322839c8a",
+   "first_seen": "2026-10-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
    ],
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
@@ -464,6 +629,117 @@
    ],
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "rVSV-ΔG-EBOV-GP-Nipah-G (also designated PHV02) replication-competent, recombinant vesicular stomatitis virus vaccine for prevention of Nipah virus disease: Standardized template with key considerations for a risk/benefit assessment",
+   "summary": "A recombinant vesicular stomatitis virus (rVSV) expressing the glycoprotein (GP) of Ebola virus (rVSV-EBOV GP) has been approved for preventive immunization against Ebola (Ervebo®, Merck & Co.). The rVSV-EBOV vector was modified to express an additional glycoprotein (G) of Nipah virus (NiV), a bat-borne henipavirus endemic/epidemic in South and Southeast Asia that causes fatal encephalitis and pneumonia. The rVSV-EBOV-GP-NiV G vaccine candidate (\"PHV02\") is a unique chimeric virus with tropism and immunological properties derived from the wild-type (wt) vesicular stomatitis virus (VSV) pare…",
+   "url": "https://doi.org/10.1016/j.vaccine.2026.129113",
+   "doi": "10.1016/j.vaccine.2026.129113",
+   "source": "Europe PMC",
+   "source_type": "journal_article",
+   "published_date": "2026-10-13",
+   "journal": "Vaccine",
+   "authors": "Monath TP, Fusco J, Erbelding E, Kemp T, Heppner DG, DeVries M, Nichols R, Crowell JD, Scappaticci K, Pullano TG, Feldmann H, Feldmann F, Wellman ER, Farnon EC, Chen RT, Karuna S, Brighton Collaboration Benefit-Risk Assessment of Vaccines by Technology (BRAVATO).",
+   "affiliations": "Quigley Biopharma LLC, Leominster, MA, United States. Electronic address: tom@quigleybio.com. | Public Health Vaccines LLC, Cambridge, MA, United States. | Quigley Biopharma LLC, Leominster, MA, United States. | Quigley Biopharma LLC, Leominster, MA, United States. | Quigley Biopharma LLC, Leominster, MA, United States. | Quigley Biopharma LLC, Leominster, MA, United States. | Public Health Vaccines LLC, Cambridge, MA, United States. | Public Health Vaccines LLC, Cambridge, MA, United States.",
+   "extra": {
+    "pmid": "42869683",
+    "cited_by": 0,
+    "open_access": false,
+    "preprint_server": ""
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "ervebo",
+    "immunization",
+    "immunogenicity",
+    "rvsv",
+    "vaccine"
+   ],
+   "id": "59824e710a55a148",
+   "first_seen": "2026-10-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": true
+  },
+  {
+   "title": "Cross-reactive T-cell responses against BDBV in humans after rVSVΔG-ZEBOV-GP vaccination",
+   "summary": "",
+   "url": "https://doi.org/10.1016/s1473-3099(26)00529-3",
+   "doi": "10.1016/s1473-3099(26)00529-3",
+   "source": "Europe PMC",
+   "source_type": "journal_article",
+   "published_date": "2026-10-13",
+   "journal": "The Lancet. Infectious diseases",
+   "authors": "Mayer L, Londt R, Gruener E, Ly ML, Addo MM, Geldmacher C.",
+   "affiliations": "Institute for Infection Research and Vaccine Development, University Medical Centre Hamburg-Eppendorf, Hamburg, Germany; Department for Clinical Immunology of Infectious Diseases, Bernhard Nocht Institute for Tropical Medicine, Hamburg, Germany; German Centre for Infection Research, Partner site Hamburg-Lübeck-Borstel-Riems, Hamburg, Germany. Electronic address: l.mayer@uke.de. | Institute of Infectious Diseases and Tropical Medicine, LMU University Hospital, LMU Medizin, Ludwig-Maximilians Universität München, Munich, Germany; German Center for Infection Research, Partner site Munich, Munich, Germany. | Institute of Infectious Diseases and Tropical Medicine, LMU University Hospital, LMU Medizin, Ludwig-Maximilians Universität München, Munich, Germany; German Center for Infection Research, Partner site Munich, Munich, Germany. | Institute for Infection Research and Vaccine Development, University Medical Centre Hamburg-Eppendorf, Hamburg, Germany; Department for Clinical Immunology of Infectious Diseases, Bernhard Nocht Institute for Tropical Medicine, Hamburg, Germany; German Centre for Infection Research, Partner site Hamburg-Lübeck-Borstel-Riems, Hamburg, Germany. | Institute for Infection Research and Vaccine Development, University Medical Centre Hamburg-Eppendorf, Hamburg, Germany; Department for Clinical Immunology of Infectious Diseases, Bernhard Nocht Institute for Tropical Medicine, Hamburg, Germany; German Centre for Infection Research, Partner site Hamburg-Lübeck-Borstel-Riems, Hamburg, Germany. | Institute of Infectious Diseases and Tropical Medicine, LMU University Hospital, LMU Medizin, Ludwig-Maximilians Universität München, Munich, Germany; German Center for Infection Research, Partner site Munich, Munich, Germany; Fraunhofer Institute for Translational Medicine and Pharmacology ITMP, Immunology, Infection and Pandemic Research, Munich, Germany. Electronic address: geldmacher@lrz.uni-muenchen.de.",
+   "extra": {
+    "pmid": "42869053",
+    "cited_by": 0,
+    "open_access": false,
+    "preprint_server": ""
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "na",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccination",
+    "zebov"
+   ],
+   "id": "3179bb5c2ee7b5b3",
+   "first_seen": "2026-10-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": true
+  },
+  {
+   "title": "Case of Bundibugyo Virus Disease in Goma, Democratic Republic of the Congo with Lack of Transmission to Breastfeeding Infant",
+   "summary": "Disease due to Bundibugyo virus (BDBV), an Orthoebolavirus species, reemerged in April 2026, in Ituri Province, Democratic Republic of the Congo. A 35-year-old woman transported the body of a possible BDBV-infected patient from Bunia in Ituri Province to Goma for burial; she was accompanied by an 8-month-old breastfeeding child. Six days after arrival in Goma, she noted onset of fever and malaise and was empirically started on therapy for malaria; 4 days later she developed bloody diarrhea and a bloody vaginal discharge and was started on metronidazole for possible amebic dysentery. When he…",
+   "url": "https://doi.org/10.4269/ajtmh.26-0480",
+   "doi": "10.4269/ajtmh.26-0480",
+   "source": "Europe PMC",
+   "source_type": "journal_article",
+   "published_date": "2026-10-13",
+   "journal": "The American journal of tropical medicine and hygiene",
+   "authors": "Maisha FM, Serge KK, Kasonia K, Kakule ZL, Ajayakumar J, Lednicky JA, Curtis AJ, Morris JG.",
+   "affiliations": "HEAL Africa Hospital, Goma, Democratic Republic of the Congo. | Department of Sociology, University of Goma, Goma, Democratic Republic of the Congo. | Emerging Pathogens Institute, University of Florida, Gainesville, Florida, USA. | HEAL Africa Hospital, Goma, Democratic Republic of the Congo. | Department of Internal Medicine, University of Goma, Goma, Democratic Republic of the Congo. | Department of Internal Medicine, Universite Libre des Pays de Grands Lacs, Goma, Democratic Republic of the Congo. | Department of Clinical Research, Faculty of Infectious and Tropical Diseases, London School of Hygiene and Tropical Medicine, London, United Kingdom. | HEAL Africa Hospital, Goma, Democratic Republic of the Congo.",
+   "extra": {
+    "pmid": "42869002",
+    "cited_by": 0,
+    "open_access": false,
+    "preprint_server": ""
+   },
+   "intervention": [
+    "unspecified"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [],
+   "id": "439b1e72a7b3d6a9",
+   "first_seen": "2026-10-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Unspecified"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
    "is_new": true
   },
   {
@@ -687,6 +963,114 @@
    ],
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "Building equitable epidemic response: the Interdisciplinary Consortium for Epidemics Research (ICER) position on Bundibugyo ebolavirus and regional preparedness in sub-Saharan Africa",
+   "summary": "The 2014-16 West African Ebola epidemic exposed consequences of weak regional preparedness and limited local scientific leadership. The Bundibugyo ebolavirus (BDBV) outbreak in the Democratic Republic of the Congo (DRC), with spill over into Uganda threatens to follow the same trend. Beyond the immediate response, this crisis is a defining moment for a question the region can no longer defer: who leads the science when Africa faces epidemics? As a scientific response, we argue for an immediate, regionally led research programme. To do this, ICER makes five priority positions: 1) Conduct of…",
+   "url": "https://doi.org/10.1016/j.ijid.2026.109163",
+   "doi": "10.1016/j.ijid.2026.109163",
+   "source": "Europe PMC",
+   "source_type": "journal_article",
+   "published_date": "2026-10-12",
+   "journal": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+   "authors": "Wayengera M, Katoto PDMC, Sabiiti W, Muttamba W, Adegbite BR, Makali SL, Nyanda EN, Mbala PK, Chanda D, Ssengooba W, Muwonge H, Sendagire H, Mtafya B, Niyomwungere D, Hugor S, Nsawotebba A, Bbuye M, Musabyimana JP, Bakamutumaho B, Bosa HK, Kiiza D, Anzala O, Mwenebitu DL, Birindwa AM, Rogers C, Mparanyi GJ, Nakazibwe B, Fallah MP, Byakika-Kibwika P, Njenga K, Kirenga B, Interdisciplinary Consortium for Epidemics Research.",
+   "affiliations": "Makerere University College of Health Sciences, Kampala, Uganda. | Center for Tropical Diseases and Global Health (CTDGH), Université Catholique de Bukavu, Democratic Republic of the Congo. | University of St Andrews, Scotland, United Kingdom. | Makerere University Lung Institute, Kampala, Uganda. Electronic address: wmuttamba@icer.org.ug. | Centre de Recherches Médicales de Lambaréné, CERMEL, Gabon. | Ecole Régionale de Santé Publique, Université Catholique de Bukavu, Bukavu, Democratic Republic of the Congo. | Mbeya Medical Research Centre, National Institute for Medical Research, Mbeya, Tanzania. | Département de Virologie, Institut National de Recherche Biomédicale, Kinshasa, Democratic Republic of the Congo.",
+   "extra": {
+    "pmid": "42863700",
+    "cited_by": 0,
+    "open_access": false,
+    "preprint_server": ""
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "1275a311149459c8",
+   "first_seen": "2026-10-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": true
+  },
+  {
+   "title": "Bundibugyo Ebola virus disease re-emergence: lessons from earlier outbreaks",
+   "summary": "",
+   "url": "https://doi.org/10.1080/23744235.2026.2736028",
+   "doi": "10.1080/23744235.2026.2736028",
+   "source": "Europe PMC",
+   "source_type": "journal_article",
+   "published_date": "2026-10-12",
+   "journal": "Infectious diseases (London, England)",
+   "authors": "Kanta P, Chhikara K, Goyal K, Ghosh A, Singh MP.",
+   "affiliations": "Department of Virology, PGIMER, Chandigarh, India. | Department of Virology, PGIMER, Chandigarh, India. | Department of Virology, PGIMER, Chandigarh, India. | Department of Virology, PGIMER, Chandigarh, India. | Department of Virology, PGIMER, Chandigarh, India.",
+   "extra": {
+    "pmid": "42864882",
+    "cited_by": 0,
+    "open_access": false,
+    "preprint_server": ""
+   },
+   "intervention": [
+    "unspecified"
+   ],
+   "species": "na",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [],
+   "id": "7ec748a76075fdd6",
+   "first_seen": "2026-10-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Unspecified"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": true
+  },
+  {
+   "title": "From Ebola response to adaptable preparedness beyond a single virus",
+   "summary": "The Democratic Republic of the Congo (DRC) has been an important setting for Ebola innovation, including ring vaccination with recombinant vesicular stomatitis virus-based Ebola vaccine and the integration of clinical research into emergency response. These advances strengthened preparedness for Zaire ebolavirus (EBOV), but the 2026 Bundibugyo virus disease (BVD) outbreak highlights a remaining limitation: many preparedness capabilities remain closely linked to individual pathogens. Unlike EBOV, Bundibugyo virus (BDBV) has no licensed vaccine specifically indicated for prevention, and curre…",
+   "url": "https://doi.org/10.1186/s41182-026-01094-3",
+   "doi": "10.1186/s41182-026-01094-3",
+   "source": "Europe PMC",
+   "source_type": "journal_article",
+   "published_date": "2026-10-10",
+   "journal": "Tropical medicine and health",
+   "authors": "Kambale Kahingi J, Mbokolo Bolima C, Belanga Bola J, Bebedi Nkamba B, Ilonga Mpeti E, Mbanda Mpunza C, Bekoka Wanga H, Mpembe Ngila R, Belito Nyimi J, Okasuma Djela R, Mungolongolo Mabaya J, Ndjate Olongo P, Kanjinga Ngoyi A, Shotsha Asamboa L, Bongo Ngiala G, Nkayilu Tungulo Y, Kola Nsimba N, Mubindukila Nzamba R, Seke Vangu M, Nzundu Mbo JP, Inia Aluna S, Tangou Tabou T.",
+   "affiliations": "Center of Excellence for Chemical, Biological, Radiological and Nuclear (CoE-CBRN), Ministry of Higher Education, Universities, Scientific Research and Innovation, Kinshasa, Democratic Republic of the Congo. justin.kambale@coecbrn-rdc.cd. | Center of Excellence for Chemical, Biological, Radiological and Nuclear (CoE-CBRN), Ministry of Higher Education, Universities, Scientific Research and Innovation, Kinshasa, Democratic Republic of the Congo. | Center of Excellence for Chemical, Biological, Radiological and Nuclear (CoE-CBRN), Ministry of Higher Education, Universities, Scientific Research and Innovation, Kinshasa, Democratic Republic of the Congo. | Center of Excellence for Chemical, Biological, Radiological and Nuclear (CoE-CBRN), Ministry of Higher Education, Universities, Scientific Research and Innovation, Kinshasa, Democratic Republic of the Congo. | Center of Excellence for Chemical, Biological, Radiological and Nuclear (CoE-CBRN), Ministry of Higher Education, Universities, Scientific Research and Innovation, Kinshasa, Democratic Republic of the Congo. | Center of Excellence for Chemical, Biological, Radiological and Nuclear (CoE-CBRN), Ministry of Higher Education, Universities, Scientific Research and Innovation, Kinshasa, Democratic Republic of the Congo. | Center of Excellence for Chemical, Biological, Radiological and Nuclear (CoE-CBRN), Ministry of Higher Education, Universities, Scientific Research and Innovation, Kinshasa, Democratic Republic of the Congo. | Center of Excellence for Chemical, Biological, Radiological and Nuclear (CoE-CBRN), Ministry of Higher Education, Universities, Scientific Research and Innovation, Kinshasa, Democratic Republic of the Congo.",
+   "extra": {
+    "pmid": "42859161",
+    "cited_by": 0,
+    "open_access": false,
+    "preprint_server": ""
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "ervebo",
+    "vaccination",
+    "vaccine"
+   ],
+   "id": "ff2893bc3b3ce712",
+   "first_seen": "2026-10-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
    "is_new": true
   },
   {
@@ -2058,6 +2442,39 @@
    "is_new": true
   },
   {
+   "title": "The Race to Develop an Ebola Bundibugyo Vaccine",
+   "summary": "The Race to Develop an Ebola Bundibugyo Vaccine Think Global Health",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR0xBdFR1OFJoaWlabUh6aEdXcWM0bG9JeHE1OFBtdndmSnNNUFBUUWZ3U28tZ0RRNTVJSmthUFB2VURrZjd5eHFFUUY1b0VFLUtQaVBQVzRDdG1MOFIwZzFkSVlJV2dHM0dfalBLY0xrRWpLVGlaQ3hJLVFueE9rQlF2Q0t6QnR2VFd5NHFMamlsbG8?oc=5",
+   "doi": "",
+   "source": "Think Global Health",
+   "source_type": "news",
+   "published_date": "2026-09-25",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "Ebola vaccine"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "na",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "45f23a6e573a6ff1",
+   "first_seen": "2026-10-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
    "title": "Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo (25 September 2026)",
    "summary": "Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo (25 September 2026) ReliefWeb",
    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQdlY0eDlEYVNELWZCNUlhM0pGbU10NVEtdklJRmRtVzZCV3g1cXBSZ1BhVzBBYnZoRFdoRjJOTW9UN0lhbjRFU3BRRUdYWVphUXdHMkxNaEdENW9mc3U1RHlfbjdWVGZqcWlnUENNNzdWV3B6Z0NpbUcxV2dhR0M0Nk50d2lrY24wa0xYcktleGI3RE93Ykx2UUdPcnUxOE9xS3QwbGp1dXdyX0xRb00zTTZBVWYyWE9rZXZIVXVZbmE4akZNdG9DbmRvdUFDOTVYcXdpb0NRTHE1cFdJOEhDdFpIczhNc0pOUXFLNENwQQ?oc=5",
@@ -2461,7 +2878,7 @@
    ],
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Differential glycosylation in the envelope glycoprotein enhances DC-SIGN-mediated cell entry of the West African Ebolavirus Makona",
@@ -2565,6 +2982,105 @@
    "is_new": false
   },
   {
+   "title": "Ebola vaccine trial begins in DR Congo",
+   "summary": "Ebola vaccine trial begins in DR Congo Welcome to the United Nations",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdEpTekNIalJidkFxaXJyQVhLS2NJWGo3Zy00djlZQlpJbl9tcEhNRUpqQ2tkNUs2N2c2cEdkNlhIMkh4YWRfLWxHRkxiTThSN1hpNGJLWWMyNlNIcTFzbEo2QWFLTDJrSU9kdlQxMUtGZlVHclRwSFIyRjVVVm9ndHJQSnpkd0c1SEt2QzVFQnJDZGFFQnYzLVRn?oc=5",
+   "doi": "",
+   "source": "Welcome to the United Nations",
+   "source_type": "news",
+   "published_date": "2026-09-21",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "Ebola vaccine"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "na",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "58140e60c243f70e",
+   "first_seen": "2026-10-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "Ebola vaccine trial begins in DR Congo",
+   "summary": "Ebola vaccine trial begins in DR Congo Global Issues.Org",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4xM1F6aXJkTl83MV9pVS1TZGpNVzRKWEZsUTJGUnVfSzdZc3d1WnFWSUZkaXlzZmZMemt5aDE3SVRGRW9nZURhRW9lNW5xWjYxYXdWRXllM0dUT29OWGxn0gFkQVVfeXFMTVFSWTJkQkZhZHhoLVR1ZUszVzRSX2d2RnZveFk5M29Rb1BLaEhCcTZpUF9maEVpUllYd1ZJSFVEU05ZenBQVWpEYXlEZVhaOFNyakV2Mk4xbFRsOVVYSjQxc3Vraw?oc=5",
+   "doi": "",
+   "source": "Global Issues.Org",
+   "source_type": "news",
+   "published_date": "2026-09-21",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "ERVEBO Ebola vaccine"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "na",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "db44537ba0835beb",
+   "first_seen": "2026-10-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "Congo faces unprecedented Ebola outbreak without approved vaccine protection",
+   "summary": "Congo faces unprecedented Ebola outbreak without approved vaccine protection News-Medical",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOemdTb180eXFqeGR2NTMzQndvVTdMQUh6QnRnU2M2QUt1cVA0YklPWHJESVktOG8wckFNU3JzMGJyY0tjNlFUT1V6VU8zVFVNQmY3V1U0WjBjM2pVczVVWUZqa3l2X21tUXdfdjlLUGVSYzE5NXdDVFByNDZuSUwyOTR0OHBFb1hsVFNsc3g4NHJ0ZENtRTBiUDZST1pVbXBxbjRqWVczUWlMNWxMeG5BcjNoVENnbS1GLXhQWHdZQ0Jfdw?oc=5",
+   "doi": "",
+   "source": "News-Medical",
+   "source_type": "news",
+   "published_date": "2026-09-21",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "Ebola outbreak Congo vaccine"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "c6761b721c43bb8b",
+   "first_seen": "2026-10-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
    "title": "The Role of Mortality Surveillance in Case Detection and Response During the 2025 Sudan Virus Disease Outbreak in Uganda",
    "summary": "<h4>Background</h4>Developing countries like Uganda, face challenges in containing filovirus outbreaks such as Sudan virus disease (SVD). The 2025 Sudan Virus Disease outbreak in Uganda predominantly affected urban and peri-urban areas. To curtail the outbreak, mortality surveillance was integrated into the response strategies. This paper describes how mortality surveillance was implemented, its contribution to case detection and to the triggering of response actions, and the facilitators and barriers to its implementation during this outbreak.<h4>Methods</h4>A retrospective descriptive doc…",
    "url": "https://doi.org/10.1007/s44197-026-00643-7",
@@ -2610,7 +3126,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola outbreak Congo vaccine"
+    "search_term": "ERVEBO Ebola vaccine"
    },
    "intervention": [
     "vaccine"
@@ -3308,6 +3824,40 @@
   {
    "title": "Re-emergence of Bundibugyo Ebola virus disease in Central Africa: A critical threat to regional health security and the imperative for cross-border surveillance and epidemic preparedness in East Africa",
    "summary": "",
+   "url": "https://doi.org/10.1016/j.nmni.2026.101852",
+   "doi": "10.1016/j.nmni.2026.101852",
+   "source": "Europe PMC",
+   "source_type": "journal_article",
+   "published_date": "2026-09-18",
+   "journal": "New microbes and new infections",
+   "authors": "Hubow YA, Abdi AN, Hassan NO.",
+   "affiliations": "Faculty of Health Sciences and Tropical Medicine, Somali National University, Mogadishu, Somalia. | Center for Health Research and Innovation - Somali National University, Mogadishu, Somalia. | Benaadir Research, Consultancy & Evaluation Center, Mogadishu, Somalia. | Faculty of Health Sciences and Tropical Medicine, Somali National University, Mogadishu, Somalia. | Center for Health Research and Innovation - Somali National University, Mogadishu, Somalia. | Benaadir Research, Consultancy & Evaluation Center, Mogadishu, Somalia. | Benaadir Research, Consultancy & Evaluation Center, Mogadishu, Somalia. | National Blood Bank Somalia, Mogadishu, Somalia.",
+   "extra": {
+    "pmid": "42859631",
+    "cited_by": 0,
+    "open_access": false,
+    "preprint_server": ""
+   },
+   "intervention": [
+    "unspecified"
+   ],
+   "species": "na",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [],
+   "id": "3d847b3d8a86a191",
+   "first_seen": "2026-10-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Unspecified"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": true
+  },
+  {
+   "title": "Re-emergence of Bundibugyo Ebola virus disease in Central Africa: A critical threat to regional health security and the imperative for cross-border surveillance and epidemic preparedness in East Africa",
+   "summary": "",
    "url": "https://europepmc.org/article/PMC/PMC13653436",
    "doi": "",
    "source": "Europe PMC",
@@ -3773,6 +4323,39 @@
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
    "is_new": false
+  },
+  {
+   "title": "Ebola outbreak is DRC’s worst. Where is the vaccine?",
+   "summary": "Ebola outbreak is DRC’s worst. Where is the vaccine? SciDev.Net",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVGNDUGVjSlZUNjZFdWxKR3VZVXVBdEpJNnAwM2dwUXpYay1SSXBDODltUEhSSGJYaUZKV0NrcVBjMExHRnVSTGN4TmRHdTFKSV9jY1k4ZTlIWGJuSzNRYWM3RGdaM3lYWFdEaERrZm1iT2s4ekZ6ZUJQekZLYWNtVlVWSHBCclRQTE5DYm5VQjZtX0do?oc=5",
+   "doi": "",
+   "source": "SciDev.Net",
+   "source_type": "news",
+   "published_date": "2026-09-14",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "Ebola outbreak Congo vaccine"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "f34061d347c4cb3b",
+   "first_seen": "2026-10-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
   },
   {
    "title": "Healthcare system disruption across WHO-declared PHEICs: a 4S comparative case analysis",
@@ -6246,6 +6829,37 @@
    "is_new": false
   },
   {
+   "title": "Africa CDC Welcomes Emergency Consultative Group Recommendations on Ebola Bundibugyo Response - Home – Africa CDC",
+   "summary": "Africa CDC Welcomes Emergency Consultative Group Recommendations on Ebola Bundibugyo Response Home – Africa CDC",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSWU3Sm1SaktCcU9UYjhGdDhfQ2VkdmJ6dTFPb0s0OVRBdFBmOGNKMHljUUQwRHYwa1NpQTVia1lXcGJtOWlpM1YwMDlwTGhYR0VRTTNUc0VubVVnb21haEpubzJmNVdZVEJqWXQ1RFFTd2x0RnkzeHNsaFdPdHV5aFJpT2FvWDFlaE8zTUNkdzdGOHZUX2hNMkU5bGUzZlFNX1JSc1o3WXc4WTZWS19kRjYyZTNwS25mOTVaQjZCUVN2MDF1?oc=5",
+   "doi": "",
+   "source": "Africa CDC",
+   "source_type": "guideline",
+   "published_date": "2026-08-29",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "feed": "Africa CDC"
+   },
+   "intervention": [
+    "unspecified"
+   ],
+   "species": "na",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [],
+   "id": "49374040777d0199",
+   "first_seen": "2026-09-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Unspecified"
+   ],
+   "source_type_label": "Guideline / NITAG",
+   "channel": "Other guidance (Africa CDC / gov)",
+   "is_new": false
+  },
+  {
    "title": "Bundibugyo Ebola outbreak becomes largest on record with 5 794 cases and 2 786 deaths, DRC - The Watchers",
    "summary": "Bundibugyo Ebola outbreak becomes largest on record with 5 794 cases and 2 786 deaths, DRC The Watchers - Watching the world evolve and transform",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONTlOMkhzSlIxTU4tdkF4UEkxU0ZQLUo2alRjMHMxT3RVdi1XRHNxdTE3MXVQT0NFWVpCOXl6VlBWMl9DVGhwZVhqemRfaFBrb2ZrdjlQME5FV2ppRnZ5ekFRUVdIaVh0Y0FYa1JxM1BSY1VyZ0NQelZBVGYxUFpIVi1zUXU0aGhQRTRRMmZfQklDOXJOMC1nLW1BTVNiYzZNVkFQeGJ0LVpzYlIwWHlGaUtzMVJvQ21IMjVieFA3cko?oc=5",
@@ -6346,7 +6960,7 @@
    ],
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "DR Congo launches Ebola vaccination under compassionate-use framework",
@@ -7710,7 +8324,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola monoclonal antibody"
+    "search_term": "Bundibugyo Ebola"
    },
    "intervention": [
     "monoclonal",
@@ -9221,6 +9835,39 @@
    "is_new": false
   },
   {
+   "title": "DR Congo receives 70,000 Ebola vaccine doses as Bundibugyo outbreak spreads",
+   "summary": "DR Congo receives 70,000 Ebola vaccine doses as Bundibugyo outbreak spreads Welcome to the United Nations",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObTZBMktaemF4WjVDX2hSaGJ0UDIwdi1Qb0M5bUFUbWJjRWtuZVdOc0o3RDk4ZVA5NE5sZm4zT0pydGxlQ2swelNRSW0zLXpibnRtVHhkTHZ5RXJ4NGhPd3RNNGoyVUE2SUFfbHJOTXdPSGtaWlNvUU42eVhKZ1RSWWlPS1A2UVRCNmlSMjJ4ZDdCSlFzeTdnZ19CYXR3a2NFRVlIVmhHU2FJbXhvVVBsV3NOUW9lY3ZycG9ZM2RmeDZJNmpQMHJod2FR?oc=5",
+   "doi": "",
+   "source": "Welcome to the United Nations",
+   "source_type": "news",
+   "published_date": "2026-08-20",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "Bundibugyo Ebola"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "d3b4b03c1eb1a5d4",
+   "first_seen": "2026-10-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
    "title": "Congo to receive 70,000 doses of Ervebo Ebola vaccine which has been effective in past outbreaks",
    "summary": "Congo to receive 70,000 doses of Ervebo Ebola vaccine which has been effective in past outbreaks CHAT News Today",
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRUtoV2UyNV91NHFzWEZ4UTFjdzlrNkhuR3F3aHM5MXR4MEdkNDMwSkhxb1BIc1oxMjV0T1ZMR2JFZHpwUUxQbDBhWVBWR2hsTXVSQkRZZnpDNTZUV1QyLXRtc3A4WjZMaVRQd05JSlNVVFpueXR5bjVTWVJfaUFfVDRIeXJpeU9pckZHWGtYWi1JYjBOZ05ST21qQ0dEdFNYM1BzTVhEekxyb3NKUjZqa2loNXJkSGtaazdNTlpIQXhrenRHUGlsRktSYWQ?oc=5",
@@ -9318,7 +9965,7 @@
    ],
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "DR Congo Will Receive 70,000 Ebola Vaccine Doses Despite Strain Uncertainty",
@@ -9704,7 +10351,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Africa CDC Ebola vaccine guidance"
+    "search_term": "Ebola outbreak Congo vaccine"
    },
    "intervention": [
     "vaccine"
@@ -10958,37 +11605,6 @@
    "is_new": false
   },
   {
-   "title": "Africa CDC Welcomes Emergency Consultative Group Recommendations on Ebola Bundibugyo Response - Home – Africa CDC",
-   "summary": "Africa CDC Welcomes Emergency Consultative Group Recommendations on Ebola Bundibugyo Response Home – Africa CDC",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSWU3Sm1SaktCcU9UYjhGdDhfQ2VkdmJ6dTFPb0s0OVRBdFBmOGNKMHljUUQwRHYwa1NpQTVia1lXcGJtOWlpM1YwMDlwTGhYR0VRTTNUc0VubVVnb21haEpubzJmNVdZVEJqWXQ1RFFTd2x0RnkzeHNsaFdPdHV5aFJpT2FvWDFlaE8zTUNkdzdGOHZUX2hNMkU5bGUzZlFNX1JSc1o3WXc4WTZWS19kRjYyZTNwS25mOTVaQjZCUVN2MDF1?oc=5",
-   "doi": "",
-   "source": "Africa CDC",
-   "source_type": "guideline",
-   "published_date": "2026-08-14",
-   "journal": "",
-   "authors": "",
-   "affiliations": "",
-   "extra": {
-    "feed": "Africa CDC"
-   },
-   "intervention": [
-    "unspecified"
-   ],
-   "species": "na",
-   "bundibugyo": true,
-   "canadian": false,
-   "keywords_matched": [],
-   "id": "49374040777d0199",
-   "first_seen": "2026-09-19",
-   "reviewed": false,
-   "intervention_labels": [
-    "Unspecified"
-   ],
-   "source_type_label": "Guideline / NITAG",
-   "channel": "Other guidance (Africa CDC / gov)",
-   "is_new": false
-  },
-  {
    "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
    "summary": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo World Health Organization (WHO)",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5Oa3l2a3c5OW1ZZ0g2aEx1TThDcEVnNWdOb29SY1loZlFwbXBzblVPLUhGeXdCbThMcGxqOHFmNk1UZlBFQXRxbzVSSG45dGtRLWlNcnhjSHJfRHFScjF4ZldYQjh3RUc3a1dRRjBSOTdrdThQaGdFdDVn?oc=5",
@@ -11229,7 +11845,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "ERVEBO Ebola vaccine"
+    "search_term": "Ebola vaccine"
    },
    "intervention": [
     "vaccine"
@@ -11559,7 +12175,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "ERVEBO Ebola vaccine"
+    "search_term": "Ebola outbreak Congo vaccine"
    },
    "intervention": [
     "vaccine"
@@ -11592,7 +12208,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola vaccine"
+    "search_term": "Ebola vaccine Canada"
    },
    "intervention": [
     "vaccine"
@@ -11889,7 +12505,7 @@
    ],
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Understanding the Bundibugyo Ebola Virus Outbreak in DRC",
@@ -12001,7 +12617,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola vaccine"
+    "search_term": "Bundibugyo Ebola"
    },
    "intervention": [
     "vaccine"
@@ -12606,7 +13222,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "WHO Ebola vaccine recommendation OR prioritization"
+    "search_term": "ERVEBO Ebola vaccine"
    },
    "intervention": [
     "vaccine"
@@ -13043,7 +13659,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "ERVEBO Ebola vaccine"
+    "search_term": "WHO Ebola vaccine recommendation OR prioritization"
    },
    "intervention": [
     "vaccine"
@@ -13148,7 +13764,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola vaccine"
+    "search_term": "Ebola vaccine Canada"
    },
    "intervention": [
     "vaccine"
@@ -13281,7 +13897,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "WHO Ebola vaccine recommendation OR prioritization"
+    "search_term": "ERVEBO Ebola vaccine"
    },
    "intervention": [
     "vaccine"
@@ -14348,6 +14964,72 @@
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
    "is_new": false
+  },
+  {
+   "title": "Moderna begins first human trial of Bundibugyo Ebola vaccine",
+   "summary": "Moderna begins first human trial of Bundibugyo Ebola vaccine TRT Afrika",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5vQWpyRW1fa1hMTXRndk1JR0NsNmdWbVRfbTRFQWFRSjBmbjVlSEFlc0JQVjJiQU5lZTBsWU1YQTY2X0x5cWRXNUpOS1lRM01ia1JhX0pYRXNlbkhjQWxMYXprUnI?oc=5",
+   "doi": "",
+   "source": "TRT Afrika",
+   "source_type": "news",
+   "published_date": "2026-08-04",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "Ebola vaccine Canada"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "a8ae25c89450dc17",
+   "first_seen": "2026-10-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "Moderna starts Phase 1 trial of mRNA Bundibugyo Ebola vaccine",
+   "summary": "Moderna starts Phase 1 trial of mRNA Bundibugyo Ebola vaccine Quartz",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5vc2hnWWU4U3hqMzJNTEdnQ0RGVTV0cjhvd3lPTnhoNGVUSXJTZTNjQUNRY3Z3TERHbnhFYzlmbEpyV1NnaEJhR0lsLW5RV0M5ZllyMWdITXk5MWtRSkFLalIyajhQOG04V18tUDVMQUkwM1hYLWQ1d0x3Y3NuZw?oc=5",
+   "doi": "",
+   "source": "Quartz",
+   "source_type": "news",
+   "published_date": "2026-08-04",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "Ebola vaccine Canada"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "8bfa3e4bea75dca5",
+   "first_seen": "2026-10-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
   },
   {
    "title": "Moderna vaccinates first participants in trial for Ebola strain with no vaccine",
@@ -16032,7 +16714,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola vaccine"
+    "search_term": "ERVEBO Ebola vaccine"
    },
    "intervention": [
     "vaccine"
@@ -16372,7 +17054,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola vaccine"
+    "search_term": "Bundibugyo Ebola"
    },
    "intervention": [
     "vaccine"
@@ -16487,6 +17169,39 @@
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
    "is_new": false
+  },
+  {
+   "title": "Ebola surges past 3,200 cases in DRC as Oxford begins first vaccine trial",
+   "summary": "Ebola surges past 3,200 cases in DRC as Oxford begins first vaccine trial RFI",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRVBjYThxOGY4bUJKVGs4UjVHc1V5X0ZmUkdZdXpUVGt1QmEta3ZvU01OTHp6TlNISTF1YWdBOFQtR0NaWjE0MDNYM3pSY0tCOEdjVTFUQlk1Q1I1RmRjMHp4cC11VlhSaWZwMTJ4c0ozVGszUWcxWXpVSm5LN3hOaFBka2ZweXJkbzlkUE1OYWlqX3NFbEE1d0JBdU5GRzl5WkN1VzBkTVRUSjBIdWJxaQ?oc=5",
+   "doi": "",
+   "source": "RFI",
+   "source_type": "news",
+   "published_date": "2026-07-27",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "Ebola outbreak Congo vaccine"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "na",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "251ff6a93c40b77a",
+   "first_seen": "2026-10-19",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
   },
   {
    "title": "First volunteer vaccinated in Ebola vaccine trial",
@@ -17135,7 +17850,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola monoclonal antibody"
+    "search_term": "Bundibugyo Ebola"
    },
    "intervention": [
     "unspecified"
@@ -18177,7 +18892,7 @@
    ],
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "The recurring Ebola virus disease outbreaks in Africa: the problem is not outbreak response, but failure to sustain preparedness between epidemics",
@@ -19357,7 +20072,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Bundibugyo Ebola"
+    "search_term": "Ebola monoclonal antibody"
    },
    "intervention": [
     "unspecified"
