@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-29T17:30:57+00:00",
- "record_count": 1288,
- "new_last_run": 17,
+ "generated_at": "2026-10-30T17:06:05+00:00",
+ "record_count": 1296,
+ "new_last_run": 8,
  "counts": {
   "by_type": {
-   "News story": 562,
-   "Journal article": 559,
+   "News story": 567,
+   "Journal article": 562,
    "Clinical trial": 97,
    "Guideline / NITAG": 51,
    "Preprint": 15,
@@ -13,8 +13,8 @@
    "Outbreak report": 1
   },
   "by_channel": {
-   "News (CBC / STAT / Reuters / …)": 562,
-   "Journals (Europe PMC / PubMed)": 559,
+   "News (CBC / STAT / Reuters / …)": 567,
+   "Journals (Europe PMC / PubMed)": 562,
    "ClinicalTrials.gov": 97,
    "WHO IRIS guidance": 32,
    "Other guidance (Africa CDC / gov)": 19,
@@ -23,28 +23,28 @@
    "WHO Disease Outbreak News": 1
   },
   "by_intervention": {
-   "Vaccine": 636,
-   "Unspecified": 473,
-   "Other therapeutic": 183,
+   "Vaccine": 640,
+   "Unspecified": 476,
+   "Other therapeutic": 184,
    "Monoclonal antibody": 64
   },
   "by_species": {
-   "human": 768,
-   "na": 461,
+   "human": 772,
+   "na": 465,
    "animal": 59
   },
-  "bundibugyo": 551,
-  "canadian": 80,
-  "new": 175,
+  "bundibugyo": 555,
+  "canadian": 82,
+  "new": 182,
   "with_altmetric": 0
  },
  "source_status": {
-  "Europe PMC (journals + preprints)": 1013,
+  "Europe PMC (journals + preprints)": 1014,
   "ClinicalTrials.gov": 109,
   "WHO IRIS (guidance/technical reports)": 72,
-  "WHO Disease Outbreak News (targeted search)": 57,
-  "Direct feeds (CIDRAP/WHO/EID/Africa CDC/bioRxiv/medRxiv)": 109,
-  "Google News (CBC/STAT/Reuters/...)": 303
+  "WHO Disease Outbreak News (targeted search)": 55,
+  "Direct feeds (CIDRAP/WHO/EID/Africa CDC/bioRxiv/medRxiv)": 113,
+  "Google News (CBC/STAT/Reuters/...)": 295
  },
  "coverage": {
   "channels": [
@@ -58,18 +58,184 @@
    "Press releases"
   ],
   "run_counts": {
-   "Journals (Europe PMC / PubMed)": 424,
-   "Preprints (bioRxiv / medRxiv)": 1,
+   "Journals (Europe PMC / PubMed)": 419,
+   "Preprints (bioRxiv / medRxiv)": 0,
    "ClinicalTrials.gov": 96,
    "WHO IRIS guidance": 21,
    "WHO Disease Outbreak News": 0,
    "Other guidance (Africa CDC / gov)": 3,
-   "News (CBC / STAT / Reuters / …)": 154,
+   "News (CBC / STAT / Reuters / …)": 153,
    "Press releases": 0
   },
   "fetcher_errors": []
  },
  "records": [
+  {
+   "title": "Explained: the new Ebola vaccine from the doctor who helped design it",
+   "summary": "Explained: the new Ebola vaccine from the doctor who helped design it Yahoo News Canada",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdkY2RmZZQzBGN3JDZGZQQlRReWl5cmw3Rzd0bDBfd2huQkVxOFBKc0tDbGlVczliQzViUkZOcm1vS2o0WTNDUzA4VnVpNjAwNkRYTUFTSTJ0TUZ4MlJJT0VpX0QxSTFPZWIyTmh6UjAtMmxsZzcwZXZMcVJ6TVNPd3VaV3o?oc=5",
+   "doi": "",
+   "source": "Yahoo News Canada",
+   "source_type": "news",
+   "published_date": "2026-10-30",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "Ebola vaccine"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "na",
+   "bundibugyo": false,
+   "canadian": true,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "0dda6c13a7bfc735",
+   "first_seen": "2026-10-30",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "Multi-Country Ebola Bundibugyo Outbreak Update n°24",
+   "summary": "Multi-Country Ebola Bundibugyo Outbreak Update n°24 ReliefWeb",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSmQtS0p5VlNuOW5pRTdxdlhvVTFjSlhFdHRiWWdzUXpaY2t2dE1nbVdFNTdocFU0TjAtSEEtdVdJcXgxU0RMdmZIZDVEV2tLMWFCWTU1Q3ZNeHh1eHZpdUdEZDFBUW1HbHUxMUt0V2M0QU1fRkVVXzc2VHRETXBRYkU2SDdRVWF5UFdyZ1BmajVJZlRwcFg1WDVRcEF4SEdKRk1rYjB1NUpnTzRI?oc=5",
+   "doi": "",
+   "source": "ReliefWeb",
+   "source_type": "news",
+   "published_date": "2026-10-30",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "Bundibugyo Ebola"
+   },
+   "intervention": [
+    "unspecified"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [],
+   "id": "5c940ede1c30f8d3",
+   "first_seen": "2026-10-30",
+   "reviewed": false,
+   "intervention_labels": [
+    "Unspecified"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "Ebola Virus VP40 C-terminal Lysine Residue Mediates Lipid Interactions and Dimer-Dimer Interactions",
+   "summary": "The Ebola virus (EBOV) matrix protein VP40 is the main driver of viral assembly and budding, processes which depend on its ability to oligomerize at the inner leaflet of the plasma membrane (PM). VP40 forms dimers in the cytoplasm that traffic to the membrane and assemble into higher-order oligomers, but the specific molecular determinants governing the stability of these oligomeric interfaces are not fully understood. Here, we investigate the role of the C-terminal lysine residue, Lys326, in mediating VP40-lipid and VP40-VP40 interactions. Using a combination of molecular dynamics simulati…",
+   "url": "https://doi.org/10.1016/j.jbc.2026.113709",
+   "doi": "10.1016/j.jbc.2026.113709",
+   "source": "Europe PMC",
+   "source_type": "journal_article",
+   "published_date": "2026-10-29",
+   "journal": "The Journal of biological chemistry",
+   "authors": "Woods HM, Narkhede YB, Karki U, Norris MJ, Chapagain PP, Wiest O, Stahelin RV.",
+   "affiliations": "Borch Department of Medicinal Chemistry and Molecular Pharmacology, Purdue University, West Lafayette, IN 47907, USA. | Department of Chemistry and Biochemistry, University of Notre Dame, Notre Dame, IN 46556, USA. | Department of Physics, Florida International University, Miami, FL 33199, USA. | Department of Biochemistry, University of Toronto, Toronto, Ontario, Canada. | Department of Physics, Florida International University, Miami, FL 33199, USA; Biomolecular Sciences Institute, Florida International University, Miami, FL 33199, USA. | Department of Chemistry and Biochemistry, University of Notre Dame, Notre Dame, IN 46556, USA. | Borch Department of Medicinal Chemistry and Molecular Pharmacology, Purdue University, West Lafayette, IN 47907, USA. Electronic address: rstaheli@purdue.edu.",
+   "extra": {
+    "pmid": "42956834",
+    "cited_by": 0,
+    "open_access": false,
+    "preprint_server": ""
+   },
+   "intervention": [
+    "other_therapeutic"
+   ],
+   "species": "na",
+   "bundibugyo": false,
+   "canadian": true,
+   "keywords_matched": [
+    "antiviral"
+   ],
+   "id": "70ed34b953e519ee",
+   "first_seen": "2026-10-30",
+   "reviewed": false,
+   "intervention_labels": [
+    "Other therapeutic"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": true
+  },
+  {
+   "title": "A New Ebola Vaccine Trial Begins in the Democratic Republic of the Congo",
+   "summary": "A New Ebola Vaccine Trial Begins in the Democratic Republic of the Congo HistoryOfVaccines.org",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcTJMZDlKRlpsZi0yT1Z0cWc3ajBhc2JoeTZIREpLVW1EMGFUVEItZnZpU2ttNWFYTTMwYVZxUmRDMWl2WVdxYlBmVTMzXzgyVVNjNVF2Szhyd2tnLUJoRDQ0OWo5RUtnazlmd0ZvX0RKbVN3RnBXbVhEN3FXMm93aXdkSEdxQVktOHhRcGc3aTNsTEhEX0pF?oc=5",
+   "doi": "",
+   "source": "HistoryOfVaccines.org",
+   "source_type": "news",
+   "published_date": "2026-10-29",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "Ebola vaccine"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "na",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "7067b23e3ff949fc",
+   "first_seen": "2026-10-30",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "DRC's deadliest Ebola outbreak has passed 10,000 cases, with no approved Bundibugyo treatment or vaccine",
+   "summary": "DRC's deadliest Ebola outbreak has passed 10,000 cases, with no approved Bundibugyo treatment or vaccine Latin Times",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeUJZSG1iQk02aExhWjNuNlV2VFdBSjA5d1lsOHE2LVBlSzJJZ3h1R0hKaFQzRFVWVzQ0VUVqX0hvS0M1bFR0eExwU3lsbi1VRVVHdlhkdmVZZ3BrQy00b2VGXzBUMldXSF9yOFAwakExNlVZcGVId1NPUjI2dXFJaThwb1Zqa3I5?oc=5",
+   "doi": "",
+   "source": "Latin Times",
+   "source_type": "news",
+   "published_date": "2026-10-29",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "WHO Ebola vaccine recommendation OR prioritization"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "81b7f9d50bffe254",
+   "first_seen": "2026-10-30",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
   {
    "title": "BRAVO is a Phased Outbreak-response Study in the DRC Evaluating ERVEBO® Vaccination in ~20,000 Frontline Workers During the 2026 BDV Outbreak, Step A Assesses Real-world Effectiveness, Safety, and Impact on Severe Disease and Mortality, While Generating Evidence for Future BDV Vaccination Strategies",
    "summary": "The BRAVO study (Bundibugyo: Respondre Avec la Vaccination, \"On est ensemble\") was developed in response to the 2026 Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo (DRC). The study focuses on frontline workers (FLWs), who are at increased risk of infection because of their involvement in patient care, outbreak response activities, and contact with affected communities. Protecting this population is critical for maintaining healthcare services and strengthening outbreak control efforts.\n\nCurrently, there is no licensed vaccine specifically targeting Bundibugy…",
@@ -421,14 +587,14 @@
    "summary": "Ebola: 20 contacts released from quarantine in Kenya, amid vaccine ‘hope’ in DR Congo UN News",
    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwODZQUkJKblN2QXN5cmNCSWxnX0JNTHhjVWhiY3k2cDFMWXc2QTQzU2lybm9EVjhrbTZxYzdLYkxhS2xqOWZVYlZta3FKcWNYYTlGLVpvNA?oc=5",
    "doi": "",
-   "source": "UN News",
+   "source": "News",
    "source_type": "news",
    "published_date": "2026-10-27",
    "journal": "",
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Bundibugyo Ebola"
+    "feed": "WHO DON targeted search"
    },
    "intervention": [
     "vaccine"
@@ -1463,7 +1629,7 @@
    "extra": {
     "pmid": "42941682",
     "cited_by": 0,
-    "open_access": false,
+    "open_access": true,
     "preprint_server": ""
    },
    "intervention": [
@@ -3097,7 +3263,7 @@
    "extra": {
     "pmid": "42942821",
     "cited_by": 0,
-    "open_access": false,
+    "open_access": true,
     "preprint_server": ""
    },
    "intervention": [
@@ -3266,7 +3432,7 @@
    "extra": {
     "pmid": "42939399",
     "cited_by": 0,
-    "open_access": false,
+    "open_access": true,
     "preprint_server": ""
    },
    "intervention": [
@@ -3691,7 +3857,7 @@
    ],
    "source_type_label": "Guideline / NITAG",
    "channel": "WHO IRIS guidance",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Association between Ebola prevention training and prevention-related cognitive and behavioral factors among Chinese expatriates in the Democratic Republic of the Congo: a cross-sectional study informed by the RANAS framework",
@@ -3842,7 +4008,7 @@
    "extra": {
     "pmid": "42944023",
     "cited_by": 0,
-    "open_access": false,
+    "open_access": true,
     "preprint_server": ""
    },
    "intervention": [
@@ -4326,14 +4492,14 @@
    "summary": "IOM: Multi-Country Bundibugyo Ebola Virus Disease Outbreak - Situation Report No. 20 (21 - 27 September 2026) ReliefWeb",
    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWTBEUUxrWTYyLS12dkxDSTNTa2g0bVc0MVpRYV83Y0FMSXlyOU5PQjBrOW5EY2czNzNEbjdHNm1JU2xrY24xc3ZHT095MnRqVkEtOE40ZEdzUVlYdkdvZUFVbncwb2hlS0E5TG9qMDVvQkZQSmlnNjhXMlpKWjdaWTRDSVVNUS1NU3NWSFc5MjYyV0szQ1huWE12d0VLM1ItenEtLVl4aVRYU2lWdkkxYVg2dWZZRWhHMWNEQUNmYlYtckNhWlQ1VDhoWm56Rks0azhybV8tN29hengwTUQ1aHhkSldjMXg0YWk5YQ?oc=5",
    "doi": "",
-   "source": "ReliefWeb",
+   "source": "News",
    "source_type": "news",
    "published_date": "2026-10-02",
    "journal": "",
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Bundibugyo Ebola"
+    "feed": "WHO DON targeted search"
    },
    "intervention": [
     "unspecified"
@@ -5054,7 +5220,7 @@
    "extra": {
     "pmid": "42934242",
     "cited_by": 0,
-    "open_access": false,
+    "open_access": true,
     "preprint_server": ""
    },
    "intervention": [
@@ -5081,6 +5247,37 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": true
+  },
+  {
+   "title": "Bundibugyo Ebola: ANRS MIE strengthens research coordination in Kinshasa",
+   "summary": "Bundibugyo Ebola: ANRS MIE strengthens research coordination in Kinshasa ANRS Maladies infectieuses émergentes",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVDNHU2ZQbFpWUlcyRUpFQ2g3dzZHcGJnNzVGbEJTTXo3R1dWdnRFdDRUdmw3RWw3a2xycG5XSzY0dVRGNVpQR0pBdlZYSloyYjBxaTJyd2N4NjFEaVotdkptS2lpck5JWTNFV0t5UmJFNHpLWUxYU2Job0hObE9fSGlpMG9hNFFlZXBuRElwam8tUE5HSXYyd3VVdGhCY1lRc2c?oc=5",
+   "doi": "",
+   "source": "ANRS Maladies infectieuses émergentes",
+   "source_type": "news",
+   "published_date": "2026-09-25",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "Bundibugyo Ebola"
+   },
+   "intervention": [
+    "unspecified"
+   ],
+   "species": "na",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [],
+   "id": "60c8ec5d96545550",
+   "first_seen": "2026-10-30",
+   "reviewed": false,
+   "intervention_labels": [
+    "Unspecified"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
    "is_new": true
   },
   {
@@ -11923,7 +12120,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "ERVEBO Ebola vaccine"
+    "search_term": "Ebola vaccine"
    },
    "intervention": [
     "vaccine"
@@ -13711,37 +13908,6 @@
    "is_new": false
   },
   {
-   "title": "New studies to test whether existing Ebola vaccines can generate immune responses to Bundibugyo ebolavirus",
-   "summary": "New studies to test whether existing Ebola vaccines can generate immune responses to Bundibugyo ebolavirus CEPI",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaWhlanpkcnZrRjk1TkdrS1hHbThxMldDd25yZXg4alFfY2xCWWdFX1docVNpaVM5c2ZPcE1rNEE1QlFBcTNqZVJ0QnhkSVo2a0JRMV9tdXFYVEl0Ml9qTTI0QzhzVWtHRzQ5UHlGQ2ZaZDcwM29ibXc2bTF3OWpnaVNBdlg1RXpRWEMwdDduTThXeTZuVUN6cnBGMGdPNkpQbUwwR25NZldCZw?oc=5",
-   "doi": "",
-   "source": "CEPI",
-   "source_type": "news",
-   "published_date": "2026-08-20",
-   "journal": "",
-   "authors": "",
-   "affiliations": "",
-   "extra": {
-    "search_term": "Ebola vaccine"
-   },
-   "intervention": [
-    "unspecified"
-   ],
-   "species": "na",
-   "bundibugyo": true,
-   "canadian": false,
-   "keywords_matched": [],
-   "id": "1827cdd9af60b482",
-   "first_seen": "2026-09-02",
-   "reviewed": false,
-   "intervention_labels": [
-    "Unspecified"
-   ],
-   "source_type_label": "News story",
-   "channel": "News (CBC / STAT / Reuters / …)",
-   "is_new": false
-  },
-  {
    "title": "Multiplex pan-filovirus assay performance and reproducibility across varied geographical and resource settings",
    "summary": "Multiplex bead-based immunoassays (MIAs) are promising tools for simultaneously detecting humoral immunity to multiple targets, potentially playing a crucial role in serosurveillance and vaccine response assessments. However, evaluation of assay performance is paramount prior to widespread use. This study presents a performance evaluation of a pan-filovirus MIA through characterization of the analytical range for the EBOV glycoprotein (GP) target and assessments of assay precision and antigen discrimination. The precision of the MIA was evaluated by comparing the detection of anti-filovirus…",
    "url": "https://doi.org/10.1371/journal.pone.0356257",
@@ -13931,6 +14097,37 @@
    "keywords_matched": [],
    "id": "cc6c8885c11c01df",
    "first_seen": "2026-09-03",
+   "reviewed": false,
+   "intervention_labels": [
+    "Unspecified"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": false
+  },
+  {
+   "title": "New studies to test whether existing Ebola vaccines can generate immune responses to Bundibugyo ebolavirus",
+   "summary": "New studies to test whether existing Ebola vaccines can generate immune responses to Bundibugyo ebolavirus CEPI",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaWhlanpkcnZrRjk1TkdrS1hHbThxMldDd25yZXg4alFfY2xCWWdFX1docVNpaVM5c2ZPcE1rNEE1QlFBcTNqZVJ0QnhkSVo2a0JRMV9tdXFYVEl0Ml9qTTI0QzhzVWtHRzQ5UHlGQ2ZaZDcwM29ibXc2bTF3OWpnaVNBdlg1RXpRWEMwdDduTThXeTZuVUN6cnBGMGdPNkpQbUwwR25NZldCZw?oc=5",
+   "doi": "",
+   "source": "CEPI",
+   "source_type": "news",
+   "published_date": "2026-08-19",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "Ebola vaccine"
+   },
+   "intervention": [
+    "unspecified"
+   ],
+   "species": "na",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [],
+   "id": "1827cdd9af60b482",
+   "first_seen": "2026-09-02",
    "reviewed": false,
    "intervention_labels": [
     "Unspecified"
@@ -14172,6 +14369,40 @@
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
    "is_new": false
+  },
+  {
+   "title": "Dangerous exploitation of the risk of an Ebola virus disease outbreak in Mayotte",
+   "summary": "",
+   "url": "https://doi.org/10.48327/mtsi.v6i3.2026.882",
+   "doi": "10.48327/mtsi.v6i3.2026.882",
+   "source": "Europe PMC",
+   "source_type": "journal_article",
+   "published_date": "2026-08-17",
+   "journal": "Medecine tropicale et sante internationale",
+   "authors": "Gazin P.",
+   "affiliations": "SFMTSI, Institut Pasteur, 25 rue du Dr Roux, 75015 Paris, France.",
+   "extra": {
+    "pmid": "42936469",
+    "cited_by": 0,
+    "open_access": true,
+    "preprint_server": ""
+   },
+   "intervention": [
+    "unspecified"
+   ],
+   "species": "human",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [],
+   "id": "304f40721cb1d048",
+   "first_seen": "2026-10-30",
+   "reviewed": false,
+   "intervention_labels": [
+    "Unspecified"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": true
   },
   {
    "title": "Instrumentalisation dangereuse du risque d’épidémie de maladie à virus Ebola à Mayotte Dangerous exploitation of the risk of an Ebola virus disease outbreak in Mayotte",
@@ -15621,7 +15852,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "SAGE OR NITAG OR TAG-CVP Ebola vaccine"
+    "search_term": "WHO Ebola vaccine recommendation OR prioritization"
    },
    "intervention": [
     "vaccine"
@@ -15955,7 +16186,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "SAGE OR NITAG OR TAG-CVP Ebola vaccine"
+    "search_term": "WHO Ebola vaccine recommendation OR prioritization"
    },
    "intervention": [
     "vaccine"
@@ -16663,7 +16894,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "ERVEBO Ebola vaccine"
+    "search_term": "WHO Ebola vaccine recommendation OR prioritization"
    },
    "intervention": [
     "vaccine"
@@ -16824,10 +17055,10 @@
   },
   {
    "title": "Ebola Response Turns to Merck Vaccine, Gilead Drug as Congo Outbreak Worsens",
-   "summary": "Ebola Response Turns to Merck Vaccine, Gilead Drug as Congo Outbreak Worsens Bloomberg.com",
+   "summary": "Ebola Response Turns to Merck Vaccine, Gilead Drug as Congo Outbreak Worsens Bloomberg",
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQR2xOMjhFQlNJdldHLTUwUnhaWmgwblhHY3BVNTQtYUF2YXRmYnY2VjdHN25iVXJIZTFfR2I1VTY1QU80eHdPZzdnVU0zdmliWWtuWm9XZWFkOUp3emNBZGRPUWs1MUdMWHFyVmJSbUdybm5tQlNMclBRRXFPS094TC05blFOUlpZOHF6V0NiNnBWMHUzN0Etd2lpSjM2MEpFbWJWU0R6Zm1INVQ5Q2dWOVFGa0R4ZTE3czk0TkI1X0t2NjBiVURobA?oc=5",
    "doi": "",
-   "source": "Bloomberg.com",
+   "source": "Bloomberg",
    "source_type": "news",
    "published_date": "2026-08-07",
    "journal": "",
@@ -17775,7 +18006,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola vaccine Canada"
+    "search_term": "Ebola vaccine"
    },
    "intervention": [
     "vaccine"
@@ -18641,7 +18872,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola vaccine"
+    "search_term": "Ebola outbreak Congo vaccine"
    },
    "intervention": [
     "vaccine"
@@ -18752,39 +18983,6 @@
     "vaccine"
    ],
    "id": "b61562407dfd0da3",
-   "first_seen": "2026-09-04",
-   "reviewed": false,
-   "intervention_labels": [
-    "Vaccine"
-   ],
-   "source_type_label": "News story",
-   "channel": "News (CBC / STAT / Reuters / …)",
-   "is_new": false
-  },
-  {
-   "title": "Moderna’s Bundibugyo ebolavirus vaccine candidate enters first human trial, backed by CEPI",
-   "summary": "Moderna’s Bundibugyo ebolavirus vaccine candidate enters first human trial, backed by CEPI CEPI",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTzhLWC1sY2g0b0UwV3pnTVVSNmFWaG1udGJIdXhuaEthZTQzTWpyWldydXFXVzV3NU1ISDRmaWtxWTBocFlzWUszZUhCZDRad3RIYXB5UnZDSjlOUHBmRTBRNmtSTlRBWGZ6b1BYalVRTWlKSlJvYWFWZHd5Y2RzQ1hIaFNDRnhmZm5uWkF3aTVnbXFEZjhldWZ6VWQwWERrTUQweA?oc=5",
-   "doi": "",
-   "source": "CEPI",
-   "source_type": "news",
-   "published_date": "2026-08-04",
-   "journal": "",
-   "authors": "",
-   "affiliations": "",
-   "extra": {
-    "search_term": "Ebola vaccine"
-   },
-   "intervention": [
-    "vaccine"
-   ],
-   "species": "human",
-   "bundibugyo": true,
-   "canadian": false,
-   "keywords_matched": [
-    "vaccine"
-   ],
-   "id": "28ac30015048aaf9",
    "first_seen": "2026-09-04",
    "reviewed": false,
    "intervention_labels": [
@@ -19183,6 +19381,39 @@
    ],
    "source_type_label": "Press release",
    "channel": "Press releases",
+   "is_new": false
+  },
+  {
+   "title": "Moderna’s Bundibugyo ebolavirus vaccine candidate enters first human trial, backed by CEPI",
+   "summary": "Moderna’s Bundibugyo ebolavirus vaccine candidate enters first human trial, backed by CEPI CEPI",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTzhLWC1sY2g0b0UwV3pnTVVSNmFWaG1udGJIdXhuaEthZTQzTWpyWldydXFXVzV3NU1ISDRmaWtxWTBocFlzWUszZUhCZDRad3RIYXB5UnZDSjlOUHBmRTBRNmtSTlRBWGZ6b1BYalVRTWlKSlJvYWFWZHd5Y2RzQ1hIaFNDRnhmZm5uWkF3aTVnbXFEZjhldWZ6VWQwWERrTUQweA?oc=5",
+   "doi": "",
+   "source": "CEPI",
+   "source_type": "news",
+   "published_date": "2026-08-03",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "Ebola vaccine"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "28ac30015048aaf9",
+   "first_seen": "2026-09-04",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
    "is_new": false
   },
   {
@@ -20985,7 +21216,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola vaccine"
+    "search_term": "ERVEBO Ebola vaccine"
    },
    "intervention": [
     "vaccine"
@@ -23200,14 +23431,14 @@
    "summary": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda World Health Organization (WHO)",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBsV3ZQSDctNkVCZVByTWVpM0JJSkRaUm9SMWFOdnJPNlkzVk9ydElvbl9Sb3ZvbjNqUFQ1TDFOM3k2cEx3VEp1R2dJdEdSUTJyb0xyclJjajVfUUhVQUZPZ0szVVBaRFRMWHhmZkxIdy1JaG9mREtNNFVB?oc=5",
    "doi": "",
-   "source": "World Health Organization (WHO)",
+   "source": "News",
    "source_type": "news",
    "published_date": "2026-07-03",
    "journal": "",
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Bundibugyo Ebola"
+    "feed": "WHO DON targeted search"
    },
    "intervention": [
     "unspecified"
@@ -26984,6 +27215,42 @@
    "source_type_label": "Preprint",
    "channel": "Preprints (bioRxiv / medRxiv)",
    "is_new": false
+  },
+  {
+   "title": "Ebola preparedness in Sierra Leone during the 2026 Bundibugyo virus emergency: institutional findings and introduction of the Architectural and Operational Readiness Gap (AORG) framework",
+   "summary": "the World Health Organization (WHO) declared the Bundibugyo Ebola virus disease (EVD) outbreak in the Democratic Republic of the Congo (DRC) and Uganda a Public Health Emergency of International Concern (PHEIC) on May 17, 2026; no licensed vaccine or specific therapeutic exists. Rapid preparedness assessments tend to capture plans more reliably than operational functionality. We propose the Architectural and Operational Readiness Gap (AORG) framework as an exploratory analytic lens, applied here in Sierra Leone. cross-sectional, convergent parallel mixed-methods design. In May 2026, the Eme…",
+   "url": "https://doi.org/10.11604/pamj.2026.54.39.53501",
+   "doi": "10.11604/pamj.2026.54.39.53501",
+   "source": "Europe PMC",
+   "source_type": "journal_article",
+   "published_date": "2026-06-09",
+   "journal": "The Pan African medical journal",
+   "authors": "Ikoona EN, Namulemo L, Sinnah MM, Vandi MA, Sahr F.",
+   "affiliations": "National Public Health Agency, 42A Main Motor Road, Wilberforce, Freetown, Sierra Leone. | Foothills Community-Based Interventions, Kentucky, United States of America. | National Public Health Agency, 42A Main Motor Road, Wilberforce, Freetown, Sierra Leone. | National Public Health Agency, 42A Main Motor Road, Wilberforce, Freetown, Sierra Leone. | National Public Health Agency, 42A Main Motor Road, Wilberforce, Freetown, Sierra Leone.",
+   "extra": {
+    "pmid": "42953108",
+    "cited_by": 0,
+    "open_access": false,
+    "preprint_server": ""
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "7162778db6735abe",
+   "first_seen": "2026-10-30",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": true
   },
   {
    "title": "WHO Health Emergencies EPI-WIN webinar: Ebola Bundibugyo virus disease: what we know",
