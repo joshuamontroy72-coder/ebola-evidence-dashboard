@@ -1,50 +1,50 @@
 {
- "generated_at": "2026-11-13T18:37:51+00:00",
- "record_count": 1390,
+ "generated_at": "2026-11-14T17:15:46+00:00",
+ "record_count": 1397,
  "new_last_run": 7,
  "counts": {
   "by_type": {
-   "News story": 623,
-   "Journal article": 593,
+   "News story": 626,
+   "Journal article": 596,
    "Clinical trial": 97,
-   "Guideline / NITAG": 55,
+   "Guideline / NITAG": 56,
    "Preprint": 18,
    "Press release": 3,
    "Outbreak report": 1
   },
   "by_channel": {
-   "News (CBC / STAT / Reuters / …)": 623,
-   "Journals (Europe PMC / PubMed)": 593,
+   "News (CBC / STAT / Reuters / …)": 626,
+   "Journals (Europe PMC / PubMed)": 596,
    "ClinicalTrials.gov": 97,
    "WHO IRIS guidance": 35,
-   "Other guidance (Africa CDC / gov)": 20,
+   "Other guidance (Africa CDC / gov)": 21,
    "Preprints (bioRxiv / medRxiv)": 18,
    "Press releases": 3,
    "WHO Disease Outbreak News": 1
   },
   "by_intervention": {
-   "Vaccine": 677,
-   "Unspecified": 519,
-   "Other therapeutic": 198,
-   "Monoclonal antibody": 66
+   "Vaccine": 679,
+   "Unspecified": 522,
+   "Other therapeutic": 199,
+   "Monoclonal antibody": 67
   },
   "by_species": {
-   "human": 827,
-   "na": 504,
+   "human": 829,
+   "na": 509,
    "animal": 59
   },
-  "bundibugyo": 600,
+  "bundibugyo": 603,
   "canadian": 84,
-  "new": 175,
+  "new": 177,
   "with_altmetric": 0
  },
  "source_status": {
-  "Europe PMC (journals + preprints)": 1018,
+  "Europe PMC (journals + preprints)": 1019,
   "ClinicalTrials.gov": 111,
-  "WHO IRIS (guidance/technical reports)": 74,
-  "WHO Disease Outbreak News (targeted search)": 36,
-  "Direct feeds (CIDRAP/WHO/EID/Africa CDC/bioRxiv/medRxiv)": 139,
-  "Google News (CBC/STAT/Reuters/...)": 229
+  "WHO IRIS (guidance/technical reports)": 75,
+  "WHO Disease Outbreak News (targeted search)": 41,
+  "Direct feeds (CIDRAP/WHO/EID/Africa CDC/bioRxiv/medRxiv)": 140,
+  "Google News (CBC/STAT/Reuters/...)": 232
  },
  "coverage": {
   "channels": [
@@ -58,18 +58,159 @@
    "Press releases"
   ],
   "run_counts": {
-   "Journals (Europe PMC / PubMed)": 429,
-   "Preprints (bioRxiv / medRxiv)": 1,
+   "Journals (Europe PMC / PubMed)": 431,
+   "Preprints (bioRxiv / medRxiv)": 0,
    "ClinicalTrials.gov": 96,
    "WHO IRIS guidance": 21,
    "WHO Disease Outbreak News": 0,
-   "Other guidance (Africa CDC / gov)": 3,
-   "News (CBC / STAT / Reuters / …)": 123,
+   "Other guidance (Africa CDC / gov)": 4,
+   "News (CBC / STAT / Reuters / …)": 128,
    "Press releases": 0
   },
   "fetcher_errors": []
  },
  "records": [
+  {
+   "title": "Bundibugyo Strain Archives - Home – Africa CDC",
+   "summary": "Bundibugyo Strain Archives Home – Africa CDC",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9WbW00ZklJR1dSZ1gxRWhBajlUUWp2R05rdlBEdHFNMVZZamozS3dPWHYwSF9wRVJmOUotY21ISXdPZktnSmFvdHVSaExPaUhLQjlPaGE1UQ?oc=5",
+   "doi": "",
+   "source": "Africa CDC",
+   "source_type": "guideline",
+   "published_date": "2026-11-14",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "feed": "Africa CDC"
+   },
+   "intervention": [
+    "unspecified"
+   ],
+   "species": "na",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [],
+   "id": "f0d7a2d17ba4fb64",
+   "first_seen": "2026-11-14",
+   "reviewed": false,
+   "intervention_labels": [
+    "Unspecified"
+   ],
+   "source_type_label": "Guideline / NITAG",
+   "channel": "Other guidance (Africa CDC / gov)",
+   "is_new": true
+  },
+  {
+   "title": "How did Inmazeb and Ebanga compare with remdesivir and ZMapp in Ebola treatment trials?",
+   "summary": "How did Inmazeb and Ebanga compare with remdesivir and ZMapp in Ebola treatment trials? Britannica",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOFE0STh2OEl1N3JNb1ZsSUZ3ZlAwVFJpVFRycTA4Y1JrRkk3MWw0N2hfYnpDMFFLRkZsUTEwekRtQXFjWWxpaV8xMmRlMk81OFBTZ2dMZHkwTU9CSDM1OUxON1RpQzhyT3RrMmRzQzAzV0o0Z0FqaFpJcGNacGdnemtLNmtaU2lxeDJ5THhtV0ItdlpNNGRFQmxMNDhEMWkyVm5wYjE5WmRUa19GbU9NdkNqNXZxam5ETGthaXF3?oc=5",
+   "doi": "",
+   "source": "Britannica",
+   "source_type": "news",
+   "published_date": "2026-11-14",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "Ebola treatment Inmazeb OR Ebanga"
+   },
+   "intervention": [
+    "monoclonal",
+    "other_therapeutic"
+   ],
+   "species": "na",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "ebanga",
+    "inmazeb",
+    "remdesivir",
+    "zmapp"
+   ],
+   "id": "2dafbe6d516d51b3",
+   "first_seen": "2026-11-14",
+   "reviewed": false,
+   "intervention_labels": [
+    "Monoclonal antibody",
+    "Other therapeutic"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "Protecting informed choice in Ebola vaccination for healthcare workers",
+   "summary": "",
+   "url": "https://doi.org/10.1080/23744235.2026.2763744",
+   "doi": "10.1080/23744235.2026.2763744",
+   "source": "Europe PMC",
+   "source_type": "journal_article",
+   "published_date": "2026-11-13",
+   "journal": "Infectious diseases (London, England)",
+   "authors": "Malomalo Limanga C.",
+   "affiliations": "Department of Internal Medicine, University of Kisangani, Kisangani, DRC.",
+   "extra": {
+    "pmid": "43023464",
+    "cited_by": 0,
+    "open_access": false,
+    "preprint_server": ""
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "na",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccination"
+   ],
+   "id": "468f658441516991",
+   "first_seen": "2026-11-14",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": true
+  },
+  {
+   "title": "Convalescent blood in Ebola: From a survivor's gift to a biologically defined therapeutic product",
+   "summary": "",
+   "url": "https://doi.org/10.1111/trf.70484",
+   "doi": "10.1111/trf.70484",
+   "source": "Europe PMC",
+   "source_type": "journal_article",
+   "published_date": "2026-11-13",
+   "journal": "Transfusion",
+   "authors": "Tonen-Wolyec S, Katabuka-Kalongo J, Atenyi-Kasemire R, Batina-Agasa S, Bélec L.",
+   "affiliations": "Faculty of Medicine, University of Bunia, Bunia, Democratic Republic of the Congo. | Service de la Polyclinique Citadelle, Centre Interdisciplinaire de Recherche Translationnelle en Médecine et Sciences de la Santé, Bunia, Democratic Republic of the Congo. | Patient Care Department, Ministry of Public Health, Kinshasa, Democratic Republic of the Congo. | Faculty of Medicine, University of Bunia, Bunia, Democratic Republic of the Congo. | Service de la Polyclinique Citadelle, Centre Interdisciplinaire de Recherche Translationnelle en Médecine et Sciences de la Santé, Bunia, Democratic Republic of the Congo. | Faculty of Medicine, University of Kisangani, Kisangani, Democratic Republic of the Congo. | Faculty of Medicine, University Paris Cité, Paris, France. | Service de Microbiologie, Assistance Publique-Hôpitaux de Paris (AP-HP), Paris, France.",
+   "extra": {
+    "pmid": "43025867",
+    "cited_by": 0,
+    "open_access": false,
+    "preprint_server": ""
+   },
+   "intervention": [
+    "other_therapeutic"
+   ],
+   "species": "na",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "therapeutic"
+   ],
+   "id": "f0732070aa274591",
+   "first_seen": "2026-11-14",
+   "reviewed": false,
+   "intervention_labels": [
+    "Other therapeutic"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": true
+  },
   {
    "title": "Fighting Ebola in DR Congo requires more than medical treatment",
    "summary": "Fighting Ebola in DR Congo requires more than medical treatment Norwegian Refugee Council",
@@ -329,6 +470,70 @@
    "is_new": true
   },
   {
+   "title": "WHO panel recommends two new Ebola vaccine candidates for testing",
+   "summary": "WHO panel recommends two new Ebola vaccine candidates for testing Denkstrom",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNU5PUUdJeU5XZHNlQ05TNVpyVmZMSEVxYkJSWjRmN1JhSzFoMGVJZ3I5WWlXSzJXN3NhVWFtRHRrUm90ZnFwSXgxQUJFOWpFUUp0bENGYXBEaTFUNHVYVS1fOVJKWXRnWFI2Y3JoQXZ0VlNDRS1yaFRVODNGNlpjNHBRbFpJM0FfRDZJT1doeDVRQkFGZ0ZFcjU2OEs0cF9SWnc?oc=5",
+   "doi": "",
+   "source": "Denkstrom",
+   "source_type": "news",
+   "published_date": "2026-11-11",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "ERVEBO Ebola vaccine"
+   },
+   "intervention": [
+    "vaccine"
+   ],
+   "species": "na",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "vaccine"
+   ],
+   "id": "f1dc4a345df7ea5c",
+   "first_seen": "2026-11-14",
+   "reviewed": false,
+   "intervention_labels": [
+    "Vaccine"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
+   "title": "Ebola Bundibugyo virus disease outbreak: Democratic Republic of the Congo | Kenya | Nigeria Weekly External Situation Report 25, Data as of 7 November 2026",
+   "summary": "Ebola Bundibugyo virus disease outbreak: Democratic Republic of the Congo | Kenya | Nigeria Weekly External Situation Report 25, Data as of 7 November 2026 ReliefWeb",
+   "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOZU52THdEdFk0LW1renh0U0lTRDA5QlJ2dlphUWFKODJVaXpWMU9Xa2dIY21wUzk2bmR5NnRERXk2MmdNaGdldG1oSjJfMDBtYzU2M0pfT2licVhiOGxLTUY2U2xYYTUtNFBhS3JhSzM0a2RyX3VJOU1fWmJyV19DZE11WktZcVBUaTlSamNDdDgtcWhwS0VDMVpkcWFraF9iWFdqMjVPRGhlVm5iS0pMR05rS09SREx3UW5UUXVfa2xMa3dxTWJlMm8taW9kVjM5RzMwLS1VZTJzQTJuRE93MXhQNk5GMDljUkduakQ5SXBXYnNuMEpRTHFtd2pLRW1rdjctOUo4OWxNanBXUXp0RWp1NnZTRG4ySnhv?oc=5",
+   "doi": "",
+   "source": "News",
+   "source_type": "news",
+   "published_date": "2026-11-10",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "feed": "WHO DON targeted search"
+   },
+   "intervention": [
+    "unspecified"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [],
+   "id": "02bd96fb69e153de",
+   "first_seen": "2026-11-14",
+   "reviewed": false,
+   "intervention_labels": [
+    "Unspecified"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
+  {
    "title": "Democratic Republic of the Congo, Kenya, Nigeria, Uganda | Ebola Bundibugyo virus disease outbreak and EU response - DG ECHO Daily Map | 10/11/2026",
    "summary": "Democratic Republic of the Congo, Kenya, Nigeria, Uganda | Ebola Bundibugyo virus disease outbreak and EU response - DG ECHO Daily Map | 10/11/2026 ReliefWeb",
    "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPWmVRLXVBV0dLZy13NlZJa2tiQ2h1Tms3Q1ZiSjE0ZTlXNFZ6dlNLNG55VEdmT2dCNTNQYTBHX1pYMTJSM2t3MzNhamM1aDBpUWVMeTN4dTBnRlJMLXhyRG5JMTBWNFVRNWNOWk5iRFY1Uk5Xcl9RdGl6aGpEa0NhcFZCRGh1M1ZkTGM2aXRxcGd3d0dSYUctZTVjYzhhNk56Ni1xWHZ3SEFYU1dFV3JKSEt5RENQZFd5aVJYSVdJcHRCc2ZvWG1uNUlTX3VEX3hsWW5IVTV1UHFyMU5lVUd4WElCNEZvSUhiT0VBdXRocDlkMWV1aWF0NWU4U3pDcWlwejJ5aGVacVZyZGF1Zmc?oc=5",
@@ -371,7 +576,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "WHO Ebola vaccine recommendation OR prioritization"
+    "search_term": "Ebola vaccine"
    },
    "intervention": [
     "vaccine"
@@ -550,7 +755,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "ERVEBO Ebola vaccine"
+    "search_term": "Ebola vaccine"
    },
    "intervention": [
     "vaccine"
@@ -615,7 +820,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Bundibugyo Ebola"
+    "search_term": "ERVEBO Ebola vaccine"
    },
    "intervention": [
     "vaccine"
@@ -1871,7 +2076,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Bundibugyo Ebola"
+    "search_term": "Ebola vaccine"
    },
    "intervention": [
     "vaccine"
@@ -3041,6 +3246,40 @@
    "is_new": true
   },
   {
+   "title": "Development of a Novel Amplicon-Based Whole-Genome Sequencing Approach for Improved Surveillance of <i>Orthoebolavirus bundibugyoense</i> 2026",
+   "summary": "Bundibugyo virus (BDBV) remains one of the least genomically characterized filoviruses, partly due to the absence of primer schemes specifically optimized for its full genome amplification. Existing amplicon-based protocols developed for the Zaire Ebola virus or other orthoebolaviruses provide incomplete coverage when applied to BDBV, limiting genomic surveillance during outbreaks. In this study, we present a newly designed multiplex PCR primer scheme tailored to the genomic features of BDBV and optimized for sequencing on the Ion Torrent platform. The panel comprises 37 overlapping primer…",
+   "url": "https://doi.org/10.3390/ijms27219501",
+   "doi": "10.3390/ijms27219501",
+   "source": "Europe PMC",
+   "source_type": "journal_article",
+   "published_date": "2026-10-24",
+   "journal": "International journal of molecular sciences",
+   "authors": "Rueca M, Specchiarello E, Smoquina F, Colavita F, Gruber CEM, Chillemi G, Maggi F, Carletti F.",
+   "affiliations": "Laboratory of Virology and Biosafety Laboratories, National Institute for Infectious Diseases Lazzaro Spallanzani-IRCCS, 00149 Rome, Italy. | Laboratory of Virology and Biosafety Laboratories, National Institute for Infectious Diseases Lazzaro Spallanzani-IRCCS, 00149 Rome, Italy. | European Union Public Health Reference Laboratories for Emerging, Rodent-Borne and Zoonotic Viral Pathogens (EURL-PH-ERZV). | Laboratory of Virology and Biosafety Laboratories, National Institute for Infectious Diseases Lazzaro Spallanzani-IRCCS, 00149 Rome, Italy. | Laboratory of Virology and Biosafety Laboratories, National Institute for Infectious Diseases Lazzaro Spallanzani-IRCCS, 00149 Rome, Italy. | European Union Public Health Reference Laboratories for Emerging, Rodent-Borne and Zoonotic Viral Pathogens (EURL-PH-ERZV). | Laboratory of Virology and Biosafety Laboratories, National Institute for Infectious Diseases Lazzaro Spallanzani-IRCCS, 00149 Rome, Italy. | European Union Public Health Reference Laboratories for Emerging, Rodent-Borne and Zoonotic Viral Pathogens (EURL-PH-ERZV).",
+   "extra": {
+    "pmid": "43027754",
+    "cited_by": 0,
+    "open_access": false,
+    "preprint_server": ""
+   },
+   "intervention": [
+    "unspecified"
+   ],
+   "species": "human",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [],
+   "id": "29881318b1e0b7aa",
+   "first_seen": "2026-11-14",
+   "reviewed": false,
+   "intervention_labels": [
+    "Unspecified"
+   ],
+   "source_type_label": "Journal article",
+   "channel": "Journals (Europe PMC / PubMed)",
+   "is_new": true
+  },
+  {
    "title": "With no approved vaccine for Ebola strain, WHO begins first clinical trial in DR Congo",
    "summary": "With no approved vaccine for Ebola strain, WHO begins first clinical trial in DR Congo The Times of India",
    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOUVFrdGlNWDVuSUtvTWJoN0t6bmNrb09waWZ4S1A3N29WRkVFMk1jTEg3NEx0RkNqaktaaW1uMFRtVk5RTjhITkpjLWQ4WHBEOUNsUHZEbUVzTDhIbjA0RmVjajEwVDY5ejRSVW5PYzU5Uk80MlFOeUc0Nm1YaVltTDFHSWtua0FyNWNFWlMtVWJ0ZVJ6dlFQNmxEUkg4MTRFMXA0a2dwWDl6WEppWS1teWZfZk40V0dRejJVd294UnRCemhZWWl6NmZnQTF0dmxRU0tBdGRDYUZzUDVRUTZRM2pTVFlGOVBPVER4MHA3VWl4enh1MDY4TWhNNNIBgAJBVV95cUxPeXJUN3E3YU9pV3BGWXR3RFdzNHotZjhKT3g5cktCZ1Bvc2tzbUdEZzRuMUticGpPaFRJeUhfY2RORzJHWV9kdndyR2V1U2RmYnYyZVJQVWhHZ0hyYkFXWUozTGR5dHZMS080bHU3aHpvNVdaTlk2TDZsU0g4d3FncXBLRlBhSGs2SzJYNkEzVzJHX29GT3BJTDE0Y2ZDQUNrWFVlbnljRHlESHJKVUtfakZ3WWlYX25hLUVoYUNDMzlJOFFlTm5sV0cxaU5DV0VpOTlrUjhHaXM0RjFSOWpCTTJvXzhLWkNEMjRCLVFJWkpQbmZVcFJ0MWhGS2NnNkVN?oc=5",
@@ -3398,7 +3637,7 @@
    ],
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "EXPLAINER: Bundibugyo Ebola virus recorded in Nigeria differs from 2014 outbreak, has no specific vaccine",
@@ -3603,7 +3842,7 @@
    ],
    "source_type_label": "Preprint",
    "channel": "Preprints (bioRxiv / medRxiv)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Health facility readiness to provide quality emergency obstetric and newborn care in rural Uganda: a cross-sectional study",
@@ -3842,7 +4081,7 @@
    ],
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Nigeria confirms imported case of Ebola Bundibugyo virus disease",
@@ -4107,7 +4346,7 @@
    ],
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Ebola vaccine trials 'reason for hope' in DR Congo and beyond",
@@ -5958,10 +6197,10 @@
   },
   {
    "title": "Bundibugyo Ebola outbreak: Phase I vaccine clinical trial launched in Uganda",
-   "summary": "Bundibugyo Ebola outbreak: Phase I vaccine clinical trial launched in Uganda The London School of Hygiene & Tropical Medicine",
+   "summary": "Bundibugyo Ebola outbreak: Phase I vaccine clinical trial launched in Uganda LSHTM",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNR0U5X0lHcHdKTkNRRXgxcVBFNm5rbnpLeHdyNnJUWEpLYVhRc3VNYUQtM3JOcjFOVHpmc3g3MjNxbHZkTDF5ZkFRLWlCVFRDaUsyTGczU2xPTGZVTHhGWUF5LXJHLVMtLUM1cXBYSzdvZFlLM2cweEtHX2FvRXpyd3VPLTRlTnFBU1NNdEhGenFNXzBuLVRoWG9LbF84bDNpVVhvcDI4WEktSmEwOVpVaW52NVo4VjVz?oc=5",
    "doi": "",
-   "source": "The London School of Hygiene & Tropical Medicine",
+   "source": "LSHTM",
    "source_type": "news",
    "published_date": "2026-10-08",
    "journal": "",
@@ -6435,7 +6674,7 @@
    "affiliations": "Simons Center for Computational Physical Chemistry, New York University, New York, NY, USA. | Department of Chemistry, New York University, New York, NY, USA. | Simons Center for Computational Physical Chemistry, New York University, New York, NY, USA. | The Yin Research LLC, Hoffman Estates, IL, USA. Electronic address: cyinbox@gmail.com. | Simons Center for Computational Physical Chemistry, New York University, New York, NY, USA; Department of Chemistry, New York University, New York, NY, USA; Courant Institute of Mathematical Sciences, New York University, New York, NY, USA; New York University-East China Normal University Center for Computational Chemistry, New York University Shanghai, Shanghai, China. Electronic address: schlick@nyu.edu. | Department of Mathematics, University of Georgia, Athens, GA, USA; Department of Biochemistry and Molecular Biology, University of Georgia, Athens, GA, USA. Electronic address: guowei.wei@uga.edu.",
    "extra": {
     "pmid": "42839601",
-    "cited_by": 0,
+    "cited_by": 1,
     "open_access": false,
     "preprint_server": ""
    },
@@ -7627,8 +7866,8 @@
    "is_new": false
   },
   {
-   "title": "Clinical and Operational Implementation of Ansuvimab under Expanded Access for Ebola Patients in the Democratic Republic of the Congo",
-   "summary": "<h4>Background</h4>Ebola Virus Disease (EVD) is a zoonosis caused by Orthoebolavirus zairense (EBOV). Outbreaks of EVD have occurred in the Democratic Republic of Congo (DRC), and an Expanded Access Program (EAP) with ansuvimab was implemented.<h4>Objectives</h4>The primary objectives were to treat individuals with EBOV infection and to provide post-exposure prophylaxis (PEP) to those with high-risk exposure.<h4>Study design</h4>We reported a descriptive expanded-access case series from the 11th, 12th, and 13<sup>th</sup> EVD outbreaks in the DRC. Following each outbreak declaration, the an…",
+   "title": "Clinical and operational implementation of ansuvimab under expanded access for Ebola patients in the Democratic Republic of the Congo",
+   "summary": "<h4>Objectives</h4>Ebola virus disease (EVD) is a zoonosis caused by Orthoebolavirus zairense (EBOV). Outbreaks of EVD have occurred in the Democratic Republic of Congo (DRC), and an Expanded Access Program (EAP) with ansuvimab was implemented. The primary objectives were to treat individuals with EBOV infection and to provide postexposure prophylaxis (PEP) to those with high-risk exposure.<h4>Design</h4>We reported a descriptive expanded-access case series from the 11th, 12th, and 13th EVD outbreaks in the DRC. Following each outbreak declaration, the ansuvimab EAP protocol was updated and…",
    "url": "https://doi.org/10.1016/j.ijid.2026.109148",
    "doi": "10.1016/j.ijid.2026.109148",
    "source": "Europe PMC",
@@ -7636,7 +7875,7 @@
    "published_date": "2026-09-27",
    "journal": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
    "authors": "Mulangu S, Yango J, Lipansky F, Mukendi G, Kazadi D, Tshimanga C, Lobo G, Kankonde M, Lusakibanza M, Ntamabyaliro N, Mbala P, Painter WP, Muyembe JJ.",
-   "affiliations": "Ridgeback Biotherapeutics LP, Miami, Florida, USA. | Institut National de Recherche Biomédicale (National Institute for Biomedical Research), Democratic Republic of the Congo, Africa. | Ridgeback Biotherapeutics LP, Miami, Florida, USA. | Institut National de Recherche Biomédicale (National Institute for Biomedical Research), Democratic Republic of the Congo, Africa. | Institut National de Recherche Biomédicale (National Institute for Biomedical Research), Democratic Republic of the Congo, Africa. | Institut National de Recherche Biomédicale (National Institute for Biomedical Research), Democratic Republic of the Congo, Africa. | Institut National de Recherche Biomédicale (National Institute for Biomedical Research), Democratic Republic of the Congo, Africa. | Institut National de Recherche Biomédicale (National Institute for Biomedical Research), Democratic Republic of the Congo, Africa.",
+   "affiliations": "Global Medical Affairs, Ridgeback Biotherapeutics LP, Miami, FL, USA. | Epidemiology and Global Health Department, Institut National de Recherche Biomédicale, DRC. Electronic address: jepsyango@gmail.com. | Program Management, Ridgeback Biotherapeutics LP, Miami, FL, USA. | Clinical Immunology Department, Institut National de Recherche Biomédicale, DRC. | Epidemiology and Global Health Department, Institut National de Recherche Biomédicale, DRC. | Epidemiology and Global Health Department, Institut National de Recherche Biomédicale, DRC. | Clinical Immunology Department, Institut National de Recherche Biomédicale, DRC. | Clinical Immunology Department, Institut National de Recherche Biomédicale, DRC.",
    "extra": {
     "pmid": "42801990",
     "cited_by": 0,
@@ -7644,22 +7883,19 @@
     "preprint_server": ""
    },
    "intervention": [
-    "monoclonal",
-    "other_therapeutic"
+    "monoclonal"
    ],
    "species": "human",
    "bundibugyo": false,
    "canadian": false,
    "keywords_matched": [
-    "ansuvimab",
-    "post-exposure prophylaxis"
+    "ansuvimab"
    ],
    "id": "49a244ff05c2298d",
    "first_seen": "2026-09-28",
    "reviewed": false,
    "intervention_labels": [
-    "Monoclonal antibody",
-    "Other therapeutic"
+    "Monoclonal antibody"
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
@@ -7836,7 +8072,7 @@
    ],
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "The Race to Develop an Ebola Bundibugyo Vaccine",
@@ -13615,7 +13851,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola vaccine"
+    "search_term": "Bundibugyo Ebola"
    },
    "intervention": [
     "vaccine"
@@ -19869,7 +20105,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola vaccine"
+    "search_term": "Ebola outbreak Congo vaccine"
    },
    "intervention": [
     "vaccine"
@@ -20843,7 +21079,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola vaccine"
+    "search_term": "Ebola vaccine Canada"
    },
    "intervention": [
     "vaccine"
@@ -30100,7 +30336,7 @@
    "affiliations": "Department of National Health Laboratory and Diagnostic Services, Ministry of Health, Kampala, Uganda. andrewtebba@gmail.com. | Central Emergency Response and Surveillance Laboratory, Department of National Health Laboratory and Diagnostic Services, Kampala, Uganda. andrewtebba@gmail.com. | Department of National Health Laboratory and Diagnostic Services, Ministry of Health, Kampala, Uganda. | Ministry of Health, Government of Uganda, Kampala, Uganda. | Department of National Health Laboratory and Diagnostic Services, Ministry of Health, Kampala, Uganda. | Makerere University College of Health Sciences, Kampala, Uganda. | Department of National Health Laboratory and Diagnostic Services, Ministry of Health, Kampala, Uganda. | Department of National Health Laboratory and Diagnostic Services, Ministry of Health, Kampala, Uganda.",
    "extra": {
     "pmid": "42277463",
-    "cited_by": 8,
+    "cited_by": 10,
     "open_access": true,
     "preprint_server": ""
    },
