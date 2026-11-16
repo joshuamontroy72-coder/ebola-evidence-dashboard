@@ -1,50 +1,50 @@
 {
- "generated_at": "2026-11-15T17:51:46+00:00",
- "record_count": 1401,
- "new_last_run": 4,
+ "generated_at": "2026-11-16T21:08:43+00:00",
+ "record_count": 1403,
+ "new_last_run": 2,
  "counts": {
   "by_type": {
-   "News story": 629,
+   "News story": 630,
    "Journal article": 597,
    "Clinical trial": 97,
-   "Guideline / NITAG": 56,
+   "Guideline / NITAG": 57,
    "Preprint": 18,
    "Press release": 3,
    "Outbreak report": 1
   },
   "by_channel": {
-   "News (CBC / STAT / Reuters / …)": 629,
+   "News (CBC / STAT / Reuters / …)": 630,
    "Journals (Europe PMC / PubMed)": 597,
    "ClinicalTrials.gov": 97,
    "WHO IRIS guidance": 35,
-   "Other guidance (Africa CDC / gov)": 21,
+   "Other guidance (Africa CDC / gov)": 22,
    "Preprints (bioRxiv / medRxiv)": 18,
    "Press releases": 3,
    "WHO Disease Outbreak News": 1
   },
   "by_intervention": {
    "Vaccine": 681,
-   "Unspecified": 524,
-   "Other therapeutic": 199,
+   "Unspecified": 525,
+   "Other therapeutic": 200,
    "Monoclonal antibody": 67
   },
   "by_species": {
    "human": 830,
-   "na": 512,
+   "na": 514,
    "animal": 59
   },
-  "bundibugyo": 605,
+  "bundibugyo": 606,
   "canadian": 85,
-  "new": 173,
+  "new": 168,
   "with_altmetric": 0
  },
  "source_status": {
-  "Europe PMC (journals + preprints)": 1019,
+  "Europe PMC (journals + preprints)": 1020,
   "ClinicalTrials.gov": 111,
   "WHO IRIS (guidance/technical reports)": 75,
-  "WHO Disease Outbreak News (targeted search)": 35,
-  "Direct feeds (CIDRAP/WHO/EID/Africa CDC/bioRxiv/medRxiv)": 140,
-  "Google News (CBC/STAT/Reuters/...)": 228
+  "WHO Disease Outbreak News (targeted search)": 23,
+  "Direct feeds (CIDRAP/WHO/EID/Africa CDC/bioRxiv/medRxiv)": 141,
+  "Google News (CBC/STAT/Reuters/...)": 174
  },
  "coverage": {
   "channels": [
@@ -63,13 +63,46 @@
    "ClinicalTrials.gov": 96,
    "WHO IRIS guidance": 21,
    "WHO Disease Outbreak News": 0,
-   "Other guidance (Africa CDC / gov)": 4,
-   "News (CBC / STAT / Reuters / …)": 126,
+   "Other guidance (Africa CDC / gov)": 5,
+   "News (CBC / STAT / Reuters / …)": 90,
    "Press releases": 0
   },
   "fetcher_errors": []
  },
  "records": [
+  {
+   "title": "Ebola: In the DRC's main epicenter, first treatment trials rekindle hope",
+   "summary": "Ebola: In the DRC's main epicenter, first treatment trials rekindle hope Le Monde.fr",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTXl5ZGtjbVJnN1lDUUZJbkpJSHd6LTdUWGFNaXpSTG90LTJfOW14V3l5Q0xodjEyc3ZjWlJNRF9yZEVGbVZSZVFTenA0dlRUcEhIeEpGRk1zYnYxQUJ1dkxlQUs0ZzZobG1QbDVMZm1IM0JDX0NYWWJuVkpjb1NBc28xZDE4RzVQbVpBTHM0TDctdWFsS1BBTUNVWGhnLXVPTG5wZ25fMXJUajJWUEdqY3NIblZ6WUxJUGN1bGVsTjBCZzktN1F0MVpQb1dGb0VhX1V2R2c5QWZMS1NhWkExZER3?oc=5",
+   "doi": "",
+   "source": "Le Monde.fr",
+   "source_type": "news",
+   "published_date": "2026-11-15",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "search_term": "ERVEBO Ebola vaccine"
+   },
+   "intervention": [
+    "other_therapeutic"
+   ],
+   "species": "na",
+   "bundibugyo": false,
+   "canadian": false,
+   "keywords_matched": [
+    "treatment"
+   ],
+   "id": "78a24206ff722f83",
+   "first_seen": "2026-11-16",
+   "reviewed": false,
+   "intervention_labels": [
+    "Other therapeutic"
+   ],
+   "source_type_label": "News story",
+   "channel": "News (CBC / STAT / Reuters / …)",
+   "is_new": true
+  },
   {
    "title": "Bundibugyo Strain Archives - Home – Africa CDC",
    "summary": "Bundibugyo Strain Archives Home – Africa CDC",
@@ -632,10 +665,10 @@
   },
   {
    "title": "Merck Ebola Vaccine Urged for Wider Use Against Bundibugyo Outbreak in Congo",
-   "summary": "Merck Ebola Vaccine Urged for Wider Use Against Bundibugyo Outbreak in Congo Bloomberg.com",
+   "summary": "Merck Ebola Vaccine Urged for Wider Use Against Bundibugyo Outbreak in Congo Bloomberg",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNd3NUc2VUNkhWQy1YcG05QVZkb3dWNi1IWUt3cENFRHlVb0p0bUpTbzctR2V5YjhOZndDbHhUTWtBSVptUTV2VXIxNGNWYU5iWVhfOVVEOFREWWpjbW0xbGFHVU9iY2pVMmRrSU1PeVI5Ym5ZOXVJT2pMTjA1a2ZLUUpoa2U3bm4wRmxsYVdGYmpQVXYxaF9wU0hTbzg1bkg3RlNkcEhmbnhZUFY2X01ESE9ldnlNNFNHc2l6MWdwYWV5ZVVCVDlLMEozVQ?oc=5",
    "doi": "",
-   "source": "Bloomberg.com",
+   "source": "Bloomberg",
    "source_type": "news",
    "published_date": "2026-11-10",
    "journal": "",
@@ -788,7 +821,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "Ebola outbreak Congo vaccine"
+    "search_term": "Ebola vaccine"
    },
    "intervention": [
     "vaccine"
@@ -3088,7 +3121,7 @@
    "authors": "",
    "affiliations": "",
    "extra": {
-    "search_term": "WHO Ebola vaccine recommendation OR prioritization"
+    "search_term": "ERVEBO Ebola vaccine"
    },
    "intervention": [
     "vaccine"
@@ -3410,7 +3443,7 @@
    ],
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "WHO announces start of Ebola vaccine clinical trial in DR Congo",
@@ -3576,7 +3609,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
@@ -3804,7 +3837,7 @@
    ],
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Vaccine trial is a ray of hope in Congo's Ebola epidemic",
@@ -3976,7 +4009,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Ebola vaccine trial underway in Uganda",
@@ -6590,7 +6623,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Why we must advocate for proper care on the frontlines of the Ebola outbreak",
@@ -6759,7 +6792,7 @@
    ],
    "source_type_label": "Journal article",
    "channel": "Journals (Europe PMC / PubMed)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "VARIANT: Web server for decoding and analyzing viral mutations at genome and protein levels",
@@ -10295,6 +10328,37 @@
    "is_new": false
   },
   {
+   "title": "Bundibugyo Ebola without vaccines or therapeutics: why public health fundamentals matter more than border closures - Home – Africa CDC",
+   "summary": "Bundibugyo Ebola without vaccines or therapeutics: why public health fundamentals matter more than border closures Home – Africa CDC",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAzbEN0djRkZ0xoQjA4VDUwVXBvOFAzZ2JyZmJXbnE4WG5MdVhGQUJMOVAyRGRwZER5MF9FLU0yT2VXRlE3UVJfTmFnd1FKblNQckF2NXBiajBmRG4xU2daU05nZllnYklDdld0SmpwbDI1WjRoSjF5ZEJmRQ?oc=5",
+   "doi": "",
+   "source": "Africa CDC",
+   "source_type": "guideline",
+   "published_date": "2026-09-11",
+   "journal": "",
+   "authors": "",
+   "affiliations": "",
+   "extra": {
+    "feed": "Africa CDC"
+   },
+   "intervention": [
+    "unspecified"
+   ],
+   "species": "na",
+   "bundibugyo": true,
+   "canadian": false,
+   "keywords_matched": [],
+   "id": "0b49bb1803c2ac9a",
+   "first_seen": "2026-11-16",
+   "reviewed": false,
+   "intervention_labels": [
+    "Unspecified"
+   ],
+   "source_type_label": "Guideline / NITAG",
+   "channel": "Other guidance (Africa CDC / gov)",
+   "is_new": true
+  },
+  {
    "title": "First laboratory-confirmed fatal dengue virus infection and its implications for national arboviral surveillance in Liberia",
    "summary": "<h4>Introduction</h4>Dengue virus (DENV) is an emerging public health threat in Africa, where its impact is underestimated due to nonspecific clinical manifestations and restricted diagnostic capabilities. In Liberia, laboratory-confirmed cases of DENV were initially recorded in an urban febrile surveillance study (2018-2020), yet severe or fatal outcomes had not been previously reported. This paper reports the first laboratory-confirmed fatal dengue case and its implications for national surveillance and policy in Liberia.<h4>Case report</h4>On February 2, 2026, a 38-year-old Liberian man…",
    "url": "https://doi.org/10.1016/j.ijregi.2026.101014",
@@ -10587,14 +10651,14 @@
    "summary": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo World Health Organization (WHO)",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ZSFlLTWgwY19KbzgzYjhGOHRaOEZIMHFQbVFIRXNWTVpWaVdVeXF1S1VQTVJSZUVZMTB3V2dEbFlLcEVwQVBKWXd6NFg1QkN2Qk9kZG1HREN3eF9yNkJNTWVQN1B4dUIzbHQ5Ym03TWRHQW9wQXF3aU9R?oc=5",
    "doi": "",
-   "source": "News",
+   "source": "World Health Organization (WHO)",
    "source_type": "news",
    "published_date": "2026-09-10",
    "journal": "",
    "authors": "",
    "affiliations": "",
    "extra": {
-    "feed": "WHO DON targeted search"
+    "search_term": "Ebola outbreak Congo vaccine"
    },
    "intervention": [
     "unspecified"
@@ -11431,7 +11495,7 @@
    ],
    "source_type_label": "News story",
    "channel": "News (CBC / STAT / Reuters / …)",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Model shows partial vaccine could contain Ebola outbreak",
@@ -13327,14 +13391,14 @@
    "summary": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo World Health Organization (WHO)",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1lSWlXU0ZGVGtvTm9COTJHUnhNNEhYVWVSNFNCZHRpWERuamRoTThNcnJ4WkRhQzUwbFh2NHBYM2VxLUZLeVh1bnRjQzhtZHRxaF9pWnJ0MkZHUDVfbTV0THQ2TldQOWE4T0hzUjJKTWJkTk83UHJlWGpR?oc=5",
    "doi": "",
-   "source": "News",
+   "source": "World Health Organization (WHO)",
    "source_type": "news",
    "published_date": "2026-08-28",
    "journal": "",
    "authors": "",
    "affiliations": "",
    "extra": {
-    "feed": "WHO DON targeted search"
+    "search_term": "Ebola outbreak Congo vaccine"
    },
    "intervention": [
     "unspecified"
@@ -22864,14 +22928,14 @@
    "summary": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo World Health Organization (WHO)",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42cEY2SzNPVkpaMDI3Y3dmWVMzbTlNTEcxQUdZM0JrT3BGR3pTNTI4OC1GMUhQOGFXc1VTNTVCdnFTR1g4RmsxVml3SndFUUNtd19ybUV2ekFOSDJlSnAwZHRCZzlyVE5ZLW1JYnRQWUE1QVlHYTdUemZR?oc=5",
    "doi": "",
-   "source": "News",
+   "source": "World Health Organization (WHO)",
    "source_type": "news",
    "published_date": "2026-08-01",
    "journal": "",
    "authors": "",
    "affiliations": "",
    "extra": {
-    "feed": "WHO DON targeted search"
+    "search_term": "Ebola outbreak Congo vaccine"
    },
    "intervention": [
     "unspecified"
@@ -34475,7 +34539,7 @@
    "affiliations": "School of Pharmaceutical Sciences & Institute of Materia Medica, Shandong First Medical University & Shandong Academy of Medical Sciences, Ji'nan, Shandong, 250117, PR China. | Department of Medicinal Chemistry, Key Laboratory of Chemical Biology, Ministry of Education, School of Pharmaceutical Sciences, Shandong University, Ji'nan, Shandong Province, 250012, PR China. | School of Pharmaceutical Sciences & Institute of Materia Medica, Shandong First Medical University & Shandong Academy of Medical Sciences, Ji'nan, Shandong, 250117, PR China. | School of Pharmaceutical Sciences & Institute of Materia Medica, Shandong First Medical University & Shandong Academy of Medical Sciences, Ji'nan, Shandong, 250117, PR China. | School of Pharmaceutical Sciences & Institute of Materia Medica, Shandong First Medical University & Shandong Academy of Medical Sciences, Ji'nan, Shandong, 250117, PR China. | School of Pharmaceutical Sciences & Institute of Materia Medica, Shandong First Medical University & Shandong Academy of Medical Sciences, Ji'nan, Shandong, 250117, PR China. | School of Pharmaceutical Sciences & Institute of Materia Medica, Shandong First Medical University & Shandong Academy of Medical Sciences, Ji'nan, Shandong, 250117, PR China.",
    "extra": {
     "pmid": "42256552",
-    "cited_by": 0,
+    "cited_by": 1,
     "open_access": true,
     "preprint_server": ""
    },
@@ -41410,7 +41474,7 @@
    "affiliations": "assistant professor at the Savannah River Ecology Laboratory, at the University of Georgia, Aiken SC USA and in the Department of Infectious Diseases and the Center for Precision One Health, University of Georgia, Athens GA USA. | full professor in the Department of Veterinary Pathology, University of Georgia, Athens GA USA. | assistant professor in the Department of Integrative Biology, Oklahoma State University, Stillwater OK USA.",
    "extra": {
     "pmid": "42751242",
-    "cited_by": 4,
+    "cited_by": 5,
     "open_access": true,
     "preprint_server": ""
    },
